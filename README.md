@@ -1,17 +1,15 @@
-# Data Food Consortium vocabularies
+# Data Food Consortium taxonomies
 
-This repository contains the semantic vocabularies to be used with the [DFC ontology](https://github.com/datafoodconsortium/ontology):
+This repository contains the semantic taxonomies to be used with the [DFC ontology](https://github.com/datafoodconsortium/ontology):
    - facets: the certifications, natural origins, nutrition and health claims and territorial origins.
    - measures: the dimensions and units.
    - productTypes: the different kinds of product like vegetables, drink, bakery...
 
-These vocabularies are using the SKOS format and are available as RDF and JSON-LD.
+These taxonomies are using the SKOS format and are available as RDF and JSON-LD.
 
-These vocabularies should not be edited directly but loaded, edited and exported from our [VocBench instance](https://vocbench.datafoodconsortium.org/vocbench3/).
+To load these taxonomies into your application, you can use the DFC connector. If you want to load them from the network, you could use the files contained in the Github releases (assets).
 
-To load these vocabularies into your application, you can use the DFC connector.
-
-This is an example of the `Apple` product type in JSON-LD:
+This is an example of the `Apples` product type in JSON-LD:
 ```
 {
     "@id" : "http://static.datafoodconsortium.org/data/productTypes.rdf#apples",
@@ -36,8 +34,12 @@ This is an example of the `Apple` product type in JSON-LD:
 
 ## Contributing
 
-These vocabularies should be edited with our VocBench instance, a dedicated web application that you can find at: https://vocbench.datafoodconsortium.org/vocbench3/.
+To request a change in these taxonomies please open an issue.
 
-On ce you have created your account, ask and administrator to confirm your account so he/she gives you the appropriate access.
+We will discuss together about how we can integrate your needs as best as possible.
 
-When new modifications are made, the RDF and JSON-LD files must be exported from VocBench. Before pushing to this repository, be sure to update the `CHANGELOG.md` file. Depending on the nature of the changes, a new GitHub release might be created.
+Then, a member of the DFC ontology team will edit the taxonomies files to reflect the changes and commit them to the repo. He/She __must also update the CHANGELOG.md file__ and __release a new version__. The Github release __must contain all the RDF and JSON files as assets__.
+
+Thank you!
+
+*Previous workflow: until the 23th of February 2023, we have tried to use VocBench (VB), a collaborative web application to manage taxonomies. But we had trouble using it because there is no versionning and the dataset is shared between all the users. We needed a mecanism of proposal that VB is not providing.*
