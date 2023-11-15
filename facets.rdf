@@ -90,7 +90,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dc:description xml:lang="en">Part of natural "living" origin concerned</dc:description>
 	<dc:description xml:lang="fr">Partie de la source "vivante" d'origine concernée</dc:description>
 	<rdfs:comment xml:lang="en">If I sell carrots, I can sell only the roots, the whole pants with the leaves, or only the leaves. Examples : root, leaves, seeds...</rdfs:comment>
@@ -834,7 +834,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Part or product of animal</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie ou produit d'un animal</skos:prefLabel>
@@ -852,7 +852,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiOrigin">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
@@ -860,7 +860,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Part or product of plant</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie ou produit d'une plante</skos:prefLabel>
@@ -877,7 +877,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownPartOrigin">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Partie d'origine inconnue</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Unknown part origin</skos:prefLabel>
@@ -885,7 +885,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bee">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Abeille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Bee</skos:prefLabel>
@@ -898,7 +898,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bull">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Bull</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bœuf</skos:prefLabel>
@@ -907,7 +907,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cow">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Cow</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Vache</skos:prefLabel>
@@ -917,7 +917,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ewe">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Brebis</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Ewe</skos:prefLabel>
@@ -927,7 +927,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Goat">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Chèvre</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Goat</skos:prefLabel>
@@ -937,7 +937,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hen">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Hen</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Poule</skos:prefLabel>
@@ -947,7 +947,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Pig">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Cochon</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Pig</skos:prefLabel>
@@ -956,7 +956,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Quail">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Caille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Quail</skos:prefLabel>
@@ -965,7 +965,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Roster">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Coq</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Rooster</skos:prefLabel>
@@ -974,7 +974,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Sheep">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Mouton</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep</skos:prefLabel>
@@ -983,7 +983,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BeeHoney">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Honey</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Miel</skos:prefLabel>
@@ -991,7 +991,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BeePollen">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Pollen</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pollen</skos:prefLabel>
@@ -999,7 +999,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BeePropolis">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Propolis</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Propolis</skos:prefLabel>
@@ -1007,7 +1007,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BeeVenom">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Venim d'abeille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Venom</skos:prefLabel>
@@ -1015,7 +1015,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BeeWax">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Cire d'abeille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Wax</skos:prefLabel>
@@ -1023,7 +1023,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BullBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Bull's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie du boeuf</skos:prefLabel>
@@ -1031,7 +1031,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#CowBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Cow's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de vache</skos:prefLabel>
@@ -1039,7 +1039,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#CowMilk">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Cow milk</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Lait de vache</skos:prefLabel>
@@ -1047,7 +1047,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EweBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Ewe's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de brebis</skos:prefLabel>
@@ -1055,7 +1055,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EweMilk">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Lait de brebis</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep milk</skos:prefLabel>
@@ -1063,7 +1063,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#GoatBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Goat's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de chèvre</skos:prefLabel>
@@ -1071,7 +1071,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#GoatMilk">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Lait de brebis</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Goat milk</skos:prefLabel>
@@ -1079,7 +1079,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HenBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Hen's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de poule</skos:prefLabel>
@@ -1087,7 +1087,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HenEgg">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Hen's egg</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Œuf de poule</skos:prefLabel>
@@ -1095,7 +1095,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PigBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Partie du cochon</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Pig's body</skos:prefLabel>
@@ -1103,7 +1103,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#QuailEgg">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Quail's egg</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Œuf de caille</skos:prefLabel>
@@ -1111,7 +1111,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#RosterBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Partie de coq</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Rooster's body</skos:prefLabel>
@@ -1119,7 +1119,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SheepBody">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Partie de mouton</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep's body</skos:prefLabel>
@@ -1127,7 +1127,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bulb">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Bulb</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bulbe</skos:prefLabel>
@@ -1135,7 +1135,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Flower">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Fleur</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Flower</skos:prefLabel>
@@ -1143,7 +1143,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Fruit">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Fruit</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Fruit</skos:prefLabel>
@@ -1151,7 +1151,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leaf">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Feuille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Leaf</skos:prefLabel>
@@ -1159,7 +1159,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Root">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Racine</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Root</skos:prefLabel>
@@ -1167,7 +1167,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Seed">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Graine</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Seed</skos:prefLabel>
@@ -1175,7 +1175,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Stem">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Stem</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Tige</skos:prefLabel>
@@ -1183,7 +1183,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Tuber">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Tuber</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Tubercule</skos:prefLabel>
@@ -1191,7 +1191,7 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WholePlant">
-	<rdf:type rdf:resource="skos:Concept"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Plante entière</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Whole plant</skos:prefLabel>
