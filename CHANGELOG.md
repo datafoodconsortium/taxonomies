@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2023-12-22
+
+### Added
+
+- vocabulary.rdf
+- vocabulary.json
+- Chicken in Facets
+- ChickenPart in Facets
+
+### Fixed
+- Roster URI replace by Rooster URI in Facets
+
 ## [1.0.2] - 2023-09-13
 
 ### Fixed
@@ -26,7 +38,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - This is the initial version: we extracted this from the `/data` folder of the [DFC ontology](https://github.com/datafoodconsortium/ontology) repository.
 
-[unreleased]: https://github.com/datafoodconsortium/taxonomies/compare/v1.0.2...HEAD
+[unreleased]: https://github.com/datafoodconsortium/taxonomies/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/datafoodconsortium/taxonomies/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/datafoodconsortium/taxonomies/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/datafoodconsortium/taxonomies/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/datafoodconsortium/taxonomies/releases/tag/v1.0.0

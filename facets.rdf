@@ -164,12 +164,256 @@
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TasteOfTheYear"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownLabel">
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NutritionalClaim">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Unknown label</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Label inconnu</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Certification"/>
+	<skos:prefLabel xml:lang="en">Nutritional claim</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Allégation nutritionnelle</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Claim"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowEnergy"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnergyReduced"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnergyFree"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowFat"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#FatFree"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowSaturatedFat"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SaturatedFatFree"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowSugars"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SugarsFree"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NoAddedSugars"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowSodiumSalt"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#VeryLowSodiumSalt"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SodiumOrSaltFree"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NoAddedSodiumSalt"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfFibre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighFibre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfProtein"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighProtein"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfVitaminsMinerals"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighVitaminsMinerals"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ContainsNutrientOrSubstance"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IncreasedNutrient"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ReducedNutrient"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Light"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Natural"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfOmega3FattyAcids"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighOmega3FattyAcids"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighMonounsaturatedFat"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighPolyunsaturatedFat"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighUnsaturatedFat"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HealthClaim">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<dct:description xml:lang="en">A health claim is any statement about a relationship between food and health.</dct:description>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Health claim</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Allégation santé</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Claim"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownGeoOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Unknown territorial origin</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Origine territoriale inconnue</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiGeoOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Multi-territorial origin</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Origine territorial multiple</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Europe">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q46"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Europe</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Europe</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#France"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnitedKingdom"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ireland"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Belgium"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Germany"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Spain"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Portugal"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Italy"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Switzerland"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Netherlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Africa">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q15"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Africa</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Afrique</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Asia">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q48"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Asia</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Asie</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Oceania">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q55643"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Oceania</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Océanie</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Australia"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NewZealand"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NorthAmerica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q49"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">North America</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Amérique du Nord</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SouthAmerica">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">South America</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Amérique du Sud</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownNatureOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Unknown nature origin</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Source d'origine inconnue</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiNatureOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Plant</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Plante</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Animal</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Animal</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Mineral">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Mineral</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Minéral</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Funghi">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Funghi</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Champignon</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Algae">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Algae</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Algue</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bacteria">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Bacteria</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Bactérie</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Water">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Water</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Eau</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Part or product of animal</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Partie ou produit d'un animal</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bee"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bull"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cow"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ewe"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Goat"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hen"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Pig"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Quail"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Sheep"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rooster"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Part or product of plant</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Partie ou produit d'une plante</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bulb"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Flower"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Fruit"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leaf"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Root"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Seed"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Stem"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Tuber"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WholePlant"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownPartOrigin">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Partie d'origine inconnue</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Unknown part origin</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Organic-AB">
@@ -367,51 +611,12 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MarketingLabel"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NutritionalClaim">
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Nutritional claim</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Allégation nutritionnelle</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Claim"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowEnergy"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnergyReduced"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnergyFree"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowFat"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#FatFree"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowSaturatedFat"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SaturatedFatFree"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowSugars"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SugarsFree"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NoAddedSugars"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowSodiumSalt"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#VeryLowSodiumSalt"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SodiumOrSaltFree"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NoAddedSodiumSalt"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfFibre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighFibre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfProtein"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighProtein"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfVitaminsMinerals"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighVitaminsMinerals"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ContainsNutrientOrSubstance"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IncreasedNutrient"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ReducedNutrient"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Light"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Natural"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfOmega3FattyAcids"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighOmega3FattyAcids"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighMonounsaturatedFat"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighPolyunsaturatedFat"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighUnsaturatedFat"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HealthClaim">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<dct:description xml:lang="en">A health claim is any statement about a relationship between food and health.</dct:description>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Health claim</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Allégation santé</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Claim"/>
+	<skos:prefLabel xml:lang="en">Unknown label</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Label inconnu</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Certification"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowEnergy">
@@ -719,8 +924,8 @@
 	<dct:description xml:lang="en">"A claim stating that a product is ‘light’ or ‘lite’, and any claim likely to have the same meaning for the consumer, shall follow the same conditions as those set for the term ‘reduced’; the claim shall also be accompanied by an indication of the characteristic(s) which make(s) the food 'light' or 'lite'." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle un produit est «allégé» ou «light», ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, doit remplir les mêmes conditions que celles applicables aux termes «réduit en»; elle doit aussi être accompagnée d'une indication de la ou les caractéristiques entraînant l'allégement de la denrée alimentaire." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Low/Light</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Allégé/Light</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Low/Light</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NutritionalClaim"/>
 </rdf:Description>
 
@@ -759,129 +964,6 @@
 	<skos:prefLabel xml:lang="en">Gluten free</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans gluten</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#OtherClaim"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownNatureOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Unknown nature origin</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Source d'origine inconnue</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiNatureOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Plant</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Plante</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Animal</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Animal</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Mineral">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Mineral</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Minéral</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Funghi">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Funghi</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Champignon</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Algae">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Algae</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Algue</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bacteria">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Bacteria</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Bactérie</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Water">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Water</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Eau</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Part or product of animal</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Partie ou produit d'un animal</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bee"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bull"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cow"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ewe"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Goat"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hen"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Pig"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Quail"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Roster"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Sheep"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Part or product of plant</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Partie ou produit d'une plante</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bulb"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Flower"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Fruit"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leaf"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Root"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Seed"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Stem"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Tuber"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WholePlant"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownPartOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Partie d'origine inconnue</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Unknown part origin</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PartOrigin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bee">
@@ -964,15 +1046,6 @@
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#QuailEgg"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Roster">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Coq</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Rooster</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#RosterBody"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Sheep">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
@@ -980,6 +1053,78 @@
 	<skos:prefLabel xml:lang="en">Sheep</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SheepBody"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bulb">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Bulb</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Bulbe</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Flower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Fleur</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Flower</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Fruit">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Fruit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Fruit</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leaf">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Feuille</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Leaf</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Root">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Racine</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Root</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Seed">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Graine</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Seed</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Stem">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Stem</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Tige</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Tuber">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Tuber</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Tubercule</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WholePlant">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Plante entière</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Whole plant</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BeeHoney">
@@ -1115,7 +1260,7 @@
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="fr">Partie de coq</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Rooster's body</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Roster"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rooster"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SheepBody">
@@ -1124,160 +1269,6 @@
 	<skos:prefLabel xml:lang="fr">Partie de mouton</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep's body</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Sheep"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bulb">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Bulb</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Bulbe</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Flower">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Fleur</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Flower</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Fruit">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Fruit</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Fruit</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leaf">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Feuille</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Leaf</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Root">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Racine</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Root</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Seed">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Graine</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Seed</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Stem">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Stem</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Tige</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Tuber">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Tuber</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Tubercule</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WholePlant">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="fr">Plante entière</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Whole plant</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PlantPartOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnknownGeoOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Unknown territorial origin</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Origine territoriale inconnue</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MultiGeoOrigin">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Multi-territorial origin</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Origine territorial multiple</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Europe">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q46"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Europe</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Europe</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#France"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnitedKingdom"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ireland"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Belgium"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Germany"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Spain"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Portugal"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Italy"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Switzerland"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Netherlands"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Africa">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q15"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Africa</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Afrique</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Asia">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q48"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Asia</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Asie</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Oceania">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q55643"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Oceania</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Océanie</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Australia"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NewZealand"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NorthAmerica">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q49"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">North America</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Amérique du Nord</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SouthAmerica">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">South America</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Amérique du Sud</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TerritorialOrigin"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#France">
@@ -1571,6 +1562,45 @@
 	<skos:prefLabel xml:lang="en">Northern Ireland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Irlande du Nord</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnitedKingdom"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ContainerInformation">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:topConceptOf rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Container Information</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Package">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Package</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ContainerInformation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rooster">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Coq</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Rooster</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#RosterBody"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#c_99fce7e0">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Chicken</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Poulet</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#AnimalPartOrigin"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ChickenBody">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="fr">Partie du poulet</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Chicken's body</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#c_99fce7e0"/>
 </rdf:Description>
 
 </rdf:RDF>
