@@ -110,4 +110,95 @@
 	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#produce">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">produce</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#use">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">use</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#consume">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">consume</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#pickup">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">pickup</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#dropoff">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">dropoff</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#accept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">accept</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#modify">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">modify</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#combine">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">combine</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#separate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">separate</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#move">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">move</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#raise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">raise</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#lower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">lower</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Transformation type</skos:prefLabel>
+</rdf:Description>
+
 </rdf:RDF>
