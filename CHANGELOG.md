@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.2.0] - 2024-02-04
+
+### Added
+
+- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use 
+
 ## [1.1.0] - 2023-12-22
 
 ### Added
