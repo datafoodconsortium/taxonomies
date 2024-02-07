@@ -642,6 +642,21 @@
       "@value" : "légume en conserve"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#cannedGoods",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "canned goods"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#carrot",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1565,6 +1580,21 @@
       "@value" : "fenouil"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#ferment",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "ferment"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#festive-poultry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -1950,8 +1980,6 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#prune"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#quince"
-    }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#strawberry"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -3686,6 +3714,21 @@
       "@value" : "pruneau"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pulse",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "pulse"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pumpkin",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -4526,6 +4569,21 @@
       "@value" : "smoothie"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#snack",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "snack"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#snails",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
@@ -4639,7 +4697,7 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#fruit"
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#berry"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
