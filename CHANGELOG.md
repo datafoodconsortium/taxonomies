@@ -7,11 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+in ProductTypes.rdf & ProductTypes.json:
+ - `medlar` as narrower of `fruit`
+ - `strawberry` as narrower of `fruit`
+ - `pulse` as narrower of `dried_goods`
+ - `snack` as narrower of `savory-groceries`
+ - `grain` as narrower of `savory-groceries`
+ - `cannedGoods` as narrower of `savory-groceries`
+ - `ferment` as narrower of `savory-groceries`
+ - `dried_goods` as narrower of `local-grocery-store`
+
+### Fixed
+
+in ProductTypes.rdf & ProductTypes.json:
+- Replaced `chewed-up` with `corn-salad` as narrower of `salad`
+- Replaced `old-variety-tomato` with `heirloom-tomato` as narrower of `tomato`
+
+
 ## [1.2.0] - 2024-02-04
 
 ### Added
 
-- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use 
+- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use
 
 ## [1.1.0] - 2023-12-22
 
