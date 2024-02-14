@@ -340,6 +340,8 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#gooseberry"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#raspberry"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#strawberry"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1440,6 +1442,8 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#seed"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#pulse"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1980,6 +1984,8 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#prune"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#quince"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2788,6 +2794,8 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#savory-groceries"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#sweet-groceries"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_goods"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -4052,8 +4060,6 @@
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#chicory"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#chewed-up"
-    }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#cress"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dandelion"
@@ -4069,6 +4075,8 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#salad-mix"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#spinach"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#corn-salad"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -4174,6 +4182,14 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#salt"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#semolina"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#cannedGoods"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#snack"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#ferment"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -4808,9 +4824,9 @@
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#cluster-tomato"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#old-variety-tomato"
-    }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#round-tomato"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#hierloom-tomato"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
