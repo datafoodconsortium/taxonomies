@@ -35,6 +35,11 @@
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+    } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "DFC_Vocabulary"

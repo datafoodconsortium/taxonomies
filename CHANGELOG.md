@@ -27,6 +27,7 @@ in ProductTypes.rdf & ProductTypes.json:
 
 in vocabulary.rdf & vocabulary.json:
 - added `SKOS:narrower` for all concepts.
+- added `skos:hasTopConcept` for scheme.
 
 ## [1.2.0] - 2024-02-04
 

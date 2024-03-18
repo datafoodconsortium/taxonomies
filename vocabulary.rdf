@@ -121,6 +121,8 @@
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
+	<skos:hasTopConcept rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
 	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
 </rdf:Description>
 
