@@ -7,8 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
 in ProductTypes.rdf & ProductTypes.json:
  - `medlar` as narrower of `fruit`
  - `strawberry` as narrower of `fruit`
@@ -33,7 +31,7 @@ in vocabulary.rdf & vocabulary.json:
 
 ### Added
 
-- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use
+- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use 
 
 ## [1.1.0] - 2023-12-22
 
