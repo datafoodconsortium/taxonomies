@@ -25,12 +25,15 @@ in ProductTypes.rdf & ProductTypes.json:
 - Replaced `chewed-up` with `corn-salad` as narrower of `salad`
 - Replaced `old-variety-tomato` with `heirloom-tomato` as narrower of `tomato`
 
+in vocabulary.rdf & vocabulary.json:
+- added `SKOS:narrower` for all concepts.
+- added `skos:hasTopConcept` for scheme.
 
 ## [1.2.0] - 2024-02-04
 
 ### Added
 
-- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use
+- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use 
 
 ## [1.1.0] - 2023-12-22
 
