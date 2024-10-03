@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+in vocabulary.rdf & vocabulary.json
+- transformationType  with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use
+
 in ProductTypes.rdf & ProductTypes.json:
  - `medlar` as narrower of `fruit`
  - `strawberry` as narrower of `fruit`
@@ -31,7 +36,8 @@ in vocabulary.rdf & vocabulary.json:
 
 ### Added
 
-- transformationType in Vocabulary with subconcept : accept, combine, consume, dropoff, lower, modify, move, pickup, produce, raise, separate, use 
+in facets.rdf & facets.json
+- TerritorialOrgin : subconcepts related to Administrative Regions & Ceremonial Counties (incomplete) for England & Scotland
 
 ## [1.1.0] - 2023-12-22
 

@@ -1603,4 +1603,482 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rooster"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">South East England</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">South West England</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">North East England</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">North West England</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Yorkshire and The Humber</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">East Midlands</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">West Midlands</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">East of England</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Northumberland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Northumberland</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TyneWear">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Tyne &amp; Wear</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#CountyDurham">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">County Durham</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NorthYorks">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">North Yorkshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Essex">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Essex</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hertfordshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Hertfordshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bedfordshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Bedfordshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cambridgeshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Cambridgeshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Norfolk">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Norfolk</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Suffolk">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Suffolk</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cornwall">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Cornwall</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Devon">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Devon</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Dorset">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Dorset</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Wiltshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Wiltshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Gloucestershire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Gloucestershire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bristol">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Bristol</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Somerset">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Somerset</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastYorks">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">East Riding of Yorkshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lincolnshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Lincolnshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SouthYorks">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">South Yorkshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestYorks">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">West Yorkshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Derbyshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Derbyshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Nottinghamshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Nottinghamshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leicestershire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Leicestershire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rutland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Rutland</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Northamptonshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Northamptonshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#London">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">London</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cumbria">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Cumbria</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cheshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Cheshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Merseyside">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Merseyside</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Manchester">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Greater Manchester</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lancashire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Lancashire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Berkshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Berkshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Buckinghamshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Buckinghamshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastSussex">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">East Sussex</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hampshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Hampshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IsleOfWight">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Isle of Wight</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Kent">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Kent</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Oxfordshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Oxfordshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Surrey">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Surrey</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestSussex">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">West Sussex</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Herefordshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Herefordshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Worcestershire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Worcestershire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Warwickshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Warwickshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Shropshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Shropshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Staffordshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Staffordshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlandsConurbation">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">West Midlands Conurbation</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Eastern Scotland</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">South Western Scotland</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NEScotland">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">North East Scotland</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighlandsAndIslands">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Highlands and Islands</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DumfriesAndGalloway">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Dumfries and Galloway</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ayrshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Ayrshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Aberdeenshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Aberdeenshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lanarkshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Lanarkshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Renfrewshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Renfrewshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Dunbartonshire">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Dunbartonshire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ScottishBorders">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Scottish Borders</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lothian">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Lothian</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Edinburgh">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Edinburgh</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland"/>
+</rdf:Description>
+
 </rdf:RDF>

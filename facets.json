@@ -52,6 +52,19 @@
       "@value" : "Appellation d’origine protégée"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Aberdeenshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Aberdeenshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Africa",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -201,6 +214,19 @@
       "@value" : "Auvergne-Rhône-Alpes"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Ayrshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Ayrshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bacteria",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -215,6 +241,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Bactérie"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bedfordshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bedfordshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bee",
@@ -343,6 +382,19 @@
       "@value" : "Belgique"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Berkshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Berkshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#BiodynamicLabel",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -404,6 +456,19 @@
       "@value" : "Bourgogne-Franche-Comté"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bristol",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bristol"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Brittany",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -421,6 +486,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Bretagne"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Buckinghamshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Buckinghamshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Bulb",
@@ -472,6 +550,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Partie du boeuf"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cambridgeshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Cambridgeshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#CentreValLoire",
@@ -529,6 +620,19 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cheshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Cheshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ChickenBody",
@@ -608,6 +712,19 @@
       "@value" : "Contient nutriment ou autre substance"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cornwall",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Cornwall"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Corsica",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -625,6 +742,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Corse"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#CountyDurham",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "County Durham"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cow",
@@ -680,6 +810,19 @@
       "@value" : "Lait de vache"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Cumbria",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Cumbria"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
@@ -718,6 +861,136 @@
     }, {
       "@language" : "fr",
       "@value" : "Demeter"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Derbyshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Derbyshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Devon",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Devon"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Dorset",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Dorset"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DumfriesAndGalloway",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Dumfries and Galloway"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Dunbartonshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Dunbartonshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "East Midlands"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastSussex",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "East Sussex"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastYorks",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "East Riding of Yorkshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Eastern Scotland"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Edinburgh",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Edinburgh"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnergyFree",
@@ -783,6 +1056,84 @@
     }, {
       "@language" : "fr",
       "@value" : "Angleterre"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "East of England"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "North East England"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "North West England"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "South East England"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "South West England"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Essex",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Essex"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EthicalLabel",
@@ -1106,6 +1457,19 @@
       "@value" : "Allemagne"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Gloucestershire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Gloucestershire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#GlutenFree",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -1220,6 +1584,19 @@
       "@value" : "Haute Valeur Environnementale"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hampshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Hampshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HautsDeFrance",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1310,6 +1687,32 @@
     }, {
       "@language" : "fr",
       "@value" : "Œuf de poule"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Herefordshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Herefordshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Hertfordshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Hertfordshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighFibre",
@@ -1473,6 +1876,19 @@
       "@value" : "Riche en vitamines et/ou de minéraux"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HighlandsAndIslands",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Highlands and Islands"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IGP_EU",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1574,6 +1990,19 @@
       "@value" : "République d'Irlande"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IsleOfWight",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Isle of Wight"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Italy",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -1593,6 +2022,45 @@
       "@value" : "Italie"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Kent",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Kent"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lanarkshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Lanarkshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lancashire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Lancashire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leaf",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -1607,6 +2075,19 @@
     }, {
       "@language" : "en",
       "@value" : "Leaf"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Leicestershire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Leicestershire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Light",
@@ -1655,6 +2136,21 @@
       "@value" : "Low/Light"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lincolnshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Lincolnshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LocalLabel",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -1680,6 +2176,32 @@
     }, {
       "@language" : "fr",
       "@value" : "Label local"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#London",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "London"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Lothian",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Lothian"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#LowEnergy",
@@ -1823,6 +2345,19 @@
       "@value" : "Pêche durable MSC"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Manchester",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Greater Manchester"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#MarketingLabel",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -1842,6 +2377,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Label marketing"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Merseyside",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Merseyside"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Milk-fed",
@@ -1922,6 +2470,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Origine multiple"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NEScotland",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "North East Scotland"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Natural",
@@ -2100,6 +2661,19 @@
       "@value" : "Sans sucres ajoutés"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Norfolk",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Norfolk"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Normandy",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -2138,6 +2712,34 @@
       "@value" : "Amérique du Nord"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NorthYorks",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"
+    }, {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "North Yorkshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Northamptonshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Northamptonshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NorthernIreland",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -2155,6 +2757,32 @@
     }, {
       "@language" : "fr",
       "@value" : "Irlande du Nord"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Northumberland",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Northumberland"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Nottinghamshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Nottinghamshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NouvelleAquitaine",
@@ -2411,6 +3039,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Autre allégation"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Oxfordshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Oxfordshire"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#PGS",
@@ -2781,6 +3422,19 @@
       "@value" : "Réduit en nutriment"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Renfrewshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Renfrewshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rooster",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -2832,6 +3486,32 @@
       "@value" : "Root"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Rutland",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EastMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Rutland"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SWScotland",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Scotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "South Western Scotland"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SaturatedFatFree",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
@@ -2872,6 +3552,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Ecosse"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#ScottishBorders",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EasternScotland"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Scottish Borders"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Seed",
@@ -2925,6 +3618,19 @@
       "@value" : "Sheep's body"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Shropshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Shropshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SodiumOrSaltFree",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
@@ -2946,6 +3652,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Sans sodium ou sans sel"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Somerset",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Somerset"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SourceOfFibre",
@@ -3059,6 +3778,19 @@
       "@value" : "Amérique du Sud"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SouthYorks",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "South Yorkshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Spain",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
@@ -3078,6 +3810,19 @@
       "@value" : "Espagne"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Staffordshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Staffordshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Stem",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3092,6 +3837,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Tige"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Suffolk",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Suffolk"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#SugarsFree",
@@ -3115,6 +3873,19 @@
     }, {
       "@language" : "en",
       "@value" : "Sugars-free"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Surrey",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Surrey"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Switzerland",
@@ -3206,6 +3977,19 @@
     }, {
       "@language" : "fr",
       "@value" : "Tubercule"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#TyneWear",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandNE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Tyne & Wear"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#UnitedKingdom",
@@ -3381,6 +4165,19 @@
       "@value" : "Pays de Galles"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Warwickshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Warwickshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Water",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3397,6 +4194,58 @@
       "@value" : "Eau"
     } ]
   }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "West Midlands"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlandsConurbation",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "West Midlands Conurbation"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestSussex",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSE"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "West Sussex"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestYorks",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "West Yorkshire"
+    } ]
+  }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WholePlant",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -3411,6 +4260,45 @@
     }, {
       "@language" : "en",
       "@value" : "Whole plant"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Wiltshire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#EnglandSW"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Wiltshire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Worcestershire",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#WestMidlands"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Worcestershire"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#YorkshireHumber",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#England"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Yorkshire and The Humber"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#c_99fce7e0",
