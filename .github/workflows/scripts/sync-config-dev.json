@@ -1,0 +1,13 @@
+{
+  "global": {
+    "showvoc_url": "https://showvoc.dfc-standard.org",
+    "user_email": "hello@datafoodconsortium.org"
+  },
+  "projects": [
+    {
+      "project_name": "TestSync",
+      "base_uri": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#",
+      "source_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/nextTaxonomies/facets.rdf"
+    }
+  ]
+}
