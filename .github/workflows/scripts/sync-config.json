@@ -1,7 +1,7 @@
 {
   "global": {
     "showvoc_url": "https://showvoc.dfc-standard.org",
-    "user_email": "hello@datafoodconsortium.org"
+    "user_email": "cicd@datafoodconsortium.org"
   },
   "projects": [
     {

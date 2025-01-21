@@ -58,7 +58,7 @@ function sync_project() {
     echo "Stack trace: " >&2
     echo -e "$trace\n" >&2
     echo "RDF sync failed." >&2
-    exit 1
+    return 1
   fi
 }
 
@@ -83,7 +83,7 @@ function sync_projects() {
       echo "Processing $project_name..."
       sync_project \
         "$endpoint" "$token" \
-        "$project_name" "$base_uri" "$source_url"
+        "$project_name" "$base_uri" "$source_url" || return 1
     fi
   done
 }
@@ -103,19 +103,21 @@ function main() {
     echo "Ensure the following are set in ${CONFIG_FILE}:" >&2
     echo "    global.showvoc_url" >&2
     echo "    global.user_email" >&2
-    echo "Optional: global.user_password will be prompted if not set." >&2
+    echo "Optional: env variable SHOWVOC_PASSWORD will be prompted if not set." >&2
     exit 1
   fi
+
+  [[ -z "$u_password" ]] && echo "SHOWVOC_PASSWORD not set or empty."
 
   echo "Logging in to ShowVoc..."
   [ -z "$u_password" ] && read -rsp "Password for $u_email: " u_password && echo
   token=$(login "$endpoint" "$u_email" "$u_password")
+  [ -z "$token" ] && exit 1
   echo "Login successful."
 
   echo "Starting sync."
   echo
-  sync_projects "$endpoint" "$token"
-  echo "🍺 RDF sync completed successfully."
+  sync_projects "$endpoint" "$token" && echo "🍺 RDF sync completed successfully."
 }
 
 
