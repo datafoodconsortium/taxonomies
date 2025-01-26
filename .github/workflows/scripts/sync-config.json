@@ -5,25 +5,21 @@
   },
   "projects": [
     {
-      "project_name": "BusinessOntology",
-      "base_uri": "https://github.com/datafoodconsortium/ontology/releases/latest/download/DFC_BusinessOntology.owl#",
-      "file_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/nextTaxonomies/DFC_BusinessOntology.owl"
-    }, {
       "project_name": "Facets",
       "base_uri": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#",
-      "file_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/nextTaxonomies/facets.rdf"
+      "source_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/main/facets.rdf"
     }, {
       "project_name": "Measures",
       "base_uri": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#",
-      "file_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/nextTaxonomies/measures.rdf"
+      "source_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/main/measures.rdf"
     }, {
       "project_name": "ProductTypes",
       "base_uri": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#",
-      "file_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/nextTaxonomies/productTypes.rdf"
+      "source_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/main/productTypes.rdf"
     }, {
       "project_name": "Vocabulary",
       "base_uri": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#",
-      "file_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/nextTaxonomies/vocabulary.rdf"
+      "source_url": "https://raw.githubusercontent.com/datafoodconsortium/taxonomies/refs/heads/main/vocabulary.rdf"
     }
   ]
 }

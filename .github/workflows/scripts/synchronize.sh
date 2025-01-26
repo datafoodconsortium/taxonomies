@@ -14,7 +14,7 @@ set -euo pipefail                                  # https://bit.ly/eouxpipefail
 
 SCRIPT_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 ST_API_ROOT="/semanticturkey/it.uniroma2.art.semanticturkey/st-core-services"
-CONFIG_FILE="${SCRIPT_PATH}/sync-config-dev.json"
+CONFIG_FILE="${SCRIPT_PATH}/sync-config.json"
 
 source "${SCRIPT_PATH}/st-requests.sh"
 
