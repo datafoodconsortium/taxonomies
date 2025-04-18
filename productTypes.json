@@ -1433,13 +1433,13 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain"
+    }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flour"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#dried_herb"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#flake"
-    }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#grain"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#seed"
     }, {
@@ -3153,13 +3153,13 @@
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar"
+    }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#almond"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#chestnut"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#hazelnut"
-    }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#medlar"
     }, {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#walnut"
     } ],
@@ -3753,6 +3753,24 @@
     }, {
       "@language" : "en",
       "@value" : "pumpkin"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#purslane",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#salad"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Purslane"
+    }, {
+      "@language" : "fr",
+      "@value" : "Pourpier"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#quail",
@@ -5019,6 +5037,24 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#venison",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#meat-product"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Venison"
+    }, {
+      "@language" : "fr",
+      "@value" : "Viande de cerf"
     } ]
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/productTypes.rdf#viennoiserie-",

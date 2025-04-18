@@ -10,120 +10,167 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:dc="http://purl.org/dc/elements/1.1/">
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:topConceptOf rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">States</skos:prefLabel>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Fulfilment status</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled"/>
+	<skos:exactMatch rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Order status</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft"/>
+	<skos:exactMatch rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Payment status</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid"/>
+	<skos:exactMatch rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
+	<skos:hasTopConcept rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Transformation type</skos:prefLabel>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#produce"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#use"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#consume"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#pickup"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#dropoff"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#accept"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#modify"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#combine"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#separate"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#move"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#raise"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#lower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Status</skos:prefLabel>
+	<skos:exactMatch rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState">
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState">
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState">
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#c_734fc709">
 	<skos:prefLabel xml:lang="en">FulfilmentState</skos:prefLabel>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">Order state</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">Payment state</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Cancelled</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState"/>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState"/>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Held</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState"/>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Complete</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Draft</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Paid</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Unpaid</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Unfulfilled</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:prefLabel xml:lang="en">Fulfilled</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">Fulfilment state</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-	<skos:hasTopConcept rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
-	<skos:hasTopConcept rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
-	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#produce">
@@ -210,23 +257,42 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType">
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStates">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:topConceptOf rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">Transformation type</skos:prefLabel>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#produce"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#use"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#consume"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#pickup"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#dropoff"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#accept"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#modify"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#combine"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#separate"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#move"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#raise"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#lower"/>
+	<skos:prefLabel xml:lang="en">Fulfilment state</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStates">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Order state</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStates">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Payment state</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"/>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid"/>
 </rdf:Description>
 
 </rdf:RDF>
