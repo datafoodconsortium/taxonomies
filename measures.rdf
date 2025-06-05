@@ -8,7 +8,7 @@
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-	xmlns:dc="http://purl.org/dc/elements/1.1/" >
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -50,322 +50,9 @@
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">Currency unit</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Unité de devise monétaire</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AustralianDollar"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CanadianDollar"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Euro"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundSterling"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#USDollar"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">Quantity unit</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Unité de quantité</skos:prefLabel>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Inch"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Percent"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Piece"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#4Pack"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#6Pack"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bundle"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bag"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bunch"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bucket"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Basket"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bottle"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Box"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#BeerCrate"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cask"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Carton"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cup"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Can"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Drum"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dozen"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#HalfDozen"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Jar"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Keg"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kit"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Net"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Packet"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Punnet"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pouch"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pair"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pot"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tray"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pallet"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Roll"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tablet"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tub"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tube"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tin"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LiquidBulk"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NoduleBulk"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#GrainBulk"/>
-	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PowderBulk"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AustralianDollar">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:AUD"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">australian dollar</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">dollar australien</skos:prefLabel>
-	<skos:notation>$AU</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CanadianDollar">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:CAD"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">canadian dollar</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">dollar canadien</skos:prefLabel>
-	<skos:notation>$CA</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Euro">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:Euro"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">euro</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">euro</skos:prefLabel>
-	<skos:notation>€</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundSterling">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:PoundSterling"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="fr">livre sterling</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">pound sterling</skos:prefLabel>
-	<skos:notation>£</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#USDollar">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:USDollar"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="fr">Dollar US</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">US Dollar</skos:prefLabel>
-	<skos:notation>$US</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:CentiL"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">centilitre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">centilitre</skos:prefLabel>
-	<skos:notation>cl</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:CentiM"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">centimetre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">centimètre</skos:prefLabel>
-	<skos:notation>cm</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="fr">cagette</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">crate</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">caisse</skos:altLabel>
-	<skos:notation>cr</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:DeciL"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">decilitre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">decilitre</skos:prefLabel>
-	<skos:notation>dl</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:DeciM"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">decimetre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">decimètre</skos:prefLabel>
-	<skos:notation>dm</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:GAL_UK"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="fr">gallon (GB)</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">gallon (UK)</skos:prefLabel>
-	<skos:notation>gal</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:GM"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">gram</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">gramme</skos:prefLabel>
-	<skos:notation>g</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Inch">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:IN"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">inch</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">pouce</skos:prefLabel>
-	<skos:notation>in</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:KiloGM"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">kilogram</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">kilogramme</skos:prefLabel>
-	<skos:notation>kg</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:KiloM"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">kilometre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">kilomètre</skos:prefLabel>
-	<skos:notation>km</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:L"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">litre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">litre</skos:prefLabel>
-	<skos:notation>l</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:M"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">metre</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">mètre</skos:prefLabel>
-	<skos:notation>m</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:MilliGM"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">milligram</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">milligramme</skos:prefLabel>
-	<skos:notation>g</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:MilliL"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">milliliter</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">millilitre</skos:prefLabel>
-	<skos:notation>ml</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="fr">colis</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">package</skos:prefLabel>
-	<skos:notation>pack</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Percent">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">percent</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">pourcent</skos:prefLabel>
-	<skos:notation>%</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Piece">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">piece</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">pièce</skos:prefLabel>
-	<skos:notation>u</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:LB"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">pound</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">pound</skos:prefLabel>
-	<skos:notation>lb</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="unit:TONNE"/>
-	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
-	<skos:prefLabel xml:lang="en">tonne</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">tonne</skos:prefLabel>
-	<skos:notation>T</skos:notation>
-	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
 	<skos:prefLabel xml:lang="en">Allergen dimension</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Dimension allergène</skos:prefLabel>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension"/>
@@ -449,6 +136,83 @@
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Volume"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Weight"/>
 	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Width"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">Currency unit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Unité de devise monétaire</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AustralianDollar"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CanadianDollar"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Euro"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundSterling"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#USDollar"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">Quantity unit</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Unité de quantité</skos:prefLabel>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Inch"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Percent"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Piece"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#4Pack"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#6Pack"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bundle"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bag"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bunch"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bucket"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Basket"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bottle"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Box"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#BeerCrate"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cask"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Carton"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cup"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Can"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Drum"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dozen"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#HalfDozen"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Jar"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Keg"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kit"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Net"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Packet"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Punnet"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pouch"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pair"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pot"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tray"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pallet"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Roll"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tablet"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tub"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tube"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tin"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LiquidBulk"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NoduleBulk"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#GrainBulk"/>
+	<skos:narrower rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PowderBulk"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CerealsWithGluten">
@@ -899,6 +663,243 @@
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"/>
 </rdf:Description>
 
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AustralianDollar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/currency/AUD"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">australian dollar</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">dollar australien</skos:prefLabel>
+	<skos:notation>$AU</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CanadianDollar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/currency/CAD"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">canadian dollar</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">dollar canadien</skos:prefLabel>
+	<skos:notation>$CA</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Euro">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/currency/EUR"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">euro</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">euro</skos:prefLabel>
+	<skos:notation>€</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundSterling">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/currency/GBP"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="fr">livre sterling</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">pound sterling</skos:prefLabel>
+	<skos:notation>£</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#USDollar">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/currency/USD"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="fr">Dollar US</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">US Dollar</skos:prefLabel>
+	<skos:notation>$US</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/CentiL"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">centilitre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">centilitre</skos:prefLabel>
+	<skos:notation>cl</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/CentiM"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">centimetre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">centimètre</skos:prefLabel>
+	<skos:notation>cm</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="fr">cagette</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">crate</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">caisse</skos:altLabel>
+	<skos:notation>cr</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/DeciL"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">decilitre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">decilitre</skos:prefLabel>
+	<skos:notation>dl</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/DeciM"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">decimetre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">decimètre</skos:prefLabel>
+	<skos:notation>dm</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/GAL_UK"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="fr">gallon (GB)</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">gallon (UK)</skos:prefLabel>
+	<skos:notation>gal</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/GM"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">gram</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">gramme</skos:prefLabel>
+	<skos:notation>g</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Inch">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/IN"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">inch</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">pouce</skos:prefLabel>
+	<skos:notation>in</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="unit:KiloGM"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">kilogram</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">kilogramme</skos:prefLabel>
+	<skos:notation>kg</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/KiloM"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">kilometre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">kilomètre</skos:prefLabel>
+	<skos:notation>km</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/L"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">litre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">litre</skos:prefLabel>
+	<skos:notation>l</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/M"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">metre</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">mètre</skos:prefLabel>
+	<skos:notation>m</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/MilliGM"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">milligram</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">milligramme</skos:prefLabel>
+	<skos:notation>g</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/MilliL"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">milliliter</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">millilitre</skos:prefLabel>
+	<skos:notation>ml</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="fr">colis</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">package</skos:prefLabel>
+	<skos:notation>pack</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Percent">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">percent</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">pourcent</skos:prefLabel>
+	<skos:notation>%</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Piece">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">piece</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">pièce</skos:prefLabel>
+	<skos:notation>u</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/LB"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">pound</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">pound</skos:prefLabel>
+	<skos:notation>lb</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/TONNE"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">tonne</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">tonne</skos:prefLabel>
+	<skos:notation>T</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#4Pack">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
@@ -1243,6 +1244,16 @@
 	<skos:prefLabel xml:lang="en">powder bulk</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">poudre en vrac</skos:prefLabel>
 	<skos:notation>vy</skos:notation>
+	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Ounce">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="http://qudt.org/vocab/unit/OZ"/>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"/>
+	<skos:prefLabel xml:lang="en">ounce</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">once</skos:prefLabel>
+	<skos:notation>oz</skos:notation>
 	<skos:broader rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"/>
 </rdf:Description>
 
