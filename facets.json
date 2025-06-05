@@ -1576,9 +1576,6 @@
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HEV",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-HAUTE_VALEUR_ENVIRONNEMENTALE"
-    } ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
       "@language" : "en",
       "@value" : "HEV"
@@ -1907,9 +1904,6 @@
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IGP_EU",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-IGP"
-    } ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
       "@language" : "en",
       "@value" : "IGP"
@@ -2526,9 +2520,6 @@
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureEtProgres",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-NATURE_ET_PROGRES"
-    } ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
       "@language" : "en",
       "@value" : "Nature and Progress"
@@ -2946,9 +2937,6 @@
   }, {
     "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Organic-AB",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-AGRICULTURE_BIOLOGIQUE"
-    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#OrganicLabel"
     } ],

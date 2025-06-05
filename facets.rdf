@@ -418,7 +418,6 @@
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#Organic-AB">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-AGRICULTURE_BIOLOGIQUE"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Agriculture Biologique</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Agriculture Biologique</skos:prefLabel>
@@ -445,7 +444,6 @@
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#NatureEtProgres">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-NATURE_ET_PROGRES"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Nature et progrès</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Nature et progrès</skos:prefLabel>
@@ -496,7 +494,6 @@
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#IGP_EU">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-IGP"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">Indication géographique de provenance</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Indication géographique de provenance</skos:prefLabel>
@@ -556,7 +553,6 @@
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#HEV">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-HAUTE_VALEUR_ENVIRONNEMENTALE"/>
 	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf#DFC_ProductGlossary_Facet"/>
 	<skos:prefLabel xml:lang="en">High Environnemental Value</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Haute Valeur Environnementale</skos:prefLabel>
