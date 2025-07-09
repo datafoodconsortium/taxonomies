@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0]
+
 ### Added
 
 in vocabulary.rdf & vocabulary.json
@@ -21,6 +23,7 @@ in ProductTypes.rdf & ProductTypes.json:
  - `cannedGoods` as narrower of `savory-groceries`
  - `ferment` as narrower of `savory-groceries`
  - `dried_goods` as narrower of `local-grocery-store`
+ - `venison` as narronwer of `meat`
 
 ### Fixed
 
