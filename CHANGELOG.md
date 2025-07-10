@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.3.0]
+## [1.3.0] - 2025-07-10
 
 ### Added
 
@@ -73,7 +73,8 @@ in facets.rdf & facets.json
 
 - This is the initial version: we extracted this from the `/data` folder of the [DFC ontology](https://github.com/datafoodconsortium/ontology) repository.
 
-[unreleased]: https://github.com/datafoodconsortium/taxonomies/compare/v1.2.0...HEAD
+[unreleased]: https://github.com/datafoodconsortium/taxonomies/compare/v1.3.0...HEAD
+[1.3.0]: https://github.com/datafoodconsortium/taxonomies/compare/v1.2.0...v1.3.0
 [1.2.0]: https://github.com/datafoodconsortium/taxonomies/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/datafoodconsortium/taxonomies/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/datafoodconsortium/taxonomies/compare/v1.0.1...v1.0.2
