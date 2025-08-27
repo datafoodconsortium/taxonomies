@@ -1,0 +1,234 @@
+[
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadProducts",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This scope allows portals to access the associated producer's products"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ce périmètre permet aux portails d'accéder aux produits du producteur associé"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ReadProducts"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Access to your product listing, including pricing (read-only)"
+      },
+      {
+        "@language": "fr",
+        "@value": "Accéder à vos produits, y compris les prix (lecture seule)"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Authorization scopes"
+      },
+      {
+        "@language": "fr",
+        "@value": "Périmètres d'autorisation"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteProducts",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This scope allows portals to modify the associated producer's products"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ce périmètre permet aux portails de modifier les produits du producteur associé"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WriteProducts"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Create or edit products"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ajouter ou modifier des produits"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadOrders",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This scope allows portals to read the associated producer's orders"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ce périmètre permet aux portails de lire les commandes du producteur associé"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ReadOrders"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Access to your orders (read-only)"
+      },
+      {
+        "@language": "fr",
+        "@value": "Accéder à vos commandes (lecture seule)"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadEnterprise",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This scope allows portals to access the associated producer's enterprise data"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ce périmètre permet aux portails d'accéder aux données de l'entreprise du producteur associé"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "ReadEnterprise"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Access to your enterprise profile data (read-only)"
+      },
+      {
+        "@language": "fr",
+        "@value": "Accéder aux données de votre profil enterprise (lecture seule)"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteOrders",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This scope allows portals to modify the associated producer's orders"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ce périmètre permet aux portails de modifier les commandes du producteur associé"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WriteOrders"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Create or edit orders"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ajouter ou modifier des commandes"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteEnterprise",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#definition": [
+      {
+        "@language": "en",
+        "@value": "This scope allows portals to modify the associated producer's enterprise data"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ce périmètre permet aux portails de modifier les données de l'entreprise du producteur associé"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#notation": [
+      {
+        "@value": "WriteEnterprise"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "Create or edit your enterprise profile data"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ajouter ou modifier votre profil entreprise"
+      }
+    ]
+  }
+]
