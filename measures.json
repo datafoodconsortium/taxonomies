@@ -1,15 +1,15 @@
 [ {
   "@graph" : [ {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#4Pack",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#4Pack",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "4p"
@@ -22,13 +22,13 @@
       "@value" : "pack de 4"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#6Pack",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#6Pack",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "6p"
@@ -41,42 +41,42 @@
       "@value" : "pack de 6"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CerealsWithGluten"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CerealsWithGluten"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crustaceans"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Crustaceans"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Eggs"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Eggs"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fishs"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fishs"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Peanuts"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Peanuts"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Soy"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Soy"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LactoseMilks"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LactoseMilks"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Nuts"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Nuts"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Celeriac"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Celeriac"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Mustard"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Mustard"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#SesameSeeds"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#SesameSeeds"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Sulphites"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Sulphites"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Lupine"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Lupine"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Molluscs"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Molluscs"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -86,16 +86,16 @@
       "@value" : "Dimension allergène"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AustralianDollar",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AustralianDollar",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/currency/AUD"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "$AU"
@@ -108,10 +108,10 @@
       "@value" : "dollar australien"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bag",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bag",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "fr",
@@ -121,7 +121,7 @@
       "@value" : "bag of oat"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bg"
@@ -134,13 +134,13 @@
       "@value" : "sac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Basket",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Basket",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bk"
@@ -153,13 +153,13 @@
       "@value" : "panier"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#BeerCrate",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#BeerCrate",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cb"
@@ -172,13 +172,13 @@
       "@value" : "casier à bière"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bottle",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bottle",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bo"
@@ -191,13 +191,13 @@
       "@value" : "bouteille"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Box",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Box",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bx"
@@ -210,13 +210,13 @@
       "@value" : "boîte"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bucket",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bucket",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bj"
@@ -229,10 +229,10 @@
       "@value" : "seau"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bunch",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bunch",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
@@ -242,7 +242,7 @@
       "@value" : "botte de persil, botte de carottes..."
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bh"
@@ -255,13 +255,13 @@
       "@value" : "botte"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bundle",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bundle",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -271,13 +271,13 @@
       "@value" : "lot"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Calcium",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Calcium",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -287,13 +287,13 @@
       "@value" : "Calcium"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Can",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Can",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cx"
@@ -306,16 +306,16 @@
       "@value" : "canette"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CanadianDollar",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CanadianDollar",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/currency/CAD"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "$CA"
@@ -328,13 +328,13 @@
       "@value" : "dollar canadien"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Carbohydrates",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Carbohydrates",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -344,13 +344,13 @@
       "@value" : "Carbohydrates"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Carton",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Carton",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ct"
@@ -363,13 +363,13 @@
       "@value" : "carton"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cask",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Cask",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ck"
@@ -382,13 +382,13 @@
       "@value" : "tonneau"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Celeriac",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Celeriac",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -398,16 +398,16 @@
       "@value" : "Celeriac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Centilitre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/CentiL"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cl"
@@ -420,16 +420,16 @@
       "@value" : "centilitre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Centimetre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/CentiM"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cm"
@@ -442,13 +442,13 @@
       "@value" : "centimètre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CerealsWithGluten",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CerealsWithGluten",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -458,13 +458,13 @@
       "@value" : "Céréales contenant du gluten"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Chloride",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Chloride",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -474,13 +474,13 @@
       "@value" : "Chloride"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cholesterol",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Cholesterol",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -490,13 +490,13 @@
       "@value" : "Cholestérol"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Chromium",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Chromium",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -506,13 +506,13 @@
       "@value" : "Chromium"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Copper",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Copper",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -522,17 +522,17 @@
       "@value" : "Copper"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Crate",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
       "@language" : "fr",
       "@value" : "caisse"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cr"
@@ -545,13 +545,13 @@
       "@value" : "crate"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crustaceans",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Crustaceans",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -561,17 +561,17 @@
       "@value" : "Crustacés"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cup",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Cup",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
       "@value" : "1 handful = 0.5 cup"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cu"
@@ -584,24 +584,24 @@
       "@value" : "tasse"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Unit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AustralianDollar"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AustralianDollar"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CanadianDollar"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CanadianDollar"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Euro"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Euro"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundSterling"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PoundSterling"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#USDollar"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#USDollar"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -611,7 +611,7 @@
       "@value" : "Unité de devise monétaire"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
     "http://purl.org/dc/elements/1.1/description" : [ {
       "@language" : "en",
@@ -621,9 +621,9 @@
       "@value" : "Glossaire des dimensions et unités de mesures de produit"
     } ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dimension"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Unit"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -633,16 +633,16 @@
       "@value" : "Glossaire mesure produit"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Decilitre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/DeciL"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dl"
@@ -655,16 +655,16 @@
       "@value" : "decilitre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Decimetre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/DeciM"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dm"
@@ -677,13 +677,13 @@
       "@value" : "decimètre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Depth",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Depth",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -693,7 +693,7 @@
       "@value" : "Profondeur"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dimension",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/elements/1.1/description" : [ {
       "@language" : "en",
@@ -703,16 +703,16 @@
       "@value" : "Dimensions utilisées pour décrire les charactéristiques produit dans DFC"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -722,13 +722,13 @@
       "@value" : "Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dozen",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dozen",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
@@ -738,7 +738,7 @@
       "@value" : "deux douzaines d'oeufs"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dzn"
@@ -751,13 +751,13 @@
       "@value" : "douzaine"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Drum",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Drum",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dr"
@@ -770,13 +770,13 @@
       "@value" : "baril"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#EcoScore",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#EcoScore",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -786,13 +786,13 @@
       "@value" : "Eco-score"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Eggs",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Eggs",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -802,16 +802,16 @@
       "@value" : "Oeufs"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Euro",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Euro",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/currency/EUR"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "€"
@@ -824,13 +824,13 @@
       "@value" : "euro"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fat",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -840,13 +840,13 @@
       "@value" : "Graisse"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fibre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fibre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -856,13 +856,13 @@
       "@value" : "Fibre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fishs",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fishs",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -872,13 +872,13 @@
       "@value" : "Poissons"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fluoride",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fluoride",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -888,13 +888,13 @@
       "@value" : "Fluoride"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#FolicAcid",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#FolicAcid",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -904,16 +904,16 @@
       "@value" : "Folic acid"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Gallon",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/GAL_UK"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "gal"
@@ -926,13 +926,13 @@
       "@value" : "gallon (UK)"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#GrainBulk",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#GrainBulk",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "vr"
@@ -945,16 +945,16 @@
       "@value" : "grain en vrac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Gram",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/GM"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "g"
@@ -967,13 +967,13 @@
       "@value" : "gramme"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#HalfDozen",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#HalfDozen",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "hd"
@@ -986,13 +986,13 @@
       "@value" : "demi-douzaine"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Height",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Height",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -1002,16 +1002,16 @@
       "@value" : "Height"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Inch",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Inch",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/IN"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "in"
@@ -1024,13 +1024,13 @@
       "@value" : "pouce"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Iodine",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Iodine",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1040,13 +1040,13 @@
       "@value" : "Iodine"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Iron",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Iron",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -1056,10 +1056,10 @@
       "@value" : "Iron"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Jar",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Jar",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
@@ -1069,7 +1069,7 @@
       "@value" : "bocal de confiture"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "jr"
@@ -1082,13 +1082,13 @@
       "@value" : "bocal"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Keg",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Keg",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "kg"
@@ -1101,16 +1101,16 @@
       "@value" : "fût"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Kilogram",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "unit:KiloGM"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "kg"
@@ -1123,16 +1123,16 @@
       "@value" : "kilogramme"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Kilometre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/KiloM"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "km"
@@ -1145,13 +1145,13 @@
       "@value" : "kilomètre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kit",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Kit",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ki"
@@ -1164,20 +1164,20 @@
       "@value" : "kit"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LabellingDimension",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LabellingDimension",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutriScore"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutriScore"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#EcoScore"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#EcoScore"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PlanetScore"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PlanetScore"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1187,13 +1187,13 @@
       "@value" : "Dimension score de labellisation"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LactoseMilks",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LactoseMilks",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1203,13 +1203,13 @@
       "@value" : "Lait et produits à base de lactose"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LiquidBulk",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LiquidBulk",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "vl"
@@ -1222,16 +1222,16 @@
       "@value" : "liquide en vrac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Litre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/L"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "l"
@@ -1244,13 +1244,13 @@
       "@value" : "litre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Lupine",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Lupine",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1260,13 +1260,13 @@
       "@value" : "Lupin"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Magnesium",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Magnesium",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1276,13 +1276,13 @@
       "@value" : "Magnésium"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Manganese",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Manganese",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1292,16 +1292,16 @@
       "@value" : "Manganèse"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Metre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/M"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "m"
@@ -1314,16 +1314,16 @@
       "@value" : "mètre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Milligram",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/MilliGM"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "g"
@@ -1336,16 +1336,16 @@
       "@value" : "milligramme"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Millilitre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/MilliL"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ml"
@@ -1358,13 +1358,13 @@
       "@value" : "millilitre"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Molluscs",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Molluscs",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1374,13 +1374,13 @@
       "@value" : "Mollusques"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#MonosaturatedFat",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#MonosaturatedFat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -1390,13 +1390,13 @@
       "@value" : "Monosaturated fat"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Mustard",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Mustard",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1406,13 +1406,13 @@
       "@value" : "Moutarde"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Net",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Net",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "nt"
@@ -1425,13 +1425,13 @@
       "@value" : "filet"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NoduleBulk",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NoduleBulk",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "vo"
@@ -1444,13 +1444,13 @@
       "@value" : "nodule en vrac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutriScore",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutriScore",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1460,82 +1460,82 @@
       "@value" : "Nutri-score"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Calcium"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Calcium"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Carbohydrates"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Carbohydrates"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Chloride"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Chloride"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cholesterol"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Cholesterol"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Chromium"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Chromium"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Copper"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Copper"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fat"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fat"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fibre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fibre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Fluoride"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Fluoride"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#FolicAcid"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#FolicAcid"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Iodine"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Iodine"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Iron"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Iron"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Magnesium"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Magnesium"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Manganese"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Manganese"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#MonosaturatedFat"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#MonosaturatedFat"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Phosphorus"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Phosphorus"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PolyunsaturatedFat"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PolyunsaturatedFat"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Potassium"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Potassium"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Protein"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Protein"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Salt"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Salt"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#SaturatedFat"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#SaturatedFat"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Selenium"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Selenium"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Sodium"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Sodium"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Starch"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Starch"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Sugars"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Sugars"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Transfat"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Transfat"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminA"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminA"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminB12"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminB12"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminB6"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminB6"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminC"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminC"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminD"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminD"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminE"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminE"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminK"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminK"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Zinc"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Zinc"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1545,13 +1545,13 @@
       "@value" : "Dimension nutritionnelle"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Nuts",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Nuts",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1561,16 +1561,16 @@
       "@value" : "Fruits à coque"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Ounce",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Ounce",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/OZ"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "oz"
@@ -1583,13 +1583,13 @@
       "@value" : "once"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Package",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pack"
@@ -1602,13 +1602,13 @@
       "@value" : "package"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Packet",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Packet",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pa"
@@ -1621,13 +1621,13 @@
       "@value" : "sachet"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pair",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pair",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pr"
@@ -1640,13 +1640,13 @@
       "@value" : "paire"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pallet",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pallet",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "px"
@@ -1659,13 +1659,13 @@
       "@value" : "palette"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Peanuts",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Peanuts",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1675,13 +1675,13 @@
       "@value" : "Arachides"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Percent",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Percent",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "%"
@@ -1694,13 +1694,13 @@
       "@value" : "pourcent"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Phosphorus",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Phosphorus",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -1710,24 +1710,24 @@
       "@value" : "Phosphorus"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Depth"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Depth"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Height"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Height"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Volume"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Volume"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Weight"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Weight"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Width"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Width"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1737,13 +1737,13 @@
       "@value" : "Dimension physique"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Piece",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Piece",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "u"
@@ -1756,13 +1756,13 @@
       "@value" : "pièce"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PlanetScore",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PlanetScore",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1772,13 +1772,13 @@
       "@value" : "Planet-score"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PolyunsaturatedFat",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PolyunsaturatedFat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -1788,10 +1788,10 @@
       "@value" : "Poly-unsaturated fat"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pot",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pot",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
@@ -1801,7 +1801,7 @@
       "@value" : "un pot de fleur"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pt"
@@ -1814,13 +1814,13 @@
       "@value" : "pot"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Potassium",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Potassium",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1830,13 +1830,13 @@
       "@value" : "Potassium"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pouch",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pouch",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "po"
@@ -1849,16 +1849,16 @@
       "@value" : "poche"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PoundMass",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/LB"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "lb"
@@ -1871,16 +1871,16 @@
       "@value" : "pound"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundSterling",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PoundSterling",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/currency/GBP"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "£"
@@ -1893,13 +1893,13 @@
       "@value" : "pound sterling"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PowderBulk",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PowderBulk",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "vy"
@@ -1912,13 +1912,13 @@
       "@value" : "poudre en vrac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Protein",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Protein",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1928,13 +1928,13 @@
       "@value" : "Protéine"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Punnet",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Punnet",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pj"
@@ -1947,126 +1947,128 @@
       "@value" : "barquette"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Unit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centilitre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Centilitre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Centimetre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Centimetre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Crate"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Crate"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decilitre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Decilitre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Decimetre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Decimetre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gallon"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Gallon"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Gram"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Gram"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Inch"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Inch"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilogram"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Kilogram"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kilometre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Kilometre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Litre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Litre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Metre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Metre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Milligram"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Milligram"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Millilitre"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Millilitre"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Package"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Package"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Percent"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Percent"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Piece"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Piece"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PoundMass"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PoundMass"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tonne"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#4Pack"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#4Pack"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#6Pack"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#6Pack"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bundle"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bundle"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bag"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bag"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bunch"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bunch"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bucket"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bucket"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Basket"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Basket"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Bottle"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Bottle"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Box"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Box"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#BeerCrate"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#BeerCrate"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cask"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Cask"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Carton"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Carton"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Cup"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Cup"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Can"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Can"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Drum"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Drum"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Dozen"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Dozen"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#HalfDozen"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#HalfDozen"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Jar"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Jar"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Keg"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Keg"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Kit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Kit"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Net"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Net"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Packet"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Packet"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Punnet"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Punnet"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pouch"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pouch"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pair"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pair"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pot"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pot"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tray"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tray"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Pallet"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Pallet"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Roll"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Roll"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tablet"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tablet"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tub"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tub"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tube"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tube"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tin"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tin"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#LiquidBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#LiquidBulk"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NoduleBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NoduleBulk"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#GrainBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#GrainBulk"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PowderBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PowderBulk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Ounce"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2076,13 +2078,13 @@
       "@value" : "Unité de quantité"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Roll",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Roll",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ro"
@@ -2095,13 +2097,13 @@
       "@value" : "rouleau"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Salt",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Salt",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2111,13 +2113,13 @@
       "@value" : "Sel"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#SaturatedFat",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#SaturatedFat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -2127,13 +2129,13 @@
       "@value" : "Saturated fat"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Selenium",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Selenium",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2143,13 +2145,13 @@
       "@value" : "Sélénium"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#SesameSeeds",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#SesameSeeds",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2159,13 +2161,13 @@
       "@value" : "Graines de sésame"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Sodium",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Sodium",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2175,13 +2177,13 @@
       "@value" : "Sodium"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Soy",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Soy",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2191,13 +2193,13 @@
       "@value" : "Soja"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Starch",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Starch",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -2207,13 +2209,13 @@
       "@value" : "Starch"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Sugars",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Sugars",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -2223,13 +2225,13 @@
       "@value" : "Sugars"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Sulphites",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Sulphites",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2239,13 +2241,13 @@
       "@value" : "Anhydride sulfureux et sulfites en concentration de plus de 10mg/kg ou 10 mg/l (exprimés en SO2)"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tablet",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tablet",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "t1"
@@ -2258,13 +2260,13 @@
       "@value" : "tablette"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tin",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tin",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "tn"
@@ -2277,16 +2279,16 @@
       "@value" : "boîte de conserve"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tonne",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tonne",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/unit/TONNE"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "T"
@@ -2299,13 +2301,13 @@
       "@value" : "tonne"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Transfat",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Transfat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -2315,13 +2317,13 @@
       "@value" : "Transfat"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tray",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tray",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pu"
@@ -2334,10 +2336,10 @@
       "@value" : "plateau"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tub",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tub",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
@@ -2347,7 +2349,7 @@
       "@value" : "bac de crème glacée"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "tb"
@@ -2360,10 +2362,10 @@
       "@value" : "bac"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Tube",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Tube",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
       "@language" : "en",
@@ -2373,7 +2375,7 @@
       "@value" : "un tube de dentifrice"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "td"
@@ -2386,16 +2388,16 @@
       "@value" : "tube"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#USDollar",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#USDollar",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
       "@id" : "http://qudt.org/vocab/currency/USD"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "$US"
@@ -2408,7 +2410,7 @@
       "@value" : "US Dollar"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Unit",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Unit",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/elements/1.1/description" : [ {
       "@language" : "en",
@@ -2418,12 +2420,12 @@
       "@value" : "Unités utilisées pour mesurer les valeurs quantitatives dans DFC"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#CurrencyUnit"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2433,16 +2435,16 @@
       "@value" : "Unités"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminA",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminA",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2452,13 +2454,13 @@
       "@value" : "Vitamine A"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminB12",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminB12",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2468,13 +2470,13 @@
       "@value" : "Vitamine B12"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminB6",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminB6",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2484,13 +2486,13 @@
       "@value" : "Vitamine B6"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminC",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminC",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2500,13 +2502,13 @@
       "@value" : "Vitamine C"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminD",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminD",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2516,13 +2518,13 @@
       "@value" : "Vitamine D"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminE",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminE",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2532,13 +2534,13 @@
       "@value" : "Vitamine E"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#VitaminK",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#VitaminK",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2548,13 +2550,13 @@
       "@value" : "Vitamine K"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Volume",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Volume",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2564,13 +2566,13 @@
       "@value" : "Volume"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Weight",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Weight",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -2580,13 +2582,13 @@
       "@value" : "Weight"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Width",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Width",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -2596,13 +2598,13 @@
       "@value" : "Width"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#Zinc",
+    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#Zinc",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
+      "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf#DFC_ProductGlossary_Measure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2611,6 +2613,9 @@
       "@language" : "fr",
       "@value" : "Zinc"
     } ]
+  }, {
+    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   } ],
-  "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf"
+  "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf"
 } ]
