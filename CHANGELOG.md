@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+Description : Namespace migration
+
+### Namespace 
+The namespace is updated to be related to w3id : https://w3id.org/dfc/taxonomy/
+
+
+
 ## [1.3.0] - 2025-07-15
 
 ### Added

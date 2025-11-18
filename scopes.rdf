@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns="http://w3id.org/dfc/taxonomies/releases/latest/download/vocabulary.rdf#"
+	xmlns="http://w3id.org/dfc/taxonomies/vocabulary.rdf#"
 	xmlns:grddl="http://www.w3.org/2003/g/data-view#"
 	xmlns:dct="http://purl.org/dc/terms/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -9,6 +9,166 @@
 	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<dc:title>The RDF Concepts Vocabulary (RDF)</dc:title>
+	<dc:description>This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts.</dc:description>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/2000/01/rdf-schema-more"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>type</rdfs:label>
+	<rdfs:comment>The subject is an instance of a class.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf11-concepts/#section-html"/>
+	<rdfs:label>HTML</rdfs:label>
+	<rdfs:comment>The datatype of RDF literals storing fragments of HTML content</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal"/>
+	<rdfs:label>langString</rdfs:label>
+	<rdfs:comment>The datatype of language-tagged string values</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf-plain-literal/"/>
+	<rdfs:label>PlainLiteral</rdfs:label>
+	<rdfs:comment>The class of plain (i.e. untyped) literal values, as used in RIF and OWL 2</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>Property</rdfs:label>
+	<rdfs:comment>The class of RDF properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>Statement</rdfs:label>
+	<rdfs:comment>The class of RDF statements.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#subject">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>subject</rdfs:label>
+	<rdfs:comment>The subject of the subject RDF statement.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>predicate</rdfs:label>
+	<rdfs:comment>The predicate of the subject RDF statement.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#object">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>object</rdfs:label>
+	<rdfs:comment>The object of the subject RDF statement.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Statement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Bag">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>Bag</rdfs:label>
+	<rdfs:comment>The class of unordered containers.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>Seq</rdfs:label>
+	<rdfs:comment>The class of ordered containers.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#Alt">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Container"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>Alt</rdfs:label>
+	<rdfs:comment>The class of containers of alternatives.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#value">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>value</rdfs:label>
+	<rdfs:comment>Idiomatic property used for structured values.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#List">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>List</rdfs:label>
+	<rdfs:comment>The class of RDF Lists.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>nil</rdfs:label>
+	<rdfs:comment>The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#first">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>first</rdfs:label>
+	<rdfs:comment>The first item in the subject RDF list.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#rest">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>rest</rdfs:label>
+	<rdfs:comment>The rest of the subject RDF list after the first item.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#XMLLiteral">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<rdfs:label>XMLLiteral</rdfs:label>
+	<rdfs:comment>The datatype of XML literal values.</rdfs:comment>
+</rdf:Description>
 
 <rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
@@ -83,6 +243,1359 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/releases/latest/download/vocabulary.rdf">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Ontology">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Ontology</rdfs:label>
+	<rdfs:comment>The class of ontologies.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<dc:title>The OWL 2 Schema vocabulary (OWL 2)</dc:title>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/owl2-rdf-based-semantics/"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/owl2-syntax/"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/TR/owl2-mapping-to-rdf/"/>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/TR/owl2-rdf-based-semantics/#table-axiomatic-classes"/>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/TR/owl2-rdf-based-semantics/#table-axiomatic-properties"/>
+	<rdfs:comment>
+  This ontology partially describes the built-in classes and
+  properties that together form the basis of the RDF/XML syntax of OWL 2.
+  The content of this ontology is based on Tables 6.1 and 6.2
+  in Section 6.4 of the OWL 2 RDF-Based Semantics specification,
+  available at http://www.w3.org/TR/owl2-rdf-based-semantics/.
+  Please note that those tables do not include the different annotations
+  (labels, comments and rdfs:isDefinedBy links) used in this file.
+  Also note that the descriptions provided in this ontology do not
+  provide a complete and correct formal description of either the syntax
+  or the semantics of the introduced terms (please see the OWL 2
+  recommendations for the complete and normative specifications).
+  Furthermore, the information provided by this ontology may be
+  misleading if not used with care. This ontology SHOULD NOT be imported
+  into OWL ontologies. Importing this file into an OWL 2 DL ontology
+  will cause it to become an OWL 2 Full ontology and may have other,
+  unexpected, consequences.
+   </rdfs:comment>
+	<grddl:namespaceTransformation rdf:resource="http://dev.w3.org/cvsweb/2009/owl-grddl/owx2rdf.xsl"/>
+	<owl:versionIRI rdf:resource="http://www.w3.org/2002/07/owl"/>
+	<owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+	<owl:versionInfo>$Date: 2009/11/15 10:54:12 $</owl:versionInfo>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionIRI">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>versionIRI</rdfs:label>
+	<rdfs:comment>The property that identifies the version IRI of an ontology.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#imports">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>imports</rdfs:label>
+	<rdfs:comment>The property that is used for importing other ontologies into a given ontology.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>versionInfo</rdfs:label>
+	<rdfs:comment>The annotation property that provides version information for an ontology or another OWL construct.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AllDifferent">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>AllDifferent</rdfs:label>
+	<rdfs:comment>The class of collections of pairwise different individuals.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AllDisjointClasses">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>AllDisjointClasses</rdfs:label>
+	<rdfs:comment>The class of collections of pairwise disjoint classes.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AllDisjointProperties">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>AllDisjointProperties</rdfs:label>
+	<rdfs:comment>The class of collections of pairwise disjoint properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Annotation">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Annotation</rdfs:label>
+	<rdfs:comment>The class of annotated annotations for which the RDF serialization consists of an annotated subject, predicate and object.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AnnotationProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>AnnotationProperty</rdfs:label>
+	<rdfs:comment>The class of annotation properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#AsymmetricProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>AsymmetricProperty</rdfs:label>
+	<rdfs:comment>The class of asymmetric properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ObjectProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>ObjectProperty</rdfs:label>
+	<rdfs:comment>The class of object properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Axiom">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Axiom</rdfs:label>
+	<rdfs:comment>The class of annotated axioms for which the RDF serialization consists of an annotated subject, predicate and object.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Class">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Class</rdfs:label>
+	<rdfs:comment>The class of OWL classes.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DataRange">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>DataRange</rdfs:label>
+	<rdfs:comment>The class of OWL data ranges, which are special kinds of datatypes. Note: The use of the IRI owl:DataRange has been deprecated as of OWL 2. The IRI rdfs:Datatype SHOULD be used instead.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DatatypeProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>DatatypeProperty</rdfs:label>
+	<rdfs:comment>The class of data properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DeprecatedClass">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>DeprecatedClass</rdfs:label>
+	<rdfs:comment>The class of deprecated classes.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#DeprecatedProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>DeprecatedProperty</rdfs:label>
+	<rdfs:comment>The class of deprecated properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#FunctionalProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>FunctionalProperty</rdfs:label>
+	<rdfs:comment>The class of functional properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#InverseFunctionalProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>InverseFunctionalProperty</rdfs:label>
+	<rdfs:comment>The class of inverse-functional properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#IrreflexiveProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>IrreflexiveProperty</rdfs:label>
+	<rdfs:comment>The class of irreflexive properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NamedIndividual">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>NamedIndividual</rdfs:label>
+	<rdfs:comment>The class of named individuals.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Thing</rdfs:label>
+	<rdfs:comment>The class of OWL individuals.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#NegativePropertyAssertion">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>NegativePropertyAssertion</rdfs:label>
+	<rdfs:comment>The class of negative property assertions.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Nothing">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Nothing</rdfs:label>
+	<rdfs:comment>This is the empty class.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#OntologyProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>OntologyProperty</rdfs:label>
+	<rdfs:comment>The class of ontology properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#ReflexiveProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>ReflexiveProperty</rdfs:label>
+	<rdfs:comment>The class of reflexive properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Restriction">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>Restriction</rdfs:label>
+	<rdfs:comment>The class of property restrictions.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#SymmetricProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>SymmetricProperty</rdfs:label>
+	<rdfs:comment>The class of symmetric properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#TransitiveProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>TransitiveProperty</rdfs:label>
+	<rdfs:comment>The class of transitive properties.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#allValuesFrom">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>allValuesFrom</rdfs:label>
+	<rdfs:comment>The property that determines the class that a universal property restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#annotatedProperty">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>annotatedProperty</rdfs:label>
+	<rdfs:comment>The property that determines the predicate of an annotated axiom or annotated annotation.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#annotatedSource">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>annotatedSource</rdfs:label>
+	<rdfs:comment>The property that determines the subject of an annotated axiom or annotated annotation.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#annotatedTarget">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>annotatedTarget</rdfs:label>
+	<rdfs:comment>The property that determines the object of an annotated axiom or annotated annotation.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#assertionProperty">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>assertionProperty</rdfs:label>
+	<rdfs:comment>The property that determines the predicate of a negative property assertion.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#backwardCompatibleWith">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>backwardCompatibleWith</rdfs:label>
+	<rdfs:comment>The annotation property that indicates that a given ontology is backward compatible with another ontology.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#bottomDataProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>bottomDataProperty</rdfs:label>
+	<rdfs:comment>The data property that does not relate any individual to any data value.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#bottomObjectProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>bottomObjectProperty</rdfs:label>
+	<rdfs:comment>The object property that does not relate any two individuals.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#cardinality">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>cardinality</rdfs:label>
+	<rdfs:comment>The property that determines the cardinality of an exact cardinality restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#complementOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>complementOf</rdfs:label>
+	<rdfs:comment>The property that determines that a given class is the complement of another class.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#datatypeComplementOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>datatypeComplementOf</rdfs:label>
+	<rdfs:comment>The property that determines that a given data range is the complement of another data range with respect to the data domain.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>deprecated</rdfs:label>
+	<rdfs:comment>The annotation property that indicates that a given entity has been deprecated.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#differentFrom">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>differentFrom</rdfs:label>
+	<rdfs:comment>The property that determines that two given individuals are different.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#disjointUnionOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>disjointUnionOf</rdfs:label>
+	<rdfs:comment>The property that determines that a given class is equivalent to the disjoint union of a collection of other classes.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#disjointWith">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>disjointWith</rdfs:label>
+	<rdfs:comment>The property that determines that two given classes are disjoint.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#distinctMembers">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>distinctMembers</rdfs:label>
+	<rdfs:comment>The property that determines the collection of pairwise different individuals in a owl:AllDifferent axiom.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentClass">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>equivalentClass</rdfs:label>
+	<rdfs:comment>The property that determines that two given classes are equivalent, and that is used to specify datatype definitions.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#equivalentProperty">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>equivalentProperty</rdfs:label>
+	<rdfs:comment>The property that determines that two given properties are equivalent.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#hasKey">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>hasKey</rdfs:label>
+	<rdfs:comment>The property that determines the collection of properties that jointly build a key.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#hasSelf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>hasSelf</rdfs:label>
+	<rdfs:comment>The property that determines the property that a self restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#hasValue">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>hasValue</rdfs:label>
+	<rdfs:comment>The property that determines the individual that a has-value restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#incompatibleWith">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>incompatibleWith</rdfs:label>
+	<rdfs:comment>The annotation property that indicates that a given ontology is incompatible with another ontology.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#intersectionOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>intersectionOf</rdfs:label>
+	<rdfs:comment>The property that determines the collection of classes or data ranges that build an intersection.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#inverseOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>inverseOf</rdfs:label>
+	<rdfs:comment>The property that determines that two given properties are inverse.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#maxCardinality">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>maxCardinality</rdfs:label>
+	<rdfs:comment>The property that determines the cardinality of a maximum cardinality restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#maxQualifiedCardinality">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>maxQualifiedCardinality</rdfs:label>
+	<rdfs:comment>The property that determines the cardinality of a maximum qualified cardinality restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#members">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>members</rdfs:label>
+	<rdfs:comment>The property that determines the collection of members in either a owl:AllDifferent, owl:AllDisjointClasses or owl:AllDisjointProperties axiom.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#minCardinality">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>minCardinality</rdfs:label>
+	<rdfs:comment>The property that determines the cardinality of a minimum cardinality restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#minQualifiedCardinality">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>minQualifiedCardinality</rdfs:label>
+	<rdfs:comment>The property that determines the cardinality of a minimum qualified cardinality restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onClass">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>onClass</rdfs:label>
+	<rdfs:comment>The property that determines the class that a qualified object cardinality restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onDataRange">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>onDataRange</rdfs:label>
+	<rdfs:comment>The property that determines the data range that a qualified data cardinality restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onDatatype">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>onDatatype</rdfs:label>
+	<rdfs:comment>The property that determines the datatype that a datatype restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#oneOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>oneOf</rdfs:label>
+	<rdfs:comment>The property that determines the collection of individuals or data values that build an enumeration.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onProperties">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>onProperties</rdfs:label>
+	<rdfs:comment>The property that determines the n-tuple of properties that a property restriction on an n-ary data range refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#onProperty">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>onProperty</rdfs:label>
+	<rdfs:comment>The property that determines the property that a property restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#priorVersion">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#OntologyProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>priorVersion</rdfs:label>
+	<rdfs:comment>The annotation property that indicates the predecessor ontology of a given ontology.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#propertyChainAxiom">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>propertyChainAxiom</rdfs:label>
+	<rdfs:comment>The property that determines the n-tuple of properties that build a sub property chain of a given property.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#propertyDisjointWith">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>propertyDisjointWith</rdfs:label>
+	<rdfs:comment>The property that determines that two given properties are disjoint.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#qualifiedCardinality">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>qualifiedCardinality</rdfs:label>
+	<rdfs:comment>The property that determines the cardinality of an exact qualified cardinality restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sameAs">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>sameAs</rdfs:label>
+	<rdfs:comment>The property that determines that two given individuals are equal.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#someValuesFrom">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>someValuesFrom</rdfs:label>
+	<rdfs:comment>The property that determines the class that an existential property restriction refers to.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#sourceIndividual">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>sourceIndividual</rdfs:label>
+	<rdfs:comment>The property that determines the subject of a negative property assertion.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#targetIndividual">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>targetIndividual</rdfs:label>
+	<rdfs:comment>The property that determines the object of a negative object property assertion.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#targetValue">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>targetValue</rdfs:label>
+	<rdfs:comment>The property that determines the value of a negative data property assertion.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>topDataProperty</rdfs:label>
+	<rdfs:comment>The data property that relates every individual to every data value.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>topObjectProperty</rdfs:label>
+	<rdfs:comment>The object property that relates every two individuals.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#unionOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>unionOf</rdfs:label>
+	<rdfs:comment>The property that determines the collection of classes or data ranges that build a union.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2002/07/owl#withRestrictions">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2002/07/owl#"/>
+	<rdfs:label>withRestrictions</rdfs:label>
+	<rdfs:comment>The property that determines the collection of facet-value pairs that define a datatype restriction.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Datatype">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>Datatype</rdfs:label>
+	<rdfs:comment>The class of RDF datatypes.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subClassOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>subClassOf</rdfs:label>
+	<rdfs:comment>The subject is a subclass of a class.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Literal">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>Literal</rdfs:label>
+	<rdfs:comment>The class of literal values, eg. textual strings and integers.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>isDefinedBy</rdfs:label>
+	<rdfs:comment>The defininition of the subject resource.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>seeAlso</rdfs:label>
+	<rdfs:comment>Further information about the subject resource.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>label</rdfs:label>
+	<rdfs:comment>A human-readable name for the subject.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>comment</rdfs:label>
+	<rdfs:comment>A description of the subject resource.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#range">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>range</rdfs:label>
+	<rdfs:comment>A range of the subject property.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Class">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>Class</rdfs:label>
+	<rdfs:comment>The class of classes.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#domain">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>domain</rdfs:label>
+	<rdfs:comment>A domain of the subject property.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Resource">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>Resource</rdfs:label>
+	<rdfs:comment>The class resource, everything.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#Container">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>Container</rdfs:label>
+	<rdfs:comment>The class of RDF containers.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<dc:title>The RDF Schema vocabulary (RDFS)</dc:title>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/2000/01/rdf-schema-more"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#subPropertyOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>subPropertyOf</rdfs:label>
+	<rdfs:comment>The subject is a subproperty of a property.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#ContainerMembershipProperty">
+	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>ContainerMembershipProperty</rdfs:label>
+	<rdfs:comment>The class of container membership properties, rdf:_1, rdf:_2, ...,
+                    all of which are sub-properties of 'member'.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#member">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2000/01/rdf-schema#"/>
+	<rdfs:label>member</rdfs:label>
+	<rdfs:comment>A member of the subject resource.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:prefLabel xml:lang="en">Authorization scopes</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Périmètres d'autorisation</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadEnterprise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to access the associated producer's enterprise data</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails d'accéder aux données de l'entreprise du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Read enterprise data</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lire les données de l'entreprise</skos:prefLabel>
+	<skos:notation>ReadEnterprise</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadOrders">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to read the associated producer's orders</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de lire les commandes du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Read enterprise orders</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lire les commandes de l'entreprise</skos:prefLabel>
+	<skos:notation>ReadOrders</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadProducts">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to access the associated producer's products</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails d'accéder aux produits du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Read enterprise products</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lire les produits de l'entreprise</skos:prefLabel>
+	<skos:notation>ReadProducts</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteEnterprise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's enterprise data</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les données de l'entreprise du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Write enterprise data</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écrire les données de l'entreprise</skos:prefLabel>
+	<skos:notation>WriteEnterprise</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteOrders">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's orders</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les commandes du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Write enterprise orders</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écrire les commandes de l'entreprise</skos:prefLabel>
+	<skos:notation>WriteOrders</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteProducts">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's products</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les produits du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Write enterprise products</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écrire les produits de l'entreprise</skos:prefLabel>
+	<skos:notation>WriteProducts</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/releases/latest/download/vocabulary.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:prefLabel xml:lang="en">Authorization scopes</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Périmètres d'autorisation</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadEnterprise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to access the associated producer's enterprise data</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails d'accéder aux données de l'entreprise du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Read enterprise data</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lire les données de l'entreprise</skos:prefLabel>
+	<skos:notation>ReadEnterprise</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadOrders">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to read the associated producer's orders</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de lire les commandes du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Read enterprise orders</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lire les commandes de l'entreprise</skos:prefLabel>
+	<skos:notation>ReadOrders</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#ReadProducts">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to access the associated producer's products</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails d'accéder aux produits du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Read enterprise products</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Lire les produits de l'entreprise</skos:prefLabel>
+	<skos:notation>ReadProducts</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteEnterprise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's enterprise data</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les données de l'entreprise du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Write enterprise data</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écrire les données de l'entreprise</skos:prefLabel>
+	<skos:notation>WriteEnterprise</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteOrders">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's orders</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les commandes du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Write enterprise orders</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écrire les commandes de l'entreprise</skos:prefLabel>
+	<skos:notation>WriteOrders</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf#WriteProducts">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's products</skos:definition>
+	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les produits du producteur associé</skos:definition>
+	<skos:inScheme rdf:resource="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/scopes.rdf"/>
+	<skos:prefLabel xml:lang="en">Write enterprise products</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Écrire les produits de l'entreprise</skos:prefLabel>
+	<skos:notation>WriteProducts</skos:notation>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/releases/latest/download/vocabulary.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+	<rdfs:seeAlso rdf:resource="http://www.w3.org/TR/skos-reference/"/>
+	<dct:title xml:lang="en">SKOS Vocabulary</dct:title>
+	<dct:contributor>Dave Beckett</dct:contributor>
+	<dct:contributor>Nikki Rogers</dct:contributor>
+	<dct:contributor>Participants in W3C's Semantic Web Deployment Working Group.</dct:contributor>
+	<dct:description xml:lang="en">An RDF vocabulary for describing the basic structure and content of concept schemes such as thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', other types of controlled vocabulary, and also concept schemes embedded in glossaries and terminologies.</dct:description>
+	<dct:creator>Alistair Miles</dct:creator>
+	<dct:creator>Sean Bechhofer</dct:creator>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">Concept</rdfs:label>
+	<skos:definition xml:lang="en">An idea or notion; a unit of thought.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#definition">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">definition</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+	<skos:definition xml:lang="en">A statement or formal explanation of the meaning of a concept.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#ConceptScheme">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">Concept Scheme</rdfs:label>
+	<owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">A set of concepts, optionally including statements about semantic relationships between those concepts.</skos:definition>
+	<skos:scopeNote xml:lang="en">A concept scheme may be defined to include concepts from different sources.</skos:scopeNote>
+	<skos:example xml:lang="en">Thesauri, classification schemes, subject heading lists, taxonomies, 'folksonomies', and other types of controlled vocabulary are all examples of concept schemes. Concept schemes are also embedded in glossaries and terminologies.</skos:example>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">scope note</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+	<skos:definition xml:lang="en">A note that helps to clarify the meaning and/or the use of a concept.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#example">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">example</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+	<skos:definition xml:lang="en">An example of the use of a concept.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Collection">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">Collection</rdfs:label>
+	<owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:disjointWith rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:definition xml:lang="en">A meaningful collection of concepts.</skos:definition>
+	<skos:scopeNote xml:lang="en">Labelled collections can be used where you would like a set of concepts to be displayed under a 'node label' in the hierarchy.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#OrderedCollection">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">Ordered Collection</rdfs:label>
+	<skos:definition xml:lang="en">An ordered collection of concepts, where both the grouping and the ordering are meaningful.</skos:definition>
+	<skos:scopeNote xml:lang="en">Ordered collections can be used where you would like a set of concepts to be displayed in a specific order, and optionally under a 'node label'.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#inScheme">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">is in scheme</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:definition xml:lang="en">Relates a resource (for example a concept) to a concept scheme in which it is included.</skos:definition>
+	<skos:scopeNote xml:lang="en">A concept may be a member of more than one concept scheme.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#hasTopConcept">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has top concept</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#topConceptOf"/>
+	<skos:definition xml:lang="en">Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#topConceptOf">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">is top concept in scheme</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#hasTopConcept"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#inScheme"/>
+	<skos:definition xml:lang="en">Relates a concept to the concept scheme that it is a top level concept of.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">preferred label</rdfs:label>
+	<rdfs:comment xml:lang="en">A resource has no more than one value of skos:prefLabel per language tag, and no more than one value of skos:prefLabel without language tag.</rdfs:comment>
+	<rdfs:comment xml:lang="en">The range of skos:prefLabel is the class of RDF plain literals.</rdfs:comment>
+	<rdfs:comment xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise
+      disjoint properties.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+	<skos:definition xml:lang="en">The preferred lexical label for a resource, in a given language.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">alternative label</rdfs:label>
+	<rdfs:comment xml:lang="en">The range of skos:altLabel is the class of RDF plain literals.</rdfs:comment>
+	<rdfs:comment xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+	<skos:definition xml:lang="en">An alternative lexical label for a resource.</skos:definition>
+	<skos:example xml:lang="en">Acronyms, abbreviations, spelling variants, and irregular plural/singular forms may be included among the alternative labels for a concept. Mis-spelled terms are normally included as hidden labels (see skos:hiddenLabel).</skos:example>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#hiddenLabel">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">hidden label</rdfs:label>
+	<rdfs:comment xml:lang="en">skos:prefLabel, skos:altLabel and skos:hiddenLabel are pairwise disjoint properties.</rdfs:comment>
+	<rdfs:comment xml:lang="en">The range of skos:hiddenLabel is the class of RDF plain literals.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+	<skos:definition xml:lang="en">A lexical label for a resource that should be hidden when generating visual displays of the resource, but should still be accessible to free text search operations.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#notation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">notation</rdfs:label>
+	<skos:definition xml:lang="en">A notation, also known as classification code, is a string of characters such as "T58.5" or "303.4833" used to uniquely identify a concept within the scope of a given concept scheme.</skos:definition>
+	<skos:scopeNote xml:lang="en">By convention, skos:notation is used with a typed literal in the object position of the triple.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#note">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">note</rdfs:label>
+	<skos:definition xml:lang="en">A general note, for any purpose.</skos:definition>
+	<skos:scopeNote xml:lang="en">This property may be used directly, or as a super-property for more specific note types.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#changeNote">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">change note</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+	<skos:definition xml:lang="en">A note about a modification to a concept.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#editorialNote">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">editorial note</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+	<skos:definition xml:lang="en">A note for an editor, translator or maintainer of the vocabulary.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#historyNote">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">history note</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#note"/>
+	<skos:definition xml:lang="en">A note about the past state/use/meaning of a concept.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#semanticRelation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">is in semantic relation with</rdfs:label>
+	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:definition xml:lang="en">Links a concept to a concept related by meaning.</skos:definition>
+	<skos:scopeNote xml:lang="en">This property should not be used directly, but as a super-property for all properties denoting a relationship of meaning between concepts.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broader">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has broader</rdfs:label>
+	<rdfs:comment xml:lang="en">Broader concepts are typically rendered as parents in a concept hierarchy (tree).</rdfs:comment>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+	<skos:definition xml:lang="en">Relates a concept to a concept that is more general in meaning.</skos:definition>
+	<skos:scopeNote xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broaderTransitive">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has broader transitive</rdfs:label>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+	<skos:definition>skos:broaderTransitive is a transitive superproperty of skos:broader.</skos:definition>
+	<skos:scopeNote xml:lang="en">By convention, skos:broaderTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrower">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has narrower</rdfs:label>
+	<rdfs:comment xml:lang="en">Narrower concepts are typically rendered as children in a concept hierarchy (tree).</rdfs:comment>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowerTransitive"/>
+	<skos:definition xml:lang="en">Relates a concept to a concept that is more specific in meaning.</skos:definition>
+	<skos:scopeNote xml:lang="en">By convention, skos:broader is only used to assert an immediate (i.e. direct) hierarchical link between two conceptual resources.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowerTransitive">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has narrower transitive</rdfs:label>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#broaderTransitive"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+	<skos:definition>skos:narrowerTransitive is a transitive superproperty of skos:narrower.</skos:definition>
+	<skos:scopeNote xml:lang="en">By convention, skos:narrowerTransitive is not used to make assertions. Rather, the properties can be used to draw inferences about the transitive closure of the hierarchical relation, which is useful e.g. when implementing a simple query expansion algorithm in a search application.</skos:scopeNote>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#related">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has related</rdfs:label>
+	<rdfs:comment xml:lang="en">skos:related is disjoint with skos:broaderTransitive</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+	<skos:definition xml:lang="en">Relates a concept to a concept with which there is an associative semantic relationship.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#member">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has member</rdfs:label>
+	<rdfs:range rdf:nodeID="genid-start-38399e2557cdf41d79c1dc5d7ea8b56721247"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<skos:definition xml:lang="en">Relates a collection to one of its members.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-38399e2557cdf41d79c1dc5d7ea8b56721247">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+	<owl:unionOf rdf:nodeID="genid-start-38399e2557cdf41d79c1dc5d7ea8b56721248"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-38399e2557cdf41d79c1dc5d7ea8b56721248">
+	<rdf:first rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdf:rest rdf:nodeID="genid-start-38399e2557cdf41d79c1dc5d7ea8b56721249"/>
+</rdf:Description>
+
+<rdf:Description rdf:nodeID="genid-start-38399e2557cdf41d79c1dc5d7ea8b56721249">
+	<rdf:first rdf:resource="http://www.w3.org/2004/02/skos/core#Collection"/>
+	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#memberList">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has member list</rdfs:label>
+	<rdfs:comment xml:lang="en">For any resource, every item in the list given as the value of the
+      skos:memberList property is also a value of the skos:member property.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+	<rdfs:domain rdf:resource="http://www.w3.org/2004/02/skos/core#OrderedCollection"/>
+	<skos:definition xml:lang="en">Relates an ordered collection to the RDF list containing its members.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#mappingRelation">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">is in mapping relation with</rdfs:label>
+	<rdfs:comment xml:lang="en">These concept mapping relations mirror semantic relations, and the data model defined below is similar (with the exception of skos:exactMatch) to the data model defined for semantic relations. A distinct vocabulary is provided for concept mapping relations, to provide a convenient way to differentiate links within a concept scheme from links between concept schemes. However, this pattern of usage is not a formal requirement of the SKOS data model, and relies on informal definitions of best practice.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#semanticRelation"/>
+	<skos:definition xml:lang="en">Relates two concepts coming, by convention, from different schemes, and that have comparable meanings</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#broadMatch">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has broader match</rdfs:label>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#broader"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<skos:definition xml:lang="en">skos:broadMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has narrower match</rdfs:label>
+	<owl:inverseOf rdf:resource="http://www.w3.org/2004/02/skos/core#broadMatch"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#narrower"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<skos:definition xml:lang="en">skos:narrowMatch is used to state a hierarchical mapping link between two conceptual resources in different concept schemes.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#relatedMatch">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has related match</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#related"/>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<skos:definition xml:lang="en">skos:relatedMatch is used to state an associative mapping link between two conceptual resources in different concept schemes.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has exact match</rdfs:label>
+	<rdfs:comment xml:lang="en">skos:exactMatch is disjoint with each of the properties skos:broadMatch and skos:relatedMatch.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+	<skos:definition xml:lang="en">skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch.</skos:definition>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch">
+	<rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+	<rdfs:label xml:lang="en">has close match</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<skos:definition xml:lang="en">skos:closeMatch is used to link two concepts that are sufficiently similar that they can be used interchangeably in some information retrieval applications. In order to avoid the possibility of "compound errors" when combining mappings across more than two concept schemes, skos:closeMatch is not declared to be a transitive property.</skos:definition>
 </rdf:Description>
 
 </rdf:RDF>
