@@ -10,23 +10,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies//releases/latest/download/vocabulary.rdf">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/releases/latest/download/vocabulary.rdf">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf">
+<rdf:Description rdf:about="https://w3id.org/dfc/taxonomies/vocabulary.rdf">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 

@@ -4473,11 +4473,8 @@
       "@value" : "Yorkshire and The Humber"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/facets.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/facets.rdf",
+    "@id" : "https://w3id.org/dfc/taxonomies/facets.rdf",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   } ],
-  "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf"
+  "@id" : "https://w3id.org/dfc/taxonomies/facets.rdf"
 } ]

@@ -2614,11 +2614,8 @@
       "@value" : "Zinc"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/measures.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/measures.rdf",
+    "@id" : "https://w3id.org/dfc/taxonomies/measures.rdf",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   } ],
-  "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf"
+  "@id" : "https://w3id.org/dfc/taxonomies/measures.rdf"
 } ]

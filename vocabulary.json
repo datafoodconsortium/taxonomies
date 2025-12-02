@@ -1,14 +1,5 @@
 [ {
   "@graph" : [ {
-    "@id" : "http://w3id.org/dfc/taxonomies//releases/latest/download/vocabulary.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/releases/latest/download/vocabulary.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
@@ -608,11 +599,8 @@
       "@value" : "use"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#",
+    "@id" : "https://w3id.org/dfc/taxonomies/vocabulary.rdf",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   } ],
-  "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf"
+  "@id" : "https://w3id.org/dfc/taxonomies/vocabulary.rdf"
 } ]
