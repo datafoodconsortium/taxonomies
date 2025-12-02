@@ -1,542 +1,606 @@
 [ {
   "@graph" : [ {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#",
-    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
-  }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Cancelled"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Complete"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "DFC_Vocabulary"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Draft"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Fulfilled"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentState",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState",
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStates",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2002/07/owl#deprecated" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
       "@value" : "true"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Fulfilment state"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ],
     "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStates"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Fulfilled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Fulfilment status"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Held"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderState",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderState",
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStates",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2002/07/owl#deprecated" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
       "@value" : "true"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Order state"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ],
     "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStates"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Held"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Complete"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Draft"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Order status"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Paid",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Paid"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentState",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentState",
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStates",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2002/07/owl#deprecated" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
       "@value" : "true"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Paid"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unpaid"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Payment state"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ],
     "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStates"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Cancelled"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Paid"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Paid"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unpaid"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Payment status"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2002/07/owl#deprecated" : [ {
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
       "@value" : "true"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#OrderStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "States"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Status",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#States"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderState"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentState"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Status"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unfulfilled",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#FulfilmentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Unfulfilled"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#Unpaid",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unpaid",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#PaymentStatus"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Unpaid"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#accept",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "accept"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#c_734fc709",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#c_734fc709",
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "FulfilmentState"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#combine",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "combine"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#consume",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "consume"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#dropoff",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "dropoff"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#lower",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "lower"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#modify",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "modify"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#move",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#move",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "move"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#pickup",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "pickup"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#produce",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "produce"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#raise",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "raise"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#separate",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "separate"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#produce"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#use"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#consume"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#pickup"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#dropoff"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#accept"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#modify"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#combine"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#separate"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#move"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#raise"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"
     }, {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#lower"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Transformation type"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ]
   }, {
-    "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#use",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#use",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf#DFC_Vocabulary"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "use"
     } ]
+  }, {
+    "@id" : "https://w3id.org/dfc/taxonomies/vocabulary.rdf",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   } ],
-  "@id" : "https://github.com/datafoodconsortium/taxonomies/releases/latest/download/vocabulary.rdf"
+  "@id" : "https://w3id.org/dfc/taxonomies/vocabulary.rdf"
 } ]

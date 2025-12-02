@@ -1,0 +1,161 @@
+[ {
+  "@graph" : [ {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Authorization scopes"
+    }, {
+      "@language" : "fr",
+      "@value" : "Périmètres d'autorisation"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#ReadEnterprise",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#definition" : [ {
+      "@language" : "en",
+      "@value" : "This scope allows portals to access the associated producer's enterprise data"
+    }, {
+      "@language" : "fr",
+      "@value" : "Ce périmètre permet aux portails d'accéder aux données de l'entreprise du producteur associé"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "ReadEnterprise"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Read enterprise data"
+    }, {
+      "@language" : "fr",
+      "@value" : "Lire les données de l'entreprise"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#ReadOrders",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#definition" : [ {
+      "@language" : "en",
+      "@value" : "This scope allows portals to read the associated producer's orders"
+    }, {
+      "@language" : "fr",
+      "@value" : "Ce périmètre permet aux portails de lire les commandes du producteur associé"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "ReadOrders"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Read enterprise orders"
+    }, {
+      "@language" : "fr",
+      "@value" : "Lire les commandes de l'entreprise"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#ReadProducts",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#definition" : [ {
+      "@language" : "en",
+      "@value" : "This scope allows portals to access the associated producer's products"
+    }, {
+      "@language" : "fr",
+      "@value" : "Ce périmètre permet aux portails d'accéder aux produits du producteur associé"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "ReadProducts"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Read enterprise products"
+    }, {
+      "@language" : "fr",
+      "@value" : "Lire les produits de l'entreprise"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#WriteEnterprise",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#definition" : [ {
+      "@language" : "en",
+      "@value" : "This scope allows portals to modify the associated producer's enterprise data"
+    }, {
+      "@language" : "fr",
+      "@value" : "Ce périmètre permet aux portails de modifier les données de l'entreprise du producteur associé"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "WriteEnterprise"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Write enterprise data"
+    }, {
+      "@language" : "fr",
+      "@value" : "Écrire les données de l'entreprise"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#WriteOrders",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#definition" : [ {
+      "@language" : "en",
+      "@value" : "This scope allows portals to modify the associated producer's orders"
+    }, {
+      "@language" : "fr",
+      "@value" : "Ce périmètre permet aux portails de modifier les commandes du producteur associé"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "WriteOrders"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Write enterprise orders"
+    }, {
+      "@language" : "fr",
+      "@value" : "Écrire les commandes de l'entreprise"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#WriteProducts",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#definition" : [ {
+      "@language" : "en",
+      "@value" : "This scope allows portals to modify the associated producer's products"
+    }, {
+      "@language" : "fr",
+      "@value" : "Ce périmètre permet aux portails de modifier les produits du producteur associé"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "WriteProducts"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Write enterprise products"
+    }, {
+      "@language" : "fr",
+      "@value" : "Écrire les produits de l'entreprise"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf",
+    "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+  } ],
+  "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf"
+} ]

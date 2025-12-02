@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+Description : Namespace migration
+
+### Namespace 
+The namespace is updated to be related to w3id : https://w3id.org/dfc/taxonomy/
+
+### Changed
+- scopes ConceptScheme URI updated from scopes.rdf to DFC_Scopes to align with other ConceptSchemes.
+
 ## [1.3.0] - 2025-07-15
 
 ### Added
