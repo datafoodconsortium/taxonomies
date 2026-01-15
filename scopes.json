@@ -6,7 +6,7 @@
     "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes",
+    "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -26,7 +26,7 @@
       "@value" : "Ce périmètre permet aux portails d'accéder aux données de l'entreprise du producteur associé"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ReadEnterprise"
@@ -49,7 +49,7 @@
       "@value" : "Ce périmètre permet aux portails de lire les commandes du producteur associé"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ReadOrders"
@@ -72,7 +72,7 @@
       "@value" : "Ce périmètre permet aux portails d'accéder aux produits du producteur associé"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ReadProducts"
@@ -95,7 +95,7 @@
       "@value" : "Ce périmètre permet aux portails de modifier les données de l'entreprise du producteur associé"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "WriteEnterprise"
@@ -118,7 +118,7 @@
       "@value" : "Ce périmètre permet aux portails de modifier les commandes du producteur associé"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "WriteOrders"
@@ -141,7 +141,7 @@
       "@value" : "Ce périmètre permet aux portails de modifier les produits du producteur associé"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"
+      "@id" : "http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "WriteProducts"

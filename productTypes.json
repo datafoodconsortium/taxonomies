@@ -78,7 +78,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf#vegetable"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#alcoholic-beverage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -107,7 +107,7 @@
       "@value" : "boisson alcoolisée"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#almond",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Almond",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -125,7 +125,7 @@
       "@value" : "amande"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#aperitif",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Aperitif",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -143,7 +143,7 @@
       "@value" : "apéritif"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#apples",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Apples",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -161,7 +161,7 @@
       "@value" : "pomme"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#apricot",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Apricot",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -179,7 +179,7 @@
       "@value" : "apricot"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#artichoke",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Artichoke",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -197,7 +197,7 @@
       "@value" : "artichoke"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#asparagus",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Asparagus",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -215,7 +215,7 @@
       "@value" : "asperges"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bakery",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bakery",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -238,7 +238,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#basil",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Basil",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -258,7 +258,7 @@
       "@value" : "basilic"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bean",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bean",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -276,7 +276,7 @@
       "@value" : "haricot"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beans",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beans",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -294,7 +294,7 @@
       "@value" : "haricots"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beef",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beef",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -317,7 +317,7 @@
       "@value" : "viande bovine"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beer",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beer",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -335,7 +335,7 @@
       "@value" : "bière"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beetroot",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beetroot",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -353,7 +353,7 @@
       "@value" : "betterave rouge"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#berry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -386,7 +386,7 @@
       "@value" : "petit fruit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#biscuit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Biscuit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -404,7 +404,7 @@
       "@value" : "biscuit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#blackberry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Blackberry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -422,7 +422,7 @@
       "@value" : "mûre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#blackcurrant",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Blackcurrant",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -440,7 +440,7 @@
       "@value" : "cassis"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#blueberry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Blueberry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -458,7 +458,7 @@
       "@value" : "myrtille"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bluefoot-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BluefootMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -476,7 +476,7 @@
       "@value" : "bluefoot mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bottled-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BottledFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -494,7 +494,7 @@
       "@value" : "fruit en bocal"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bottled-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BottledVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -512,7 +512,7 @@
       "@value" : "légume en bocal"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bread",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bread",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -530,7 +530,7 @@
       "@value" : "pain"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#broccoli-cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BroccoliCabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -548,7 +548,7 @@
       "@value" : "chou brocoli"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#brussels-sprouts",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BrusselsSprouts",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -566,7 +566,7 @@
       "@value" : "choux de bruxelles"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#butter",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Butter",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -584,7 +584,7 @@
       "@value" : "butter"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#butternut",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Butternut",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -602,7 +602,7 @@
       "@value" : "butternut"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -643,7 +643,7 @@
       "@value" : "chou"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#canned-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CannedFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -661,7 +661,22 @@
       "@value" : "fruit en conserve"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#canned-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CannedGoods",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#savory-groceries"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "canned goods"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CannedVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -679,22 +694,7 @@
       "@value" : "légume en conserve"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cannedGoods",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#savory-groceries"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "canned goods"
-    } ]
-  }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#carrot",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Carrot",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -712,7 +712,7 @@
       "@value" : "carrot"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cauliflower",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cauliflower",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -730,7 +730,7 @@
       "@value" : "chou-fleur"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#celeriac",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Celeriac",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -748,7 +748,7 @@
       "@value" : "céleri-rave"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#celery-branch",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CeleryBranch",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -766,7 +766,7 @@
       "@value" : "céleri branche"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chanterelle-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ChanterelleMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -784,7 +784,7 @@
       "@value" : "chanterelle mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chard",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chard",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -802,7 +802,7 @@
       "@value" : "chard"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cherry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cherry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -820,7 +820,7 @@
       "@value" : "cherry"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cherry-tomato",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CherryTomato",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -838,7 +838,7 @@
       "@value" : "tomate cerise"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chervil",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chervil",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -858,7 +858,7 @@
       "@value" : "chervil"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chestnut",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chestnut",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -876,7 +876,7 @@
       "@value" : "marron"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chicken",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chicken",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -894,7 +894,7 @@
       "@value" : "poulet"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chicory",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chicory",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -912,7 +912,7 @@
       "@value" : "chicorée"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chilli-pepper",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ChilliPepper",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -932,7 +932,7 @@
       "@value" : "piment"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chinese-cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ChineseCabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -950,7 +950,7 @@
       "@value" : "chou chinois"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chive",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chive",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -970,7 +970,7 @@
       "@value" : "ciboulette"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cider",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cider",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -988,7 +988,7 @@
       "@value" : "cidre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#clementine",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Clementine",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1006,7 +1006,7 @@
       "@value" : "clémentine"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cluster-tomato",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ClusterTomato",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1024,7 +1024,7 @@
       "@value" : "tomate en grappe"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#confectionery",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Confectionery",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1042,7 +1042,7 @@
       "@value" : "confiserie"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cooked-meat",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CookedMeat",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1060,7 +1060,7 @@
       "@value" : "viande cuite"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#coriander",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Coriander",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1080,7 +1080,7 @@
       "@value" : "coriandre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#corn-salad",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CornSalad",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1098,7 +1098,7 @@
       "@value" : "mâche"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cosmetic",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cosmetic",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1116,7 +1116,7 @@
       "@value" : "cosmétique"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#coulemelle-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CoulemelleMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1134,7 +1134,7 @@
       "@value" : "parasol mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#courgette",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Courgette",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1152,7 +1152,7 @@
       "@value" : "courgette"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cow-dairy-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1195,7 +1195,7 @@
       "@value" : "produit laitier de vache"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cream-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CreamCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1213,7 +1213,7 @@
       "@value" : "fromage blanc"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#crepe-and-galette",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CrepeAndGalette",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1231,7 +1231,7 @@
       "@value" : "crêpe et galette"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cress",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cress",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1249,7 +1249,7 @@
       "@value" : "cresson"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cucumber",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cucumber",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1267,7 +1267,7 @@
       "@value" : "cucumber"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#currant",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Currant",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1285,7 +1285,7 @@
       "@value" : "groseille"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dairy-dessert",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyDessert",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1303,7 +1303,7 @@
       "@value" : "dessert lacté"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dairy-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1330,7 +1330,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dandelion",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Dandelion",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1348,7 +1348,7 @@
       "@value" : "pissenlit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#deaths-trumpet",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DeathsTrumpet",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1366,7 +1366,7 @@
       "@value" : "trompette de la mort"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#delicatessen",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Delicatessen",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1384,7 +1384,7 @@
       "@value" : "delicatessen"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#digestive",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Digestive",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1402,7 +1402,7 @@
       "@value" : "digestive"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dill",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Dill",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1422,7 +1422,7 @@
       "@value" : "dill"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1440,34 +1440,7 @@
       "@value" : "fruit sec"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried-vegetable",
-    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#vegetable"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
-      "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beans"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lentils"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#peas"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quinoa"
-    } ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "dried vegetable"
-    }, {
-      "@language" : "fr",
-      "@value" : "légume sec"
-    } ]
-  }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried_goods",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1498,7 +1471,7 @@
       "@value" : "produits sec"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried_herb",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedHerb",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1516,7 +1489,34 @@
       "@value" : "aromate sec"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#drink",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedVegetable",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beans"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lentils"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#peas"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quinoa"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "dried vegetable"
+    }, {
+      "@language" : "fr",
+      "@value" : "légume sec"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Drink",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1539,7 +1539,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#duck",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Duck",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1557,7 +1557,7 @@
       "@value" : "duck"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#egg",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Egg",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1575,7 +1575,7 @@
       "@value" : "œuf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#eggplant",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Eggplant",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1593,7 +1593,7 @@
       "@value" : "eggplant"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#endive",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Endive",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1611,7 +1611,7 @@
       "@value" : "endive"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fennel",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fennel",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1629,7 +1629,7 @@
       "@value" : "fenouil"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ferment",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Ferment",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1644,7 +1644,7 @@
       "@value" : "ferment"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#festive-poultry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FestivePoultry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1662,7 +1662,7 @@
       "@value" : "volaille festive"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fifth-range-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FifthRangeVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1680,7 +1680,7 @@
       "@value" : "légume de cinquième gamme"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fig",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fig",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1698,7 +1698,7 @@
       "@value" : "figue"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fish",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fish",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1716,7 +1716,7 @@
       "@value" : "poisson"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fishery-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FisheryProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1741,7 +1741,7 @@
       "@value" : "produit de la pêche"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flake",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Flake",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1759,7 +1759,7 @@
       "@value" : "flocon"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flavored-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FlavoredYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1777,7 +1777,7 @@
       "@value" : "yaourt aromatisé"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flour",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Flour",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1795,7 +1795,7 @@
       "@value" : "flour"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flower",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Flower",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1813,7 +1813,7 @@
       "@value" : "flower"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fourth-range-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FourthRangeVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1831,7 +1831,7 @@
       "@value" : "légume de quatrième gamme"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fresh-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FreshCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1849,7 +1849,7 @@
       "@value" : "fromage frais"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fresh-cream",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FreshCream",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1867,7 +1867,7 @@
       "@value" : "fresh cream"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fresh-meat",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FreshMeat",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1885,7 +1885,7 @@
       "@value" : "viande fraîche"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Frozen",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1912,7 +1912,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1930,7 +1930,7 @@
       "@value" : "fruit surgelé"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-meal",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenMeal",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1948,7 +1948,7 @@
       "@value" : "plat surgelé"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-meat",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenMeat",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1966,7 +1966,7 @@
       "@value" : "viande surgelée"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -1984,7 +1984,7 @@
       "@value" : "légume surgelé"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2043,7 +2043,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit-in-compote",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FruitInCompote",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2061,7 +2061,7 @@
       "@value" : "fruit in compote"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit-juice",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FruitJuice",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2079,7 +2079,7 @@
       "@value" : "jus de fruits"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#garlic",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Garlic",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2097,7 +2097,7 @@
       "@value" : "garlic"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#girolle-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GirolleMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2115,7 +2115,7 @@
       "@value" : "girolle mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-dairy-dessert",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyDessert",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2133,7 +2133,7 @@
       "@value" : "goat dairy dessert"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-dairy-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2170,7 +2170,7 @@
       "@value" : "produit laitier de chèvre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-flavored-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatFlavoredYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2188,7 +2188,7 @@
       "@value" : "yaourt de chèvre aromatisé"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-fresh-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatFreshCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2206,7 +2206,7 @@
       "@value" : "goat fresh cheese"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-mature-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatMatureCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2224,7 +2224,7 @@
       "@value" : "goat mature cheese"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-milk",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatMilk",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2242,7 +2242,7 @@
       "@value" : "lait de chèvre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-natural-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatNaturalYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2260,7 +2260,7 @@
       "@value" : "yaourt nature de chèvre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-sweet-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatSweetYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2278,7 +2278,7 @@
       "@value" : "yaourt sucré de chèvre"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-yogurt-on-a-bed-of-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatYogurtOnABedOfFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2296,7 +2296,7 @@
       "@value" : "yaourt de chèvre sur lit de fruits"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-yogurt-with-fruits",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatYogurtWithFruits",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2314,7 +2314,7 @@
       "@value" : "yaourt de chèvre aux fruits"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goose",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Goose",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2332,7 +2332,7 @@
       "@value" : "oie"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#gooseberry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Gooseberry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2350,7 +2350,7 @@
       "@value" : "groseille à maquereau"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#grain",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Grain",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2370,7 +2370,7 @@
       "@value" : "grain"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#grape",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Grape",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2388,7 +2388,7 @@
       "@value" : "raisin"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#green-garlic",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GreenGarlic",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2406,7 +2406,7 @@
       "@value" : "green garlic"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#grilling-meat",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GrillingMeat",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2424,7 +2424,7 @@
       "@value" : "viande à griller"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#guinea-fowl",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GuineaFowl",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2442,7 +2442,7 @@
       "@value" : "pintade"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#hazelnut",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Hazelnut",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2460,7 +2460,7 @@
       "@value" : "noisette"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#herb",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2505,7 +2505,7 @@
       "@value" : "herb"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#hierloom-squash",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#HierloomSquash",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2523,7 +2523,7 @@
       "@value" : "variété ancienne de courge"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#hierloom-tomato",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#HierloomTomato",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2541,7 +2541,7 @@
       "@value" : "tomate ancienne"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#honey",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Honey",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2559,7 +2559,7 @@
       "@value" : "miel"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#inedible",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Inedible",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2584,7 +2584,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#jam",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Jam",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2602,7 +2602,7 @@
       "@value" : "jam"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#jerusalem-artichoke",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#JerusalemArtichoke",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2624,7 +2624,7 @@
       "@value" : "topinambour"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kale",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Kale",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2642,7 +2642,7 @@
       "@value" : "curly kale"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kale-cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#KaleCabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2660,7 +2660,7 @@
       "@value" : "kale"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kiwi",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Kiwi",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2678,7 +2678,7 @@
       "@value" : "kiwi"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kohlrabi",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Kohlrabi",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2696,7 +2696,7 @@
       "@value" : "kohlrabi"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lamb",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lamb",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2714,7 +2714,7 @@
       "@value" : "lamb"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#laurel",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Laurel",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2734,7 +2734,7 @@
       "@value" : "laurier"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#leek",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Leek",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2752,7 +2752,7 @@
       "@value" : "poireau"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lemon",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lemon",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2770,7 +2770,7 @@
       "@value" : "lemon"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lemonade",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lemonade",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2788,7 +2788,7 @@
       "@value" : "limonade"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lentils",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lentils",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2806,7 +2806,7 @@
       "@value" : "lentils"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lettuce",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lettuce",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2824,7 +2824,7 @@
       "@value" : "lettuce"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#local-grocery-store",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2855,7 +2855,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mandarin",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mandarin",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2873,7 +2873,7 @@
       "@value" : "mandarine"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mature-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MatureCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2891,7 +2891,7 @@
       "@value" : "mature cheese"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#meat-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2930,7 +2930,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#medlar",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Medlar",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2950,7 +2950,7 @@
       "@value" : "nèfle"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#melon",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Melon",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2968,7 +2968,7 @@
       "@value" : "melon"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mesclun",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mesclun",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -2986,7 +2986,7 @@
       "@value" : "mesclun"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#milk",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Milk",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3004,7 +3004,7 @@
       "@value" : "milk"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#milky-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MilkyMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3022,7 +3022,7 @@
       "@value" : "milky mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mint",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mint",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3042,7 +3042,7 @@
       "@value" : "mint"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#morel",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Morel",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3060,7 +3060,7 @@
       "@value" : "morille"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mousseron",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mousseron",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3078,7 +3078,7 @@
       "@value" : "mousseron"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3123,7 +3123,7 @@
       "@value" : "mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#natural-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#NaturalYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3141,7 +3141,7 @@
       "@value" : "yaourt nature"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#nectarine",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nectarine",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3159,7 +3159,7 @@
       "@value" : "nectarine"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#non-local-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#NonLocalFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3177,7 +3177,7 @@
       "@value" : "non local fruit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#non-local-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#NonLocalVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3195,7 +3195,7 @@
       "@value" : "non local vegetable"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#nut",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3224,7 +3224,7 @@
       "@value" : "nut"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#oil",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Oil",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3242,7 +3242,7 @@
       "@value" : "oil"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#onion",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Onion",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3260,7 +3260,7 @@
       "@value" : "onion"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#orange",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Orange",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3278,7 +3278,7 @@
       "@value" : "orange"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#other-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3296,7 +3296,7 @@
       "@value" : "other cheese"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#other-dairy-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherDairyProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3319,7 +3319,7 @@
       "@value" : "other dairy product"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#other-milk",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherMilk",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3337,7 +3337,7 @@
       "@value" : "other milk"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#oyster-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OysterMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3355,7 +3355,7 @@
       "@value" : "pleurote"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#paris-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ParisMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3373,7 +3373,7 @@
       "@value" : "champignon de Paris"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#parsley",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Parsley",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3393,7 +3393,7 @@
       "@value" : "persil"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#parsnip",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Parsnip",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3411,7 +3411,7 @@
       "@value" : "parsnip"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pasta",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pasta",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3429,7 +3429,7 @@
       "@value" : "pâtes"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pastry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pastry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3447,7 +3447,7 @@
       "@value" : "pâtisserie"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pattypan-squash",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#PattypanSquash",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3465,7 +3465,7 @@
       "@value" : "pâtisson"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#peach",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Peach",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3483,7 +3483,7 @@
       "@value" : "pêche"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pear",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pear",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3501,7 +3501,7 @@
       "@value" : "poire"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#peas",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Peas",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3519,7 +3519,7 @@
       "@value" : "pois"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pepper",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pepper",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3537,7 +3537,7 @@
       "@value" : "poivron"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pie-pastry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#PiePastry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3555,7 +3555,7 @@
       "@value" : "pâte à tarte"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pigeon",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pigeon",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3573,7 +3573,7 @@
       "@value" : "pigeon"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#plant",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Plant",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3591,7 +3591,7 @@
       "@value" : "plante"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#plum",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Plum",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3609,7 +3609,7 @@
       "@value" : "prune"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#porcini",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Porcini",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3627,7 +3627,7 @@
       "@value" : "porcini"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pork",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pork",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3654,7 +3654,7 @@
       "@value" : "pork"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#potato",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Potato",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3672,7 +3672,7 @@
       "@value" : "potato"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#poultry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3707,7 +3707,7 @@
       "@value" : "volaille"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#processed-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3734,7 +3734,7 @@
       "@value" : "processed fruit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#processed-vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedVegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3759,7 +3759,7 @@
       "@value" : "processed vegetable"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#prune",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Prune",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3777,7 +3777,7 @@
       "@value" : "pruneau"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pulse",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pulse",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3792,7 +3792,7 @@
       "@value" : "pulse"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pumpkin",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pumpkin",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3810,7 +3810,7 @@
       "@value" : "pumpkin"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#purslane",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Purslane",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3828,7 +3828,7 @@
       "@value" : "Pourpier"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quail",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Quail",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3846,7 +3846,7 @@
       "@value" : "quail"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quince",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Quince",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3864,7 +3864,7 @@
       "@value" : "quince"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quinoa",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Quinoa",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3882,7 +3882,7 @@
       "@value" : "quinoa"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rabbit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rabbit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3900,7 +3900,7 @@
       "@value" : "rabbit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#radish",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Radish",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3918,7 +3918,7 @@
       "@value" : "radish"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#raspberry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Raspberry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3936,7 +3936,7 @@
       "@value" : "raspberry"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ready-meal",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ReadyMeal",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3954,7 +3954,7 @@
       "@value" : "ready meal"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#red-cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#RedCabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3972,7 +3972,7 @@
       "@value" : "red cabbage"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rhubarb",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rhubarb",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -3990,7 +3990,7 @@
       "@value" : "rhubarbe"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rice",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rice",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4008,7 +4008,7 @@
       "@value" : "riz"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rocket",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rocket",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4026,7 +4026,7 @@
       "@value" : "roquette"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#romanesco",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Romanesco",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4044,7 +4044,7 @@
       "@value" : "romanesco cauliflower"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rosemary",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rosemary",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4064,7 +4064,7 @@
       "@value" : "rosemary"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#round-tomato",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#RoundTomato",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4082,7 +4082,7 @@
       "@value" : "tomate ronde"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rutabaga",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rutabaga",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4104,7 +4104,7 @@
       "@value" : "rutabaga"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Sage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4124,7 +4124,7 @@
       "@value" : "sauge"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salad",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4165,7 +4165,7 @@
       "@value" : "salade"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salad-mix",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SaladMix",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4183,7 +4183,7 @@
       "@value" : "salad mix"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salsify",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salsify",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4201,7 +4201,7 @@
       "@value" : "salsify"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4219,7 +4219,7 @@
       "@value" : "sel"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salting",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salting",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4237,7 +4237,7 @@
       "@value" : "salting"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#savory-groceries",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4278,7 +4278,7 @@
       "@value" : "épicerie salée"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#savoy-cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoyCabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4296,7 +4296,7 @@
       "@value" : "savoy cabbage"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#seashell",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Seashell",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4314,7 +4314,7 @@
       "@value" : "seashell"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#seed",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Seed",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4332,7 +4332,7 @@
       "@value" : "graine"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#semolina",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Semolina",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4357,7 +4357,7 @@
       "@value" : "semoule"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#shallot",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Shallot",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4375,7 +4375,7 @@
       "@value" : "échalote"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-dairy-dessert",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyDessert",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4393,7 +4393,7 @@
       "@value" : "sheep dairy dessert"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-dairy-product",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4430,7 +4430,7 @@
       "@value" : "sheep dairy product"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-flavored-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepFlavoredYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4448,7 +4448,7 @@
       "@value" : "yaourt de brebis aromatisé"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-fresh-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepFreshCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4466,7 +4466,7 @@
       "@value" : "sheep fresh cheese"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-mature-cheese",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepMatureCheese",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4484,7 +4484,7 @@
       "@value" : "sheep mature cheese"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-milk",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepMilk",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4502,7 +4502,7 @@
       "@value" : "sheep milk"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-natural-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepNaturalYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4520,7 +4520,7 @@
       "@value" : "yaourt de brebis nature"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-sweet-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepSweetYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4538,7 +4538,7 @@
       "@value" : "yaourt sucré de brebis"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-yogurt-on-a-bed-of-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepYogurtOnABedOfFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4556,7 +4556,7 @@
       "@value" : "yaourt de brebis sur lit de fruits"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-yogurt-with-fruits",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepYogurtWithFruits",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4574,7 +4574,7 @@
       "@value" : "yaourt de brebis aux fruits"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheepfoot-mushroom",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepfootMushroom",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4592,7 +4592,7 @@
       "@value" : "sheepfoot mushroom"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#shellfish",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Shellfish",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4610,7 +4610,7 @@
       "@value" : "shellfish"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#simmering-meat",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SimmeringMeat",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4628,7 +4628,7 @@
       "@value" : "viande à mijoter"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#smooth-cabbage",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SmoothCabbage",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4646,7 +4646,7 @@
       "@value" : "smooth cabbage"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#smoothie",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Smoothie",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4664,7 +4664,7 @@
       "@value" : "smoothie"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#snack",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Snack",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4679,7 +4679,7 @@
       "@value" : "snack"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#snails",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Snails",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4697,7 +4697,7 @@
       "@value" : "snails"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#soft-drink",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SoftDrink",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4722,7 +4722,7 @@
       "@value" : "soft drink"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#soup",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Soup",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4740,7 +4740,7 @@
       "@value" : "soupe"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#spinach",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Spinach",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4758,7 +4758,7 @@
       "@value" : "épinards"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#squash",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4787,7 +4787,7 @@
       "@value" : "squash"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#strawberry",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Strawberry",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4805,7 +4805,7 @@
       "@value" : "strawberry"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sweet-groceries",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4834,7 +4834,7 @@
       "@value" : "épicerie sucrée"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sweet-yogurt",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetYogurt",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4852,7 +4852,7 @@
       "@value" : "yaourt sucré"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#tarragon",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tarragon",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4872,7 +4872,7 @@
       "@value" : "tarragon"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#thyme",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Thyme",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4892,7 +4892,7 @@
       "@value" : "thyme"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#tomato",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tomato",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4919,7 +4919,7 @@
       "@value" : "tomato"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#truffle",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Truffle",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4937,7 +4937,7 @@
       "@value" : "truffle"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#turkey",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Turkey",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4955,7 +4955,7 @@
       "@value" : "turkey"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#turnip",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Turnip",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4973,7 +4973,7 @@
       "@value" : "turnip"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#uchiki-kuri-squash",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#UchikiKuriSquash",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -4991,7 +4991,7 @@
       "@value" : "uchiki kuri squash"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#veal",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Veal",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5009,7 +5009,7 @@
       "@value" : "veau"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#vegetable",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5104,7 +5104,7 @@
       "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#venison",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Venison",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5122,7 +5122,7 @@
       "@value" : "Viande de cerf"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#viennoiserie-",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Viennoiserie",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5140,7 +5140,7 @@
       "@value" : "viennoiserie"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#walnut",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Walnut",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5158,7 +5158,7 @@
       "@value" : "walnut"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#wine",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Wine",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5176,7 +5176,7 @@
       "@value" : "wine"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#yam",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Yam",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5198,7 +5198,7 @@
       "@value" : "yam"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#yogurt-on-a-bed-of-fruit",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#YogurtOnABedOfFruit",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5216,7 +5216,7 @@
       "@value" : "yogurt on a bed of fruit"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#yogurt-with-fruits",
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#YogurtWithFruits",
     "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
       "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
     } ],
@@ -5232,6 +5232,1787 @@
     }, {
       "@language" : "en",
       "@value" : "yogurt with fruits"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#alcoholic-beverage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Drink"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Aperitif"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beer"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cider"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Digestive"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Wine"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#almond",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#aperitif",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#apples",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#apricot",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#artichoke",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#asparagus",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bakery",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bread"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Viennoiserie"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#basil",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bean",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beans",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beef",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GrillingMeat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SimmeringMeat"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beer",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#beetroot",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#berry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Blackberry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Blackcurrant"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Blueberry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Currant"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Gooseberry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Raspberry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Strawberry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#biscuit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#blackberry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#blackcurrant",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#blueberry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bluefoot-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bottled-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedFruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bottled-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bread",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bakery"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#broccoli-cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#brussels-sprouts",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#butter",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#butternut",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BroccoliCabbage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BrusselsSprouts"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cauliflower"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ChineseCabbage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Kale"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#KaleCabbage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Kohlrabi"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#RedCabbage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Romanesco"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoyCabbage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SmoothCabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#canned-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedFruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#canned-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cannedGoods",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#carrot",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cauliflower",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#celeriac",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#celery-branch",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chanterelle-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chard",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cherry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cherry-tomato",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tomato"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chervil",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chestnut",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chicken",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chicory",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chilli-pepper",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chinese-cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#chive",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cider",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#clementine",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cluster-tomato",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tomato"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#confectionery",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cooked-meat",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pork"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#coriander",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#corn-salad",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cosmetic",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Inedible"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#coulemelle-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#courgette",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cow-dairy-product",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Butter"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CreamCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyDessert"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FlavoredYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FreshCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FreshCream"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MatureCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Milk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#NaturalYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#YogurtOnABedOfFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#YogurtWithFruits"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cream-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#crepe-and-galette",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cress",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#cucumber",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#currant",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dairy-dessert",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dairy-product",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherDairyProduct"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dandelion",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#deaths-trumpet",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#delicatessen",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pork"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#digestive",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dill",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedFruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beans"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lentils"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Peas"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Quinoa"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried_goods",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedHerb"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Flake"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Flour"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Grain"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pulse"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Seed"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dried_herb",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#drink",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SoftDrink"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#duck",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#egg",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#eggplant",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#endive",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fennel",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ferment",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#festive-poultry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fifth-range-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fig",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fish",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FisheryProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fishery-product",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fish"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Seashell"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Shellfish"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flake",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flavored-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flour",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#flower",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Inedible"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fourth-range-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fresh-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fresh-cream",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fresh-meat",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pork"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenMeal"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenMeat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FrozenVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Frozen"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-meal",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Frozen"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-meat",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Frozen"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Frozen"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Apples"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Apricot"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cherry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Clementine"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fig"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Grape"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Kiwi"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lemon"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mandarin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Medlar"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nectarine"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#NonLocalFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Orange"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Peach"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pear"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Plum"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Prune"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Quince"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit-in-compote",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedFruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit-juice",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SoftDrink"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#garlic",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#girolle-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-dairy-dessert",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-dairy-product",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyDessert"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatFlavoredYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatFreshCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatMatureCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatMilk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatNaturalYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatSweetYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatYogurtOnABedOfFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatYogurtWithFruits"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-flavored-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-fresh-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-mature-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-milk",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-natural-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-sweet-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-yogurt-on-a-bed-of-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goat-yogurt-with-fruits",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GoatDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#goose",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#gooseberry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#grain",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#grape",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#green-garlic",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#grilling-meat",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beef"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#guinea-fowl",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#hazelnut",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#herb",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Basil"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Laurel"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chervil"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ChilliPepper"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chive"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Coriander"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Dill"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mint"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Parsley"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rosemary"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Sage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tarragon"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Thyme"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#hierloom-squash",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#hierloom-tomato",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tomato"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#honey",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#inedible",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cosmetic"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Flower"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Plant"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#jam",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#jerusalem-artichoke",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kale",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kale-cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kiwi",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#kohlrabi",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lamb",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#laurel",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#leek",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lemon",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lemonade",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SoftDrink"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lentils",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#lettuce",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#local-grocery-store",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ReadyMeal"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mandarin",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mature-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#meat-product",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beef"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Egg"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FisheryProduct"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lamb"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pork"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rabbit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Snails"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Veal"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Venison"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#medlar",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#melon",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mesclun",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#milk",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#milky-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mint",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#morel",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mousseron",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BluefootMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ParisMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ChanterelleMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DeathsTrumpet"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GirolleMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MilkyMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Morel"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mousseron"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OysterMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CoulemelleMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Porcini"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepfootMushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Truffle"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#natural-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#nectarine",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#non-local-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#non-local-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#nut",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Medlar"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Almond"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chestnut"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Hazelnut"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Walnut"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#oil",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#onion",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#orange",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#other-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#other-dairy-product",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherMilk"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#other-milk",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#OtherDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#oyster-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#paris-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#parsley",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#parsnip",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pasta",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pastry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SweetGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pattypan-squash",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#peach",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pear",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#peas",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pepper",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pie-pastry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pigeon",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#plant",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Inedible"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#plum",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#porcini",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pork",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CookedMeat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Delicatessen"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FreshMeat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salting"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#potato",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#poultry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chicken"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Duck"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FestivePoultry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Goose"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GuineaFowl"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pigeon"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Quail"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Turkey"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#processed-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BottledFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CannedFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FruitInCompote"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#processed-vegetable",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#BottledVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CannedVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Soup"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#prune",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pulse",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#pumpkin",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#purslane",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quail",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quince",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#quinoa",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rabbit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#radish",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#raspberry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ready-meal",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#red-cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rhubarb",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rice",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rocket",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#romanesco",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rosemary",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#round-tomato",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tomato"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#rutabaga",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salad",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chicory"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CornSalad"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cress"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Dandelion"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Endive"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lettuce"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mesclun"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Purslane"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rocket"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SaladMix"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Spinach"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salad-mix",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salsify",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#salting",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pork"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#savory-groceries",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Grain"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CannedGoods"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CrepeAndGalette"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Ferment"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Oil"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pasta"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#PiePastry"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rice"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Semolina"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Snack"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#savoy-cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#seashell",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FisheryProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#seed",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedGoods"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#semolina",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#shallot",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-dairy-dessert",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-dairy-product",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyProduct"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyDessert"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepFlavoredYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepFreshCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepMatureCheese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepMilk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepNaturalYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepSweetYogurt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepYogurtOnABedOfFruit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepYogurtWithFruits"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-flavored-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-fresh-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-mature-cheese",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-milk",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-natural-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-sweet-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-yogurt-on-a-bed-of-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheep-yogurt-with-fruits",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SheepDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sheepfoot-mushroom",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#shellfish",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FisheryProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#simmering-meat",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beef"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#smooth-cabbage",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#smoothie",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SoftDrink"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#snack",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#SavoryGroceries"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#snails",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#soft-drink",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Drink"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FruitJuice"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Lemonade"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Smoothie"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#soup",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ProcessedVegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#spinach",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#squash",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Butternut"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#HierloomSquash"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#PattypanSquash"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pumpkin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#UchikiKuriSquash"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#strawberry",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Berry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sweet-groceries",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Biscuit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Confectionery"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Honey"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Jam"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pastry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#sweet-yogurt",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#tarragon",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#thyme",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#tomato",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CherryTomato"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#ClusterTomato"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#HierloomTomato"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#RoundTomato"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#truffle",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#turkey",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Poultry"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#turnip",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#uchiki-kuri-squash",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#veal",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#vegetable",
+    "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Artichoke"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Asparagus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bean"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Beetroot"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cabbage"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Carrot"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Celeriac"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CeleryBranch"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Chard"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Courgette"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Cucumber"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DriedVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Eggplant"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fennel"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FifthRangeVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#FourthRangeVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Garlic"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#GreenGarlic"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Herb"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#JerusalemArtichoke"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Leek"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Melon"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Mushroom"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#NonLocalVegetable"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Onion"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Parsnip"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Pepper"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Potato"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Radish"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rhubarb"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Rutabaga"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salad"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Salsify"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Shallot"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Squash"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Tomato"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Turnip"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Yam"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#venison",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#viennoiserie-",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bakery"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#walnut",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Nut"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#wine",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#AlcoholicBeverage"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#yam",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#yogurt-on-a-bed-of-fruit",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#yogurt-with-fruits",
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#CowDairyProduct"
     } ]
   }, {
     "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
@@ -5260,23 +7041,23 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
     } ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#bakery"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Bakery"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#dairy-product"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#DairyProduct"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#drink"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Drink"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#frozen"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Frozen"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#fruit"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Fruit"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#inedible"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Inedible"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#local-grocery-store"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#LocalGroceryStore"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#meat-product"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#MeatProduct"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#vegetable"
+      "@id" : "http://w3id.org/dfc/taxonomies/productTypes.rdf#Vegetable"
     } ]
   }, {
     "@id" : "https://w3id.org/dfc/taxonomies/productTypes.rdf#alcoholic-beverage",

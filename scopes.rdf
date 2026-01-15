@@ -10,7 +10,7 @@
 	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 	xmlns:dc="http://purl.org/dc/elements/1.1/">
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/scopes.rdf#">
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/scopes.rdf">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 
@@ -22,15 +22,11 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/scopes.rdf">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/scopes.rdf#ReadEnterprise">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">This scope allows portals to access the associated producer's enterprise data</skos:definition>
 	<skos:definition xml:lang="fr">Ce périmètre permet aux portails d'accéder aux données de l'entreprise du producteur associé</skos:definition>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"/>
 	<skos:prefLabel xml:lang="en">Read enterprise data</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Lire les données de l'entreprise</skos:prefLabel>
 	<skos:notation>ReadEnterprise</skos:notation>
@@ -40,7 +36,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">This scope allows portals to read the associated producer's orders</skos:definition>
 	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de lire les commandes du producteur associé</skos:definition>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"/>
 	<skos:prefLabel xml:lang="en">Read enterprise orders</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Lire les commandes de l'entreprise</skos:prefLabel>
 	<skos:notation>ReadOrders</skos:notation>
@@ -50,7 +46,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">This scope allows portals to access the associated producer's products</skos:definition>
 	<skos:definition xml:lang="fr">Ce périmètre permet aux portails d'accéder aux produits du producteur associé</skos:definition>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"/>
 	<skos:prefLabel xml:lang="en">Read enterprise products</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Lire les produits de l'entreprise</skos:prefLabel>
 	<skos:notation>ReadProducts</skos:notation>
@@ -60,7 +56,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's enterprise data</skos:definition>
 	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les données de l'entreprise du producteur associé</skos:definition>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"/>
 	<skos:prefLabel xml:lang="en">Write enterprise data</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Écrire les données de l'entreprise</skos:prefLabel>
 	<skos:notation>WriteEnterprise</skos:notation>
@@ -70,7 +66,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's orders</skos:definition>
 	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les commandes du producteur associé</skos:definition>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"/>
 	<skos:prefLabel xml:lang="en">Write enterprise orders</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Écrire les commandes de l'entreprise</skos:prefLabel>
 	<skos:notation>WriteOrders</skos:notation>
@@ -80,13 +76,13 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<skos:definition xml:lang="en">This scope allows portals to modify the associated producer's products</skos:definition>
 	<skos:definition xml:lang="fr">Ce périmètre permet aux portails de modifier les produits du producteur associé</skos:definition>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes"/>
 	<skos:prefLabel xml:lang="en">Write enterprise products</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Écrire les produits de l'entreprise</skos:prefLabel>
 	<skos:notation>WriteProducts</skos:notation>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/scopes.rdf#DFC_Scopes">
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/scopes.rdf#DFCScopes">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
 	<skos:prefLabel xml:lang="en">Authorization scopes</skos:prefLabel>

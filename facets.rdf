@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-	xmlns="http://w3id.org/dfc/taxonomies/facets.rdf#"
+	xmlns="https://w3id.org/dfc/taxonomies/facets.rdf#"
 	xmlns:grddl="http://www.w3.org/2003/g/data-view#"
 	xmlns:dct="http://purl.org/dc/terms/"
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -18,28 +18,12 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Claim"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation"/>
-	<skos:prefLabel xml:lang="fr">Glossaire des facettes de produit</skos:prefLabel>
-	<skos:prefLabel xml:lang="en">Product glossary facets</skos:prefLabel>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Certification">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">The certifications or labels obtained by the products. Example : AB, EU bio, DEMETER, Label Rouge...</dct:description>
 	<dct:description xml:lang="fr">Les certifications ou labels obtenus par les produits. Exemple : AB, EU bio, DEMETER, Label Rouge...</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Certification</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Certification</skos:prefLabel>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
@@ -54,7 +38,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A nutrition claim states or suggests that a food has beneficial nutritional properties, such as “low fat”, “no added sugar” and “high in fibre”. A health claim is any statement on labels, advertising or other marketing products that health benefits can result from consuming a given food, for instance that a food can help reinforce the body’s natural defences or enhance learning ability." (source : European Food Safety Authority, https://www.efsa.europa.eu/fr/topics/topic/health-claims)</dct:description>
 	<dct:description xml:lang="fr">"Les allégations nutritionnelles et de santé sont des mentions, images ou symboles valorisant les denrées alimentaires sur le plan nutritionnel ou de la santé. Ce sont par exemple les phrases du type « jus de fruit riche en vitamine C », « riche en calcium », « allégé en sucres », « bon pour le cœur », « le calcium est nécessaire à une ossature normale », etc." (source: Direction générale de la concurrence, de la consommation et de la répression des fraudes, https://www.economie.gouv.fr/dgccrf/Consommation/Etiquetage-des-produits/Allegations-nutrionnelles-et-de-sante)</dct:description>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Nutrition and health claims</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Allégations nutritionnelles et de santé</skos:prefLabel>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -66,8 +50,8 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">Territorial origin of the concerned product</dct:description>
 	<dct:description xml:lang="fr">Origine géographique du produit concerné</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Territorial origin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Origine géographique</skos:prefLabel>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#UnknownGeoOrigin"/>
@@ -85,8 +69,8 @@
 	<rdfs:comment xml:lang="en">We made the list for the prototype with open nomenclature to start with for plants and animals but might be better to connected directly from relevant source ontologies for variaties, races, etc. (http://open-nomenclature.org/fra/nomenclatures/varieties/tree).</rdfs:comment>
 	<dct:description xml:lang="en">Natural "living" origin concerned</dct:description>
 	<dct:description xml:lang="fr">Source "vivante" d'origine concernée</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Natural origin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Source naturelle d'origine</skos:prefLabel>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#UnknownNatureOrigin"/>
@@ -105,8 +89,8 @@
 	<dc:description xml:lang="en">Part of natural "living" origin concerned</dc:description>
 	<dc:description xml:lang="fr">Partie de la source "vivante" d'origine concernée</dc:description>
 	<rdfs:comment xml:lang="en">If I sell carrots, I can sell only the roots, the whole pants with the leaves, or only the leaves. Examples : root, leaves, seeds...</rdfs:comment>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Part of origin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie d'origine</skos:prefLabel>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -117,40 +101,40 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Container Information</skos:prefLabel>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Package"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Organic label</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Label biologique</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Organic-AB"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Organic-EU"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Organic-BioCoherence"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureEtProgres"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicAB"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicBioCoherence"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicEU"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Local label</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Label local</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNature_FR"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AOC_FR"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PGS"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AOP_EU"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#IGP_EU"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AOCFR"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AOPEU"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#IGPEU"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNatureFR"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BiodynamicLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Biodynamic label</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Label biodynamie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
@@ -159,23 +143,23 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Ethical label</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Label éthique</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Milk-fed"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#RedLabel_FR"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#FSC"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#MSC"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#HEV"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeur_FR"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#FairTradeMaxHaavelar"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#RainforestAlliance"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeurFR"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#RedLabelFR"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#MilkFed"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#MarketingLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Marketing label</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Label marketing</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
@@ -185,7 +169,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#UnknownLabel">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Unknown label</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Label inconnu</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
@@ -193,7 +177,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Nutritional claim</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Allégation nutritionnelle</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Claim"/>
@@ -233,7 +217,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#HealthClaim">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">A health claim is any statement about a relationship between food and health.</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Health claim</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Allégation santé</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Claim"/>
@@ -243,7 +227,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">Any other claim which states, suggests or implies that a food has particular properties.</dct:description>
 	<dct:description xml:lang="fr">Toute autre allégation qui déclare, suggère ou implique qu'un aliment a des propriétés particulières.</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Other claim</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Autre allégation</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Claim"/>
@@ -254,7 +238,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#UnknownGeoOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Unknown territorial origin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Origine territoriale inconnue</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -262,7 +246,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#MultiGeoOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Multi-territorial origin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Origine territorial multiple</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -271,7 +255,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Europe">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q46"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Europe</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Europe</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -290,7 +274,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Africa">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q15"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Africa</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Afrique</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -299,7 +283,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Asia">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q48"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Asia</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Asie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -308,7 +292,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Oceania">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q55643"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Oceania</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Océanie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -319,7 +303,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NorthAmerica">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q49"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">North America</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Amérique du Nord</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -328,7 +312,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#SouthAmerica">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">South America</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Amérique du Sud</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
@@ -336,7 +320,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#UnknownNatureOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Unknown nature origin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Source d'origine inconnue</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -344,7 +328,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#MultiNatureOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -352,7 +336,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PlantOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Plant</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Plante</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -360,7 +344,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Animal</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Animal</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -368,7 +352,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Mineral">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Mineral</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Minéral</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -376,7 +360,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Funghi">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Funghi</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Champignon</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -384,7 +368,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Algae">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Algae</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Algue</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -392,7 +376,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Bacteria">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bacteria</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bactérie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -400,7 +384,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Water">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Water</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Eau</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
@@ -408,7 +392,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Part or product of animal</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie ou produit d'un animal</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"/>
@@ -427,7 +411,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#MultiOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Multiorigin</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Origine multiple</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"/>
@@ -435,7 +419,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Part or product of plant</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie ou produit d'une plante</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"/>
@@ -452,7 +436,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#UnknownPartOrigin">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Partie d'origine inconnue</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Unknown part origin</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"/>
@@ -460,40 +444,26 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Package">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Package</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Organic-AB">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Agriculture Biologique</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Agriculture Biologique</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Organic-EU">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-EU_ORGANIC_FARMING"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">EU Organic Farming</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Agriculture Biologique EU</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">Eurofeuille</skos:altLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Organic-BioCoherence">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Bio Coherence</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Bio Coherence</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NatureEtProgres">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Nature et progrès</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Nature et progrès</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Nature and Progress</skos:altLabel>
@@ -501,28 +471,17 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNature_FR">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Paysans de Nature</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Paysans de Nature</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Farmers of Nature</skos:altLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AOC_FR">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-APPELLATION_ORIGINE_CONTROLEE"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Appellation d’origine contrôlée</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Appellation d’origine contrôlée</skos:prefLabel>
-	<skos:altLabel xml:lang="fr">AOC</skos:altLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PGS">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-PROTECTED_GEOGRAPHICAL_INDICATION"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Protected Geographical Status</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Statut géographique protégé</skos:prefLabel>
 	<skos:altLabel xml:lang="en">PGS</skos:altLabel>
@@ -531,57 +490,34 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AOP_EU">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-PROTECTED_DESIGNATION_OF_ORIGIN"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Appellation d’origine protégée</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Appellation d’origine protégée</skos:prefLabel>
-	<skos:altLabel xml:lang="en">AOP</skos:altLabel>
-	<skos:altLabel xml:lang="fr">AOP</skos:altLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#IGP_EU">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Indication géographique de provenance</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Indication géographique de provenance</skos:prefLabel>
-	<skos:altLabel xml:lang="en">IGP</skos:altLabel>
-	<skos:altLabel xml:lang="fr">IGP</skos:altLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Demeter">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-DEMETER_LABEL"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Demeter</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Demeter</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#BiodynamicLabel"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Milk-fed">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Milk-fed</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Nourri au lait</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#RedLabel_FR">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-LABEL_ROUGE"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Label Rouge</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Label Rouge</skos:prefLabel>
-	<skos:altLabel xml:lang="en">Red Label</skos:altLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#FSC">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-FOREST_STEWARDSHIP_COUNCIL_LABEL"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Forest Stewardship Council</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Forêt durable FSC</skos:prefLabel>
 	<skos:altLabel xml:lang="en">FSC</skos:altLabel>
@@ -592,7 +528,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#MSC">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-MARINE_STEWARDSHIP_COUNCIL_LABEL"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Marine Stewardship Council</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pêche durable MSC</skos:prefLabel>
 	<skos:altLabel xml:lang="en">MSC</skos:altLabel>
@@ -602,7 +538,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#HEV">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High Environnemental Value</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Haute Valeur Environnementale</skos:prefLabel>
 	<skos:altLabel xml:lang="en">HEV</skos:altLabel>
@@ -611,18 +547,13 @@
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeur_FR">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-BLEU_BLANC_COEUR"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
-	<skos:prefLabel xml:lang="en">Bleu-Blanc-Coeur</skos:prefLabel>
-	<skos:prefLabel xml:lang="fr">Bleu-Blanc-Coeur</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#FairTradeMaxHaavelar">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-MAX_HAVELAAR"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Fairtrade Max Haavelar</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Fairtrade Max Haavelar</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Max Haavelar</skos:altLabel>
@@ -633,7 +564,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#RainforestAlliance">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-RAINFOREST_ALLIANCE"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Rainforest Alliance</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Rainforest Alliance</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
@@ -642,7 +573,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#ProductOfTheYear">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-PRODUCT_OF_THE_YEAR_CONSUMER_SURVEY"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Product of the year</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Elu produit de l'année</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#MarketingLabel"/>
@@ -650,7 +581,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#TasteOfTheYear">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Taste of the year</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Reconnu Saveur de l’année</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#MarketingLabel"/>
@@ -660,7 +591,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is low in energy, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain more than 40 kcal (170 kJ)/100 g for solids or more than 20 kcal (80 kJ)/100 ml for liquids. For table-top sweeteners the limit of 4 kcal (17 kJ)/portion, with equivalent sweetening properties to 6 g of sucrose (approximately 1 teaspoon of sucrose), applies." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire a une faible valeur énergétique, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que pour un produit contenant au maximum 40 kcal (170 kJ)/100 g dans le cas des solides ou au maximum 20 kcal (80 kJ)/100 ml dans le cas des liquides. Dans le cas des édulcorants de table, la limite de 4 kcal (17 kJ)/portion, avec des propriétés édulcorantes équivalentes à 6 g de saccharose (approximativement 1 petite cuillérée de saccharose), s'applique." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Low energy</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Faible valeur énergétique</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -670,7 +601,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is energy-reduced, and any claim likely to have the same meaning for the consumer, may only be made where the energy value is reduced by at least 30%, with an indication of the characteristic(s) which make(s) the food reduced in its total energy value." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire a une valeur énergétique réduite, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si la valeur énergétique est réduite d'au moins 30 %, en indiquant la ou les caractéristiques entraînant la réduction de la valeur énergétique totale de la denrée alimentaire." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Energy reduced</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Valeur énergétique réduite</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -680,7 +611,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is energy-free, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain more than 4 kcal (17 kJ)/100 ml. For table-top sweeteners the limit of 0,4 kcal (1,7 kJ)/portion, with equivalent sweetening properties to 6 g of sucrose (approximately 1 teaspoon of sucrose), applies." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire n'a pas d'apport énergétique, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au maximum 4 kcal (17 kJ)/100 ml. Dans le cas des édulcorants de table, la limite de 0,4 kcal (1,7 kJ)/portion, ayant des propriétés édulcorantes équivalentes à 6 g de saccharose (approximativement 1 petite cuillérée de saccharose), s'applique." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Energy free</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans apport énergétique</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -690,7 +621,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is low in fat, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 3 g of fat per 100 g for solids or 1,5 g of fat per 100 ml for liquids (1,8 g of fat per 100 ml for semi-skimmed milk)." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire a une faible teneur en matières grasses, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 3 g de matières grasses par 100 g dans le cas des solides ou 1,5 g de matières grasses par 100 ml dans le cas des liquides (1,8 g de matières grasses par 100 ml pour le lait demi-écrémé)." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Low fat</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Faible teneur en matière grasse</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -700,7 +631,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is fat-free, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,5 g of fat per 100 g or 100 ml. However, claims expressed as 'X % fat-free' shall be prohibited." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire ne contient pas de matières grasses, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,5 g de matières grasses par 100 g ou par 100 ml. Cependant, les allégations du type «à X % sans matières grasses» sont interdites." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Fat-free</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans matières grasses</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -710,7 +641,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is low in saturated fat, and any claim likely to have the same meaning for the consumer, may only be made if the sum of saturated fatty acids and trans-fatty acids in the product does not exceed 1,5 g per 100 g for solids or 0,75 g/100 ml for liquids and in either case the sum of saturated fatty acids and trans-fatty acids must not provide more than 10% of energy." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire a une faible teneur en graisses saturées, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si la somme des acides gras saturés et des acides gras trans contenus dans le produit n'est pas supérieure à 1,5 g par 100 g de solide ou à 0,75 g par 100 ml de liquide, la somme des acides gras saturés et des acides gras trans ne pouvant pas produire, dans les deux cas, plus de 10 % de l'énergie." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Low saturated fat</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Faible teneur en graisses saturées</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -720,7 +651,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food does not contain saturated fat, and any claim likely to have the same meaning for the consumer, may only be made where the sum of saturated fat and trans-fatty acids does not exceed 0,1 g of saturated fat per 100 g or 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire ne contient pas de graisses saturées, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si la somme des acides gras saturés et des acides gras trans n'excède pas 0,1 g de graisses saturées par 100 g ou par 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Saturated fat-free</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans graisses saturées</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -730,7 +661,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is low in sugars, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 5 g of sugars per 100 g for solids or 2,5 g of sugars per 100 ml for liquids." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire a une faible teneur en sucres, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 5 g de sucres par 100 g dans le cas des solides ou 2,5 g de sucres par 100 ml dans le cas des liquides." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Low sugars</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Faible teneur en sucres</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -740,7 +671,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is sugars-free, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,5 g of sugars per 100 g or 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire ne contient pas de sucres, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,5 g de sucres par 100 g ou par 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Faible teneur en sucres</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sugars-free</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -750,7 +681,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim stating that sugars have not been added to a food, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain any added mono- or disaccharides or any other food used for its sweetening properties. If sugars are naturally present in the food, the following indication should also appear on the label: 'CONTAINS NATURALLY OCCURRING SUGARS'." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle il n'a pas été ajouté de sucres à une denrée alimentaire, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas de monosaccharides ou disaccharides ajoutés ou toute autre denrée alimentaire utilisée pour ses propriétés édulcorantes. Si les sucres sont naturellement présents dans la denrée alimentaire, l'indication suivante devrait également figurer sur l'étiquette: «CONTIENT DES SUCRES NATURELLEMENT PRÉSENTS»." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">With no added sugars</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans sucres ajoutés</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -760,7 +691,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is low in sodium/salt, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,12 g of sodium, or the equivalent value for salt, per 100 g or per 100 ml. For waters, other than natural mineral waters falling within the scope of Directive 80/777/EEC, this value should not exceed 2 mg of sodium per 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est pauvre en sodium ou en sel, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,12 g de sodium ou de l'équivalent en sel par 100 g ou par 100 ml. En ce qui concerne les eaux, autres que les eaux minérales naturelles relevant du champ d'application de la directive 80/777/CEE, cette valeur ne devrait pas être supérieure à 2 mg de sodium par 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Low sodium/salt</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pauvre en sodium/sel</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -770,7 +701,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is very low in sodium/salt, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,04 g of sodium, or the equivalent value for salt, per 100 g or per 100 ml. This claim shall not be used for natural mineral waters and other waters." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est très pauvre en sodium ou en sel, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,04 g de sodium ou de l'équivalent en sel par 100 g ou 100 ml. Il est interdit d'utiliser cette allégation pour les eaux minérales naturelles et les autres eaux." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Very low sodium/salt</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Très pauvre en sodium/sel</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -780,7 +711,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is sodium-free or salt-free, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,005 g of sodium, or the equivalent value for salt, per 100 g." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire ne contient pas de sodium ou de sel, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,005 g de sodium ou de l'équivalent en sel par 100 g." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Sodium-free or salt-free</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans sodium ou sans sel</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -790,7 +721,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim stating that sodium/salt has not been added to a food and any claim likely to have the same meaning for the consumer may only be made where the product does not contain any added sodium/salt or any other ingredient containing added sodium/salt and the product contains no more than 0,12 g sodium, or the equivalent value for salt, per 100 g or 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle il n’a pas été ajouté de sodium ou de sel à une denrée alimentaire, ou toute autre allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas de sodium ou de sel ajouté ou tout autre ingrédient contenant du sodium ou du sel ajouté et si le produit ne contient pas plus de 0,12 g de sodium ou de l’équivalent en sel par 100 g ou par 100 ml." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">No added sodium/salt</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans sodium/sel ajouté</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -800,7 +731,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is a source of fibre, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least 3 g of fibre per 100 g or at least 1,5 g of fibre per 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est une source de fibres, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 3 g de fibres par 100 g ou au moins 1,5 g de fibres par 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Source of fibre</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Source de fibres</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -810,7 +741,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in fibre, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least 6 g of fibre per 100 g or at least 3 g of fibre per 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en fibres, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 6 g de fibres par 100 g ou au moins 3 g de fibres par 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High fibre</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en fibres</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -820,7 +751,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is a source of protein, and any claim likely to have the same meaning for the consumer, may only be made where at least 12% of the energy value of the food is provided by protein." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est une source de protéines, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si 12 % au moins de la valeur énergétique de la denrée alimentaire sont produits par des protéines." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Source of protein</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Source de protéine</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -830,7 +761,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in protein, and any claim likely to have the same meaning for the consumer, may only be made where at least 20% of the energy value of the food is provided by protein." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en protéines, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si 20 % au moins de la valeur énergétique de la denrée alimentaire sont produits par des protéines." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High protein</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en protéines</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -840,7 +771,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is a source of vitamins and/or minerals, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least a significant amount as defined in the Annex to Directive 90/496/EEC or an amount provided for by derogations granted according to Article 6 of Regulation (EC) No 1925/2006 of the European Parliament and of the Council of 20 December 2006 on the addition of vitamins and minerals and of certain other substances to foods[1]." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est une source de vitamines et/ou de minéraux, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins la quantité significative définie à l'annexe de la directive 90/496/CEE ou une quantité prévue au titre de dérogations accordées conformément à l'article 6 du règlement (CE) no 1925/2006 du Parlement européen et du Conseil du 20 décembre 2006 concernant l'adjonction de vitamines, de minéraux et de certaines autres substances aux denrées alimentaires." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Source of vitamins and/or minerals</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Source de vitamines et/ou de minéraux</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -850,7 +781,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in vitamins and/or minerals, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least twice the value of ‘source of [NAME OF VITAMIN/S] and/or [NAME OF MINERAL/S]’." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en vitamines et/ou en minéraux, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins deux fois la teneur requise pour l'allégation «source de [NOM DES VITAMINES] et/ou [NOM DES MINÉRAUX]»." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High vitamins and/or minerals</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en vitamines et/ou de minéraux</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -860,7 +791,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food contains a nutrient or another substance, for which specific conditions are not laid down in this Regulation, or any claim likely to have the same meaning for the consumer, may only be made where the product complies with all the applicable provisions of this Regulation, and in particular Article 5. For vitamins and minerals the conditions of the claim 'source of' shall apply." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire contient un nutriment ou une autre substance pour lequel ou laquelle le présent règlement ne fixe pas de conditions particulières, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit respecte toutes les dispositions applicables du présent règlement, et notamment l'article 5. Pour les vitamines et les minéraux, les conditions prévues pour l'allégation «source de» s'appliquent." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Contains nutrient or other substance</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Contient nutriment ou autre substance</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -870,7 +801,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim stating that the content in one or more nutrients, other than vitamins and minerals, has been increased, and any claim likely to have the same meaning for the consumer, may only be made where the product meets the conditions for the claim ‘source of’ and the increase in content is at least 30% compared to a similar product." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation affirmant que la teneur en un ou plusieurs nutriments, autres que des vitamines ou des minéraux, a été augmentée, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit remplit les conditions applicables à l'allégation «source de» et si l'augmentation de cette teneur est d'au moins 30 % par rapport à un produit similaire." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Increased nutrient</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Enrichi en nutriment</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -880,7 +811,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim stating that the content in one or more nutrients has been reduced, and any claim likely to have the same meaning for the consumer, may only be made where the reduction in content is at least 30% compared to a similar product, except for micronutrients, where a 10 % difference in the reference values as set in Directive 90/496/EEC shall be acceptable, and for sodium, or the equivalent value for salt, where a 25% difference shall be acceptable. The claim "reduced saturated fat", and any claim likely to have the same meaning for the consumer, may only be made: (a) if the sum of saturated fatty acids and of trans-fatty acids in the product bearing the claim is at least 30% less than the sum of saturated fatty acids and of trans-fatty acids in a similar product; and (b) if the content in trans-fatty acids in the product bearing the claim is equal to or less than in a similar product. The claim "reduced sugars", and any claim likely to have the same meaning for the consumer, may only be made if the amount of energy of the product bearing the claim is equal to or less than the amount of energy in a similar product." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation affirmant que la teneur en un ou plusieurs nutriments a été réduite, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si la réduction de cette teneur est d'au moins 30 % par rapport à un produit similaire, sauf s'il s'agit de micronutriments, pour lesquels une différence de 10 % par rapport aux valeurs de référence fixées par la directive 90/496/CEE est admissible, ou s'il s'agit de sodium ou d'équivalent en sel, pour lesquels une différence de 25 % est admissible. L’allégation «réduit en graisses saturées», ou toute autre allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que: a) si la somme des acides gras saturés et des acides gras trans contenus dans le produit auquel s’applique l’allégation est au moins de 30 % inférieure à la somme des acides gras saturés et des acides gras trans contenus dans un produit similaire; et b) si la teneur en acides gras trans dans le produit auquel s’applique l’allégation est inférieure ou égale à celle d’un produit similaire. L’allégation «réduit en sucres», ou toute autre allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si la valeur énergétique du produit auquel s’applique l’allégation est inférieure ou égale à celle d’un produit similaire." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Reduced nutrient</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Réduit en nutriment</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -890,7 +821,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim stating that a product is ‘light’ or ‘lite’, and any claim likely to have the same meaning for the consumer, shall follow the same conditions as those set for the term ‘reduced’; the claim shall also be accompanied by an indication of the characteristic(s) which make(s) the food 'light' or 'lite'." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle un produit est «allégé» ou «light», ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, doit remplir les mêmes conditions que celles applicables aux termes «réduit en»; elle doit aussi être accompagnée d'une indication de la ou les caractéristiques entraînant l'allégement de la denrée alimentaire." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Allégé/Light</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Light/Lite</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -900,7 +831,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"Where a food naturally meets the condition(s) laid down in this Annex for the use of a nutritional claim, the term 'naturally/natural' may be used as a prefix to the claim." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Lorsqu'une denrée alimentaire remplit naturellement la ou les conditions fixées dans la présente annexe pour l'utilisation d'une allégation nutritionnelle, le terme «naturellement/naturel» peut accompagner cette allégation." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Allégé/Light</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Naturally/Natural</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -910,7 +841,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"Where a food naturally meets the condition(s) laid down in this Annex for the use of a nutritional claim, the term 'naturally/natural' may be used as a prefix to the claim." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est une source d’acide gras oméga-3, ou toute allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 0,3 g d’acide alphalinolénique pour 100 g et 100 kcal, ou au moins 40 mg d’acide eicosapentaénoïque et d’acide docosahexénoïque combinés pour 100 g et 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Source of omega-3 fatty acids</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Source d'acide gras Oméga-3</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -920,7 +851,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in omega-3 fatty acids, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least 0,6 g alpha-linolenic acid per 100 g and per 100 kcal, or at least 80 mg of the sum of eicosapentaenoic acid and docosahexaenoic acid per 100 g and per 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en acide gras oméga-3, ou toute allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 0,6 g d’acide alphalinolénique pour 100 g et 100 kcal, ou au moins 80 mg d’acide eicosapentaénoïque et d’acide docosahexénoïque combinés pour 100 g et 100 kcal." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High omega-3 fatty acids</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en acide gras Oméga-3</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -930,7 +861,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in monounsaturated fat, and any claim likely to have the same meaning for the consumer, may only be made where at least 45% of the fatty acids present in the product derive from monounsaturated fat under the condition that monounsaturated fat provides more than 20% of energy of the product." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en graisses monoinsaturées, ou toute allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 45 % d’acides gras dérivés de graisses monoinsaturées et si l’énergie fournie par les graisses monoinsaturées représente plus de 20 % de l’apport énergétique du produit." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High monounsaturated fat</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en graisses monoinsaturées</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -940,7 +871,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in polyunsaturated fat, and any claim likely to have the same meaning for the consumer, may only be made where at least 45% of the fatty acids present in the product derive from polyunsaturated fat under the condition that polyunsaturated fat provides more than 20% of energy of the product." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en graisses polyinsaturées, ou toute allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 45 % d’acides gras dérivés de graisses polyinsaturées et si l’énergie fournie par les graisses polyinsaturées représente plus de 20 % de l’apport énergétique du produit." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High polyunsaturated fat</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en graisses polyinsaturées</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -950,7 +881,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim that a food is high in unsaturated fat, and any claim likely to have the same meaning for the consumer may only be made where at least 70% of the fatty acids present in the product derive from unsaturated fat under the condition that unsaturated fat provides more than 20% of energy of the product." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle une denrée alimentaire est riche en graisses insaturées, ou toute allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 70 % d’acides gras dérivés de graisses insaturées et si l’énergie fournie par les graisses insaturées représente plus de 20 % de l’apport énergétique du produit." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">High unsaturated fat</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Riche en graisses insaturées</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -960,7 +891,7 @@
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<dct:description xml:lang="en">"A claim stating that a product is ‘light’ or ‘lite’, and any claim likely to have the same meaning for the consumer, shall follow the same conditions as those set for the term ‘reduced’; the claim shall also be accompanied by an indication of the characteristic(s) which make(s) the food 'light' or 'lite'." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
 	<dct:description xml:lang="fr">"Une allégation selon laquelle un produit est «allégé» ou «light», ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, doit remplir les mêmes conditions que celles applicables aux termes «réduit en»; elle doit aussi être accompagnée d'une indication de la ou les caractéristiques entraînant l'allégement de la denrée alimentaire." (source: Annex of Regulation (EC) No 1924/2006)</dct:description>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Allégé/Light</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Low/Light</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"/>
@@ -968,7 +899,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Vegan">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Vegan</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Vegan</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"/>
@@ -976,7 +907,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Vegetarian">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Vegetarian</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Végétarien</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"/>
@@ -984,7 +915,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#GlutenFree">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Gluten free</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Sans gluten</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"/>
@@ -992,7 +923,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#France">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">France</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">France</skos:prefLabel>
 	<skos:altLabel xml:lang="en">FR</skos:altLabel>
@@ -1017,7 +948,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q145"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">United Kingdom</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Royaume Uni</skos:prefLabel>
 	<skos:altLabel xml:lang="en">UK</skos:altLabel>
@@ -1032,7 +963,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Ireland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q27"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Republic of Ireland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">République d'Irlande</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Ireland</skos:altLabel>
@@ -1043,7 +974,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Belgium">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q31"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Belgium</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Belgique</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1052,7 +983,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Germany">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q183"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Germany</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Allemagne</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1061,7 +992,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Spain">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q29"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Spain</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Espagne</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1070,7 +1001,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Portugal">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q45"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Portugal</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Portugal</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1079,7 +1010,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Italy">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q38"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Italy</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Italie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1088,7 +1019,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Switzerland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q39"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Switzerland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Suisse</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1097,7 +1028,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Netherlands">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q55"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Netherlands</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pays bas</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Europe"/>
@@ -1106,7 +1037,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Australia">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q3960"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Australia</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Australie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Oceania"/>
@@ -1115,7 +1046,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NewZealand">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q664"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">New Zealand</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Nouvelle Zélande</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Oceania"/>
@@ -1123,7 +1054,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Bee">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Abeille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Bee</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1136,7 +1067,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Bull">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bull</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bœuf</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1145,7 +1076,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Cow">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cow</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Vache</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1155,7 +1086,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Ewe">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Brebis</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Ewe</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1165,7 +1096,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Goat">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Chèvre</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Goat</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1175,7 +1106,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Hen">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Hen</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Poule</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1185,7 +1116,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Pig">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Cochon</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Pig</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1194,7 +1125,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Quail">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Caille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Quail</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1203,7 +1134,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Sheep">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Mouton</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1212,7 +1143,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Rooster">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Coq</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Rooster</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1221,7 +1152,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Chicken">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Chicken</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Poulet</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"/>
@@ -1230,7 +1161,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Bulb">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bulb</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bulbe</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1238,7 +1169,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Flower">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Fleur</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Flower</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1246,7 +1177,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Fruit">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Fruit</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Fruit</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1254,7 +1185,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Leaf">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Feuille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Leaf</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1262,7 +1193,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Root">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Racine</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Root</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1270,7 +1201,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Seed">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Graine</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Seed</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1278,7 +1209,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Stem">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Stem</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Tige</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1286,7 +1217,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Tuber">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Tuber</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Tubercule</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1294,7 +1225,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#WholePlant">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Plante entière</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Whole plant</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"/>
@@ -1303,7 +1234,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AuvergneRhoneAlpes">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18338206"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Auvergne-Rhône-Alpes</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Auvergne-Rhône-Alpes</skos:prefLabel>
 	<skos:altLabel xml:lang="fr">ARA</skos:altLabel>
@@ -1313,7 +1244,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BourgogneFrancheComte">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18578267"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bourgogne-Franche-Comté</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bourgogne-Franche-Comté</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Burgundy-Franche-Comté</skos:altLabel>
@@ -1323,7 +1254,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Brittany">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q12130"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Brittany</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Bretagne</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#France"/>
@@ -1332,7 +1263,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#CentreValLoire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q13947"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Centre-Val de Loire</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Centre-Val de Loire</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Centre Loire Valley</skos:altLabel>
@@ -1342,7 +1273,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Corsica">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q14112"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Corsica</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Corse</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#France"/>
@@ -1351,7 +1282,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#GrandEst">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18677983"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Grand Est</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Grand Est</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#France"/>
@@ -1360,7 +1291,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#HautsDeFrance">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18677767"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Hauts-de-France</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Hauts-de-France</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#France"/>
@@ -1369,7 +1300,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#IleDeFrance">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q13917"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Ile-de-France</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Île-de-France</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Parisian region</skos:altLabel>
@@ -1380,7 +1311,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Normandy">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18677875"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Normandy</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Normandie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#France"/>
@@ -1389,7 +1320,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NouvelleAquitaine">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18678082"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Nouvelle-Aquitaine</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Nouvelle-Aquitaine</skos:prefLabel>
 	<skos:altLabel xml:lang="fr">NA</skos:altLabel>
@@ -1399,7 +1330,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Occitania">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q18678265"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Occitania</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Occitanie</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#France"/>
@@ -1408,7 +1339,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PaysDeLoire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q16994"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Pays de la Loire</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pays de la Loire</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Loire lands</skos:altLabel>
@@ -1418,7 +1349,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#ProvenceAlpesCotesAzur">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q15104"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Provence-Alpes-Côte d’Azur</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Provence-Alpes-Côte d’Azur</skos:prefLabel>
 	<skos:altLabel xml:lang="en">Provence-Alps-French Riviera</skos:altLabel>
@@ -1429,7 +1360,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#England">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q21"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">England</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Angleterre</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"/>
@@ -1447,7 +1378,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Wales">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q25"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Wales</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pays de Galles</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"/>
@@ -1456,7 +1387,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Scotland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q22"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Scotland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Ecosse</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"/>
@@ -1470,7 +1401,7 @@
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NorthernIreland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<rdfs:isDefinedBy rdf:resource="https://www.wikidata.org/wiki/Q26"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Northern Ireland</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Irlande du Nord</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"/>
@@ -1478,7 +1409,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BeeHoney">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Honey</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Miel</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Bee"/>
@@ -1486,7 +1417,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BeePollen">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Pollen</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Pollen</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Bee"/>
@@ -1494,7 +1425,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BeePropolis">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Propolis</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Propolis</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Bee"/>
@@ -1502,7 +1433,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BeeVenom">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Venim d'abeille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Venom</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Bee"/>
@@ -1510,7 +1441,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BeeWax">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Cire d'abeille</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Wax</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Bee"/>
@@ -1518,7 +1449,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BullBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bull's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie du boeuf</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Bull"/>
@@ -1526,7 +1457,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#CowBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cow's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de vache</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Cow"/>
@@ -1534,7 +1465,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#CowMilk">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cow milk</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Lait de vache</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Cow"/>
@@ -1542,7 +1473,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EweBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Ewe's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de brebis</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Ewe"/>
@@ -1550,7 +1481,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EweMilk">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Lait de brebis</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep milk</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Ewe"/>
@@ -1558,7 +1489,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#GoatBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Goat's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de chèvre</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Goat"/>
@@ -1566,7 +1497,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#GoatMilk">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Lait de brebis</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Goat milk</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Goat"/>
@@ -1574,7 +1505,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#HenBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Hen's body</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Partie de poule</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Hen"/>
@@ -1582,7 +1513,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#HenEgg">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Hen's egg</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Œuf de poule</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Hen"/>
@@ -1590,7 +1521,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PigBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Partie du cochon</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Pig's body</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Pig"/>
@@ -1598,7 +1529,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#QuailEgg">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Quail's egg</skos:prefLabel>
 	<skos:prefLabel xml:lang="fr">Œuf de caille</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Quail"/>
@@ -1606,7 +1537,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#SheepBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Partie de mouton</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Sheep's body</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Sheep"/>
@@ -1614,7 +1545,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#RoosterBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Partie de coq</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Rooster's body</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Rooster"/>
@@ -1622,7 +1553,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#ChickenBody">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="fr">Partie du poulet</skos:prefLabel>
 	<skos:prefLabel xml:lang="en">Chicken's body</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Chicken"/>
@@ -1630,7 +1561,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">South East England</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Berkshire"/>
@@ -1646,7 +1577,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">South West England</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Cornwall"/>
@@ -1660,7 +1591,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">North East England</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Northumberland"/>
@@ -1671,7 +1602,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">North West England</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Cumbria"/>
@@ -1683,7 +1614,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Yorkshire and The Humber</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks"/>
@@ -1695,7 +1626,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">East Midlands</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Lincolnshire"/>
@@ -1708,7 +1639,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">West Midlands</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Herefordshire"/>
@@ -1721,7 +1652,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">East of England</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Essex"/>
@@ -1734,14 +1665,14 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#London">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">London</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#England"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Eastern Scotland</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#ScottishBorders"/>
@@ -1751,7 +1682,7 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">South Western Scotland</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DumfriesAndGalloway"/>
@@ -1763,161 +1694,161 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NEScotland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">North East Scotland</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#HighlandsAndIslands">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Highlands and Islands</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Aberdeenshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Aberdeenshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Berkshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Berkshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Buckinghamshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Buckinghamshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EastSussex">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">East Sussex</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Hampshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Hampshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#IsleOfWight">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Isle of Wight</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Kent">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Kent</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Oxfordshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Oxfordshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Surrey">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Surrey</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#WestSussex">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">West Sussex</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Cornwall">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cornwall</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Devon">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Devon</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Dorset">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Dorset</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Wiltshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Wiltshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Gloucestershire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Gloucestershire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Bristol">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bristol</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Somerset">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Somerset</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Northumberland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Northumberland</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#TyneWear">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Tyne &amp; Wear</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#CountyDurham">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">County Durham</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">North Yorkshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"/>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"/>
@@ -1925,49 +1856,49 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Cumbria">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cumbria</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Cheshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cheshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Merseyside">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Merseyside</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Manchester">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Greater Manchester</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Lancashire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Lancashire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#EastYorks">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">East Riding of Yorkshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Lincolnshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Lincolnshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"/>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"/>
@@ -1975,191 +1906,296 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#SouthYorks">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">South Yorkshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#WestYorks">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">West Yorkshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Derbyshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Derbyshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Nottinghamshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Nottinghamshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Leicestershire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Leicestershire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Rutland">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Rutland</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Northamptonshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Northamptonshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Herefordshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Herefordshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Worcestershire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Worcestershire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Warwickshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Warwickshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Shropshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Shropshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Staffordshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Staffordshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlandsConurbation">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">West Midlands Conurbation</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Essex">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Essex</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Hertfordshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Hertfordshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Bedfordshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Bedfordshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Cambridgeshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Cambridgeshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Norfolk">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Norfolk</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Suffolk">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Suffolk</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#ScottishBorders">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Scottish Borders</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Lothian">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Lothian</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Edinburgh">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Edinburgh</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#DumfriesAndGalloway">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Dumfries and Galloway</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Ayrshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Ayrshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Lanarkshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Lanarkshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Renfrewshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Renfrewshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#Dunbartonshire">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"/>
 	<skos:prefLabel xml:lang="en">Dunbartonshire</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeurFR">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-BLEU_BLANC_COEUR"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Bleu-Blanc-Coeur</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Bleu-Blanc-Coeur</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#RedLabelFR">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-LABEL_ROUGE"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Label Rouge</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Label Rouge</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Red Label</skos:altLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#MilkFed">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Milk-fed</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Nourri au lait</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AOCFR">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-APPELLATION_ORIGINE_CONTROLEE"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Appellation d’origine contrôlée</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Appellation d’origine contrôlée</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">AOC</skos:altLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#AOPEU">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-PROTECTED_DESIGNATION_OF_ORIGIN"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Appellation d’origine protégée</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Appellation d’origine protégée</skos:prefLabel>
+	<skos:altLabel xml:lang="en">AOP</skos:altLabel>
+	<skos:altLabel xml:lang="fr">AOP</skos:altLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#IGPEU">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Indication géographique de provenance</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Indication géographique de provenance</skos:prefLabel>
+	<skos:altLabel xml:lang="en">IGP</skos:altLabel>
+	<skos:altLabel xml:lang="fr">IGP</skos:altLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNatureFR">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Paysans de Nature</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Paysans de Nature</skos:prefLabel>
+	<skos:altLabel xml:lang="en">Farmers of Nature</skos:altLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicAB">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Agriculture Biologique</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Agriculture Biologique</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicBioCoherence">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">Bio Coherence</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Bio Coherence</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicEU">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<rdfs:isDefinedBy rdf:resource="https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-EU_ORGANIC_FARMING"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"/>
+	<skos:prefLabel xml:lang="en">EU Organic Farming</skos:prefLabel>
+	<skos:prefLabel xml:lang="fr">Agriculture Biologique EU</skos:prefLabel>
+	<skos:altLabel xml:lang="fr">Eurofeuille</skos:altLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Certification"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#Claim"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation"/>
+	<skos:prefLabel xml:lang="fr">Glossaire des facettes de produit</skos:prefLabel>
+	<skos:prefLabel xml:lang="en">Product glossary facets</skos:prefLabel>
 </rdf:Description>
 
 </rdf:RDF>
