@@ -14,53 +14,424 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States">
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">States</skos:prefLabel>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
-	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary">
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Fulfilment status</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"/>
-	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:prefLabel xml:lang="en">Held</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
 	<skos:prefLabel xml:lang="en">Order status</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
 	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"/>
 	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Fulfilment state</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Fulfilment status</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Order state</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
+	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
+	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#move">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">move</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Transformation type</skos:prefLabel>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">move</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Unfulfilled</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Cancelled</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Fulfilled</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">States</skos:prefLabel>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Status</skos:prefLabel>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderState"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentState"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">modify</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">separate</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">pickup</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Pickup"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#use">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">use</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">consume</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">lower</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">produce</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">combine</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">raise</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">dropoff</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Dropoff"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">accept</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">Transformation type</skos:prefLabel>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Pickup"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Dropoff"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate"/>
+	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">lower</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">produce</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">use</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">consume</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Pickup">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">pickup</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Dropoff">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">dropoff</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">accept</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">modify</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">combine</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">separate</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:prefLabel xml:lang="en">raise</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
+	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
 	<skos:prefLabel xml:lang="en">Payment status</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
@@ -71,37 +442,10 @@
 	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Fulfilment state</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"/>
-	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Order state</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"/>
-	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
 	<skos:prefLabel xml:lang="en">Payment state</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
@@ -112,96 +456,9 @@
 	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Status</skos:prefLabel>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderState"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentState"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState"/>
-	<skos:exactMatch rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DropOff"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PickUp"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Cancelled</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Held</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Unfulfilled</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Fulfilled</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Complete</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:prefLabel xml:lang="en">Draft</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Paid">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
 	<skos:prefLabel xml:lang="en">Paid</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
@@ -210,10 +467,33 @@
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unpaid">
 	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
 	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
 	<skos:prefLabel xml:lang="en">Unpaid</skos:prefLabel>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"/>
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Draft</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
+	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
+	<skos:prefLabel xml:lang="en">Complete</skos:prefLabel>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"/>
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState">
+	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderState">
@@ -224,183 +504,8 @@
 	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState">
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#use">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#move">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower">
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"/>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"/>
-</rdf:Description>
-
 <rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#c_734fc709">
 	<skos:prefLabel xml:lang="en">FulfilmentState</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"/>
-	<skos:hasTopConcept rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-	<skos:prefLabel xml:lang="en">DFC_Vocabulary</skos:prefLabel>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:topConceptOf rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">Transformation type</skos:prefLabel>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"/>
-	<skos:narrower rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">accept</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">combine</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">consume</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DropOff">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">dropoff</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">lower</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">modify</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">move</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#PickUp">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">pickup</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">produce</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">raise</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">separate</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use">
-	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<skos:inScheme rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"/>
-	<skos:prefLabel xml:lang="en">use</skos:prefLabel>
-	<skos:broader rdf:resource="http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"/>
 </rdf:Description>
 
 </rdf:RDF>

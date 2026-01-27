@@ -4,13 +4,59 @@
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#4Pack",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#FourPack"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "4p"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "fr",
+      "@value" : "pack de 4"
+    }, {
+      "@language" : "en",
+      "@value" : "4 pack"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#6Pack",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SixPack"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#notation" : [ {
+      "@value" : "6p"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "6 pack"
+    }, {
+      "@language" : "fr",
+      "@value" : "pack de 6"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension",
@@ -19,36 +65,38 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CerealsWithGluten"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Crustaceans"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Eggs"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fishs"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Peanuts"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Soy"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LactoseMilks"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Nuts"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sulphites"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Celeriac"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Mustard"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Lupine"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SesameSeeds"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sulphites"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Mustard"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Lupine"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Eggs"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Molluscs"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CerealsWithGluten"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Nuts"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LactoseMilks"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Peanuts"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fishs"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -67,17 +115,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "$AU"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "australian dollar"
-    }, {
       "@language" : "fr",
       "@value" : "dollar australien"
+    }, {
+      "@language" : "en",
+      "@value" : "australian dollar"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bag",
@@ -93,6 +143,8 @@
       "@value" : "bag of oat"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -112,17 +164,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bk"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "basket"
-    }, {
       "@language" : "fr",
       "@value" : "panier"
+    }, {
+      "@language" : "en",
+      "@value" : "basket"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#BeerCrate",
@@ -131,6 +185,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -150,6 +206,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -169,6 +227,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -188,17 +248,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bj"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "bucket"
-    }, {
       "@language" : "fr",
       "@value" : "seau"
+    }, {
+      "@language" : "en",
+      "@value" : "bucket"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bunch",
@@ -214,17 +276,19 @@
       "@value" : "botte de persil, botte de carottes..."
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "bh"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "bunch"
-    }, {
       "@language" : "fr",
       "@value" : "botte"
+    }, {
+      "@language" : "en",
+      "@value" : "bunch"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bundle",
@@ -233,6 +297,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -249,13 +315,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Calcium"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Calcium"
     } ]
   }, {
@@ -265,6 +333,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -287,17 +357,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "$CA"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "canadian dollar"
-    }, {
       "@language" : "fr",
       "@value" : "dollar canadien"
+    }, {
+      "@language" : "en",
+      "@value" : "canadian dollar"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Carbohydrates",
@@ -306,13 +378,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Carbohydrates"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Carbohydrates"
     } ]
   }, {
@@ -322,16 +396,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ct"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "carton"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "carton"
     } ]
   }, {
@@ -341,6 +417,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -360,6 +438,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -379,16 +459,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cl"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "centilitre"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "centilitre"
     } ]
   }, {
@@ -401,6 +483,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -420,6 +504,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -436,6 +522,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -452,6 +540,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -468,6 +558,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -484,13 +576,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Copper"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Copper"
     } ]
   }, {
@@ -504,17 +598,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cr"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "cagette"
-    }, {
       "@language" : "en",
       "@value" : "crate"
+    }, {
+      "@language" : "fr",
+      "@value" : "cagette"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Crustaceans",
@@ -523,14 +619,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Crustaceans"
-    }, {
       "@language" : "fr",
       "@value" : "Crustacés"
+    }, {
+      "@language" : "en",
+      "@value" : "Crustaceans"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cup",
@@ -543,17 +641,19 @@
       "@value" : "1 handful = 0.5 cup"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "cu"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "cup"
-    }, {
       "@language" : "fr",
       "@value" : "tasse"
+    }, {
+      "@language" : "en",
+      "@value" : "cup"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit",
@@ -562,14 +662,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Unit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AustralianDollar"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Euro"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CanadianDollar"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Euro"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AustralianDollar"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PoundSterling"
     }, {
@@ -591,6 +693,38 @@
     }, {
       "@language" : "fr",
       "@value" : "Glossaire des dimensions et unités de mesures de produit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Unit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Product measure glossary "
+    }, {
+      "@language" : "fr",
+      "@value" : "Glossaire mesure produit"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://purl.org/dc/elements/1.1/description" : [ {
+      "@language" : "en",
+      "@value" : "glossary measuring dimensions and units for measuring product"
+    }, {
+      "@language" : "fr",
+      "@value" : "Glossaire des dimensions et unités de mesures de produit"
+    } ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension"
@@ -614,16 +748,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dl"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "decilitre"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "decilitre"
     } ]
   }, {
@@ -636,6 +772,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -655,6 +793,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -668,23 +808,25 @@
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/elements/1.1/description" : [ {
-      "@language" : "en",
-      "@value" : "Dimensions used to describe DFC's product characteristics"
-    }, {
       "@language" : "fr",
       "@value" : "Dimensions utilisées pour décrire les charactéristiques produit dans DFC"
+    }, {
+      "@language" : "en",
+      "@value" : "Dimensions used to describe DFC's product characteristics"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LabellingDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -694,6 +836,8 @@
       "@value" : "Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ]
   }, {
@@ -710,17 +854,19 @@
       "@value" : "deux douzaines d'oeufs"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dzn"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "dozen"
-    }, {
       "@language" : "fr",
       "@value" : "douzaine"
+    }, {
+      "@language" : "en",
+      "@value" : "dozen"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Drum",
@@ -729,17 +875,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "dr"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "drum"
-    }, {
       "@language" : "fr",
       "@value" : "baril"
+    }, {
+      "@language" : "en",
+      "@value" : "drum"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#EcoScore",
@@ -748,6 +896,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -764,14 +914,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Eggs"
-    }, {
       "@language" : "fr",
       "@value" : "Oeufs"
+    }, {
+      "@language" : "en",
+      "@value" : "Eggs"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Euro",
@@ -783,16 +935,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "€"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "euro"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "euro"
     } ]
   }, {
@@ -802,14 +956,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Fat"
-    }, {
       "@language" : "fr",
       "@value" : "Graisse"
+    }, {
+      "@language" : "en",
+      "@value" : "Fat"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fibre",
@@ -818,13 +974,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Fibre"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Fibre"
     } ]
   }, {
@@ -834,6 +992,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -850,6 +1010,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -866,20 +1028,25 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Acide folique"
-    }, {
       "@language" : "en",
       "@value" : "Folic acid"
+    }, {
+      "@language" : "fr",
+      "@value" : "Acide folique"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#FourPack",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#4Pack"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
@@ -888,11 +1055,11 @@
       "@value" : "4p"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "4 pack"
-    }, {
       "@language" : "fr",
       "@value" : "pack de 4"
+    }, {
+      "@language" : "en",
+      "@value" : "4 pack"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Gallon",
@@ -904,17 +1071,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "gal"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "gallon (GB)"
-    }, {
       "@language" : "en",
       "@value" : "gallon (UK)"
+    }, {
+      "@language" : "fr",
+      "@value" : "gallon (GB)"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#GrainBulk",
@@ -923,6 +1092,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -945,6 +1116,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -964,6 +1137,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -983,6 +1158,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1002,6 +1179,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1021,6 +1200,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1037,14 +1218,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Fer"
-    }, {
       "@language" : "en",
       "@value" : "Iron"
+    }, {
+      "@language" : "fr",
+      "@value" : "Fer"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Jar",
@@ -1053,24 +1236,26 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
-      "@language" : "en",
-      "@value" : "jar of jam"
-    }, {
       "@language" : "fr",
       "@value" : "bocal de confiture"
+    }, {
+      "@language" : "en",
+      "@value" : "jar of jam"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "jr"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "jar"
-    }, {
       "@language" : "fr",
       "@value" : "bocal"
+    }, {
+      "@language" : "en",
+      "@value" : "jar"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Keg",
@@ -1079,6 +1264,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1101,6 +1288,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1123,6 +1312,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1142,6 +1333,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1161,6 +1354,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -1184,6 +1379,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1200,17 +1397,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "vl"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "liquid bulk"
-    }, {
       "@language" : "fr",
       "@value" : "liquide en vrac"
+    }, {
+      "@language" : "en",
+      "@value" : "liquid bulk"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Litre",
@@ -1222,6 +1421,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1241,6 +1442,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1257,6 +1460,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1273,14 +1478,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Manganese"
-    }, {
       "@language" : "fr",
       "@value" : "Manganèse"
+    }, {
+      "@language" : "en",
+      "@value" : "Manganese"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Metre",
@@ -1292,17 +1499,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "m"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "metre"
-    }, {
       "@language" : "fr",
       "@value" : "mètre"
+    }, {
+      "@language" : "en",
+      "@value" : "metre"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Milligram",
@@ -1314,17 +1523,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "g"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "milligram"
-    }, {
       "@language" : "fr",
       "@value" : "milligramme"
+    }, {
+      "@language" : "en",
+      "@value" : "milligram"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Millilitre",
@@ -1336,17 +1547,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "ml"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "milliliter"
-    }, {
       "@language" : "fr",
       "@value" : "millilitre"
+    }, {
+      "@language" : "en",
+      "@value" : "milliliter"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Molluscs",
@@ -1355,6 +1568,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1371,6 +1586,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1387,6 +1604,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1403,6 +1622,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1422,6 +1643,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1441,6 +1664,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1457,83 +1682,85 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Calcium"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Carbohydrates"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Chloride"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cholesterol"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Chromium"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SaturatedFat"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Copper"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fibre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fluoride"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#FolicAcid"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Iodine"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Iron"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Magnesium"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Manganese"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#MonosaturatedFat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Phosphorus"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PolyunsaturatedFat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Potassium"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Protein"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Salt"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SaturatedFat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Selenium"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Carbohydrates"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sodium"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fluoride"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Starch"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sugars"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Calcium"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Transfat"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Selenium"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminA"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminB12"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PolyunsaturatedFat"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminB6"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminC"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Protein"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminD"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Chloride"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Salt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Magnesium"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminE"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminK"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Iodine"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminD"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#MonosaturatedFat"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Zinc"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Potassium"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Phosphorus"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sugars"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Manganese"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminC"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminB12"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminK"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cholesterol"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#FolicAcid"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Transfat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Chromium"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Fibre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Iron"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminA"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Nutrient dimension"
-    }, {
       "@language" : "fr",
       "@value" : "Dimension nutritionnelle"
+    }, {
+      "@language" : "en",
+      "@value" : "Nutrient dimension"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Nuts",
@@ -1542,14 +1769,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Nuts"
-    }, {
       "@language" : "fr",
       "@value" : "Fruits à coque"
+    }, {
+      "@language" : "en",
+      "@value" : "Nuts"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Ounce",
@@ -1561,6 +1790,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1580,17 +1811,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pack"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "colis"
-    }, {
       "@language" : "en",
       "@value" : "package"
+    }, {
+      "@language" : "fr",
+      "@value" : "colis"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Packet",
@@ -1599,6 +1832,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1618,17 +1853,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pr"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "pair"
-    }, {
       "@language" : "fr",
       "@value" : "paire"
+    }, {
+      "@language" : "en",
+      "@value" : "pair"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pallet",
@@ -1637,6 +1874,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1656,14 +1895,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Peanuts"
-    }, {
       "@language" : "fr",
       "@value" : "Arachides"
+    }, {
+      "@language" : "en",
+      "@value" : "Peanuts"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Percent",
@@ -1672,17 +1913,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "%"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "percent"
-    }, {
       "@language" : "fr",
       "@value" : "pourcent"
+    }, {
+      "@language" : "en",
+      "@value" : "percent"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Phosphorus",
@@ -1691,6 +1934,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1707,18 +1952,20 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Depth"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Height"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Width"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Volume"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Weight"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Height"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Width"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Depth"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Weight"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1734,6 +1981,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1753,13 +2002,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LabellingDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Planet-score"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Planet-score"
     } ]
   }, {
@@ -1769,6 +2020,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1792,6 +2045,8 @@
       "@value" : "un pot de fleur"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1811,6 +2066,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1827,6 +2084,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1849,16 +2108,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "lb"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "pound"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "pound"
     } ]
   }, {
@@ -1871,17 +2132,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "£"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "livre sterling"
-    }, {
       "@language" : "en",
       "@value" : "pound sterling"
+    }, {
+      "@language" : "fr",
+      "@value" : "livre sterling"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PowderBulk",
@@ -1890,17 +2153,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "vy"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "powder bulk"
-    }, {
       "@language" : "fr",
       "@value" : "poudre en vrac"
+    }, {
+      "@language" : "en",
+      "@value" : "powder bulk"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Protein",
@@ -1909,14 +2174,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Protein"
-    }, {
       "@language" : "fr",
       "@value" : "Protéine"
+    }, {
+      "@language" : "en",
+      "@value" : "Protein"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Punnet",
@@ -1925,6 +2192,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -1944,122 +2213,128 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Unit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Centilitre"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SixPack"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Centimetre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Crate"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Decilitre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Decimetre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Gallon"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Gram"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Inch"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Kilogram"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Kilometre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Litre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Metre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Milligram"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Millilitre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Package"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Percent"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Piece"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PoundMass"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tonne"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bundle"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bag"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bunch"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bucket"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Basket"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bottle"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Box"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#BeerCrate"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cask"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Carton"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cup"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Can"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Drum"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#6Pack"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Dozen"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#HalfDozen"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cup"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Jar"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bucket"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Keg"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Kit"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Net"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Packet"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Punnet"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pouch"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pair"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pot"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tray"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pallet"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Roll"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Milligram"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tablet"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tub"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Kit"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tube"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tonne"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tin"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Inch"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LiquidBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Box"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NoduleBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#4Pack"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Net"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bundle"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tray"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Centilitre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Can"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pallet"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#BeerCrate"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Carton"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#HalfDozen"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#GrainBulk"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PowderBulk"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Gram"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Crate"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Kilogram"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tub"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pot"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Ounce"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#FourPack"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Gallon"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SixPack"
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Basket"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Centimetre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Punnet"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Decilitre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Litre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Keg"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PoundMass"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Decimetre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Cask"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Package"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bag"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bottle"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Drum"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pair"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tube"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Roll"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Pouch"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NoduleBulk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Metre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Packet"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Piece"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PowderBulk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#LiquidBulk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Jar"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Millilitre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Percent"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Kilometre"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Bunch"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#FourPack"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2075,6 +2350,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -2094,6 +2371,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2110,6 +2389,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2126,14 +2407,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Selenium"
-    }, {
       "@language" : "fr",
       "@value" : "Sélénium"
+    }, {
+      "@language" : "en",
+      "@value" : "Selenium"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SesameSeeds",
@@ -2142,20 +2425,25 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Sesame seeds"
-    }, {
       "@language" : "fr",
       "@value" : "Graines de sésame"
+    }, {
+      "@language" : "en",
+      "@value" : "Sesame seeds"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#SixPack",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#6Pack"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
@@ -2177,13 +2465,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Sodium"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Sodium"
     } ]
   }, {
@@ -2193,6 +2483,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2209,14 +2501,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Amidon"
-    }, {
       "@language" : "en",
       "@value" : "Starch"
+    }, {
+      "@language" : "fr",
+      "@value" : "Amidon"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sugars",
@@ -2225,14 +2519,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Sucres"
-    }, {
       "@language" : "en",
       "@value" : "Sugars"
+    }, {
+      "@language" : "fr",
+      "@value" : "Sucres"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Sulphites",
@@ -2241,14 +2537,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#AllergenDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Sulfur dioxide and sulphites in a concentration of more than 10mg/kg or 10mg/l (expressed as SO2)"
-    }, {
       "@language" : "fr",
       "@value" : "Anhydride sulfureux et sulfites en concentration de plus de 10mg/kg ou 10 mg/l (exprimés en SO2)"
+    }, {
+      "@language" : "en",
+      "@value" : "Sulfur dioxide and sulphites in a concentration of more than 10mg/kg or 10mg/l (expressed as SO2)"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tablet",
@@ -2257,17 +2555,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "t1"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "tablet"
-    }, {
       "@language" : "fr",
       "@value" : "tablette"
+    }, {
+      "@language" : "en",
+      "@value" : "tablet"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tin",
@@ -2276,17 +2576,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "tn"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "tin"
-    }, {
       "@language" : "fr",
       "@value" : "boîte de conserve"
+    }, {
+      "@language" : "en",
+      "@value" : "tin"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tonne",
@@ -2298,6 +2600,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -2317,14 +2621,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Graisse trans"
-    }, {
       "@language" : "en",
       "@value" : "Transfat"
+    }, {
+      "@language" : "fr",
+      "@value" : "Graisse trans"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tray",
@@ -2333,17 +2639,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "pu"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "tray"
-    }, {
       "@language" : "fr",
       "@value" : "plateau"
+    }, {
+      "@language" : "en",
+      "@value" : "tray"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tub",
@@ -2352,24 +2660,26 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#example" : [ {
-      "@language" : "en",
-      "@value" : "tub of ice cream"
-    }, {
       "@language" : "fr",
       "@value" : "bac de crème glacée"
+    }, {
+      "@language" : "en",
+      "@value" : "tub of ice cream"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "tb"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "tub"
-    }, {
       "@language" : "fr",
       "@value" : "bac"
+    }, {
+      "@language" : "en",
+      "@value" : "tub"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Tube",
@@ -2385,6 +2695,8 @@
       "@value" : "un tube de dentifrice"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
@@ -2407,44 +2719,50 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#notation" : [ {
       "@value" : "$US"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Dollar US"
-    }, {
       "@language" : "en",
       "@value" : "US Dollar"
+    }, {
+      "@language" : "fr",
+      "@value" : "Dollar US"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Unit",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/elements/1.1/description" : [ {
-      "@language" : "en",
-      "@value" : "Units used to measure DFC's quantitative values"
-    }, {
       "@language" : "fr",
       "@value" : "Unités utilisées pour mesurer les valeurs quantitatives dans DFC"
+    }, {
+      "@language" : "en",
+      "@value" : "Units used to measure DFC's quantitative values"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#QuantityUnit"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#CurrencyUnit"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Unit"
-    }, {
       "@language" : "fr",
       "@value" : "Unités"
+    }, {
+      "@language" : "en",
+      "@value" : "Unit"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ]
   }, {
@@ -2454,14 +2772,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Vitamin A"
-    }, {
       "@language" : "fr",
       "@value" : "Vitamine A"
+    }, {
+      "@language" : "en",
+      "@value" : "Vitamin A"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminB12",
@@ -2470,14 +2790,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Vitamin B12"
-    }, {
       "@language" : "fr",
       "@value" : "Vitamine B12"
+    }, {
+      "@language" : "en",
+      "@value" : "Vitamin B12"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminB6",
@@ -2486,14 +2808,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Vitamin B6"
-    }, {
       "@language" : "fr",
       "@value" : "Vitamine B6"
+    }, {
+      "@language" : "en",
+      "@value" : "Vitamin B6"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminC",
@@ -2502,14 +2826,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Vitamin C"
-    }, {
       "@language" : "fr",
       "@value" : "Vitamine C"
+    }, {
+      "@language" : "en",
+      "@value" : "Vitamin C"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminD",
@@ -2518,14 +2844,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Vitamin D"
-    }, {
       "@language" : "fr",
       "@value" : "Vitamine D"
+    }, {
+      "@language" : "en",
+      "@value" : "Vitamin D"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#VitaminE",
@@ -2534,6 +2862,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2550,6 +2880,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2566,6 +2898,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2582,14 +2916,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Poids"
-    }, {
       "@language" : "en",
       "@value" : "Weight"
+    }, {
+      "@language" : "fr",
+      "@value" : "Poids"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#Width",
@@ -2598,6 +2934,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#PhysicalDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2614,13 +2952,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#NutrientDimension"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFC_ProductGlossary_Measure"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/measures.rdf#DFCProductGlossaryMeasure"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Zinc"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Zinc"
     } ]
   }, {

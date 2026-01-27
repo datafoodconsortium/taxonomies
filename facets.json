@@ -15,20 +15,50 @@
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOC_FR"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Appellation d’origine contrôlée"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Appellation d’origine contrôlée"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOC_FR",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-APPELLATION_ORIGINE_CONTROLEE"
+    } ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "fr",
+      "@value" : "AOC"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOCFR"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "fr",
+      "@value" : "Appellation d’origine contrôlée"
+    }, {
+      "@language" : "en",
+      "@value" : "Appellation d’origine contrôlée"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOPEU",
@@ -46,6 +76,9 @@
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOP_EU"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
     } ],
@@ -58,8 +91,38 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOP_EU",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-PROTECTED_DESIGNATION_OF_ORIGIN"
+    } ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "AOP"
+    }, {
+      "@language" : "fr",
+      "@value" : "AOP"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOPEU"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Appellation d’origine protégée"
+    }, {
+      "@language" : "fr",
+      "@value" : "Appellation d’origine protégée"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Aberdeenshire",
@@ -68,6 +131,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -84,14 +149,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Africa"
-    }, {
       "@language" : "fr",
       "@value" : "Afrique"
+    }, {
+      "@language" : "en",
+      "@value" : "Africa"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Algae",
@@ -100,14 +167,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Algae"
-    }, {
       "@language" : "fr",
       "@value" : "Algue"
+    }, {
+      "@language" : "en",
+      "@value" : "Algae"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalOrigin",
@@ -116,6 +185,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -132,30 +203,32 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bee"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bull"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Hen"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cow"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bull"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ewe"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Goat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Hen"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Pig"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Quail"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Sheep"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Rooster"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Quail"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cow"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Chicken"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Rooster"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Goat"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -174,14 +247,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Asia"
-    }, {
       "@language" : "fr",
       "@value" : "Asie"
+    }, {
+      "@language" : "en",
+      "@value" : "Asia"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Australia",
@@ -193,14 +268,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Oceania"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Australia"
-    }, {
       "@language" : "fr",
       "@value" : "Australie"
+    }, {
+      "@language" : "en",
+      "@value" : "Australia"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AuvergneRhoneAlpes",
@@ -216,6 +293,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -232,6 +311,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -245,6 +326,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -261,6 +344,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -274,18 +359,20 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeeHoney"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeePollen"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeeWax"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeePropolis"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeePollen"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeeVenom"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeeWax"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeePropolis"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "fr",
@@ -301,14 +388,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bee"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Honey"
-    }, {
       "@language" : "fr",
       "@value" : "Miel"
+    }, {
+      "@language" : "en",
+      "@value" : "Honey"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BeePollen",
@@ -317,6 +406,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bee"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -333,13 +424,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bee"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Propolis"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Propolis"
     } ]
   }, {
@@ -349,6 +442,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bee"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -365,14 +460,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bee"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Cire d'abeille"
-    }, {
       "@language" : "en",
       "@value" : "Wax"
+    }, {
+      "@language" : "fr",
+      "@value" : "Cire d'abeille"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Belgium",
@@ -384,6 +481,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -400,6 +499,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -413,17 +514,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Demeter"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Biodynamic label"
-    }, {
       "@language" : "fr",
       "@value" : "Label biodynamie"
+    }, {
+      "@language" : "en",
+      "@value" : "Biodynamic label"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeurFR",
@@ -433,6 +536,9 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeur_FR"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
@@ -446,8 +552,31 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeur_FR",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-BLEU_BLANC_COEUR"
+    } ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeurFR"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bleu-Blanc-Coeur"
+    }, {
+      "@language" : "fr",
+      "@value" : "Bleu-Blanc-Coeur"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BourgogneFrancheComte",
@@ -463,6 +592,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -479,6 +610,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -495,14 +628,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Brittany"
-    }, {
       "@language" : "fr",
       "@value" : "Bretagne"
+    }, {
+      "@language" : "en",
+      "@value" : "Brittany"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Buckinghamshire",
@@ -511,6 +646,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -524,14 +661,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Bulb"
-    }, {
       "@language" : "fr",
       "@value" : "Bulbe"
+    }, {
+      "@language" : "en",
+      "@value" : "Bulb"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bull",
@@ -540,17 +679,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BullBody"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Bull"
-    }, {
       "@language" : "fr",
       "@value" : "Bœuf"
+    }, {
+      "@language" : "en",
+      "@value" : "Bull"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BullBody",
@@ -559,6 +700,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bull"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -575,6 +718,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -595,6 +740,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -608,36 +755,40 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "The certifications or labels obtained by the products. Example : AB, EU bio, DEMETER, Label Rouge..."
-    }, {
       "@language" : "fr",
       "@value" : "Les certifications ou labels obtenus par les produits. Exemple : AB, EU bio, DEMETER, Label Rouge..."
+    }, {
+      "@language" : "en",
+      "@value" : "The certifications or labels obtained by the products. Example : AB, EU bio, DEMETER, Label Rouge..."
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BiodynamicLabel"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MarketingLabel"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Certification"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ]
   }, {
@@ -647,6 +798,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -660,6 +813,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -679,46 +834,52 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Chicken"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Partie du poulet"
-    }, {
       "@language" : "en",
       "@value" : "Chicken's body"
+    }, {
+      "@language" : "fr",
+      "@value" : "Partie du poulet"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Claim",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A nutrition claim states or suggests that a food has beneficial nutritional properties, such as “low fat”, “no added sugar” and “high in fibre”. A health claim is any statement on labels, advertising or other marketing products that health benefits can result from consuming a given food, for instance that a food can help reinforce the body’s natural defences or enhance learning ability.\" (source : European Food Safety Authority, https://www.efsa.europa.eu/fr/topics/topic/health-claims)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Les allégations nutritionnelles et de santé sont des mentions, images ou symboles valorisant les denrées alimentaires sur le plan nutritionnel ou de la santé. Ce sont par exemple les phrases du type « jus de fruit riche en vitamine C », « riche en calcium », « allégé en sucres », « bon pour le cœur », « le calcium est nécessaire à une ossature normale », etc.\" (source: Direction générale de la concurrence, de la consommation et de la répression des fraudes, https://www.economie.gouv.fr/dgccrf/Consommation/Etiquetage-des-produits/Allegations-nutrionnelles-et-de-sante)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A nutrition claim states or suggests that a food has beneficial nutritional properties, such as “low fat”, “no added sugar” and “high in fibre”. A health claim is any statement on labels, advertising or other marketing products that health benefits can result from consuming a given food, for instance that a food can help reinforce the body’s natural defences or enhance learning ability.\" (source : European Food Safety Authority, https://www.efsa.europa.eu/fr/topics/topic/health-claims)"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HealthClaim"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HealthClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Nutrition and health claims"
-    }, {
       "@language" : "fr",
       "@value" : "Allégations nutritionnelles et de santé"
+    }, {
+      "@language" : "en",
+      "@value" : "Nutrition and health claims"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -729,6 +890,8 @@
       "@value" : "Container Information"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ]
   }, {
@@ -745,6 +908,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -761,6 +926,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -777,14 +944,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Corsica"
-    }, {
       "@language" : "fr",
       "@value" : "Corse"
+    }, {
+      "@language" : "en",
+      "@value" : "Corsica"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#CountyDurham",
@@ -793,6 +962,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -806,6 +977,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -814,11 +987,11 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#CowMilk"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Cow"
-    }, {
       "@language" : "fr",
       "@value" : "Vache"
+    }, {
+      "@language" : "en",
+      "@value" : "Cow"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#CowBody",
@@ -827,14 +1000,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cow"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Cow's body"
-    }, {
       "@language" : "fr",
       "@value" : "Partie de vache"
+    }, {
+      "@language" : "en",
+      "@value" : "Cow's body"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#CowMilk",
@@ -843,14 +1018,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cow"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Cow milk"
-    }, {
       "@language" : "fr",
       "@value" : "Lait de vache"
+    }, {
+      "@language" : "en",
+      "@value" : "Cow milk"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cumbria",
@@ -859,6 +1036,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -868,14 +1047,47 @@
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    } ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Claim"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "fr",
+      "@value" : "Glossaire des facettes de produit"
+    }, {
+      "@language" : "en",
+      "@value" : "Product glossary facets"
+    } ]
+  }, {
+    "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Claim"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"
     }, {
@@ -898,6 +1110,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BiodynamicLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -914,6 +1128,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -927,6 +1143,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -940,6 +1158,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -953,6 +1173,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -966,6 +1188,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -979,20 +1203,22 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Northamptonshire"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Lincolnshire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Derbyshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Nottinghamshire"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Leicestershire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Rutland"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Nottinghamshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Northamptonshire"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Rutland"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1005,6 +1231,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1018,6 +1246,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1031,6 +1261,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -1051,6 +1283,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1071,37 +1305,41 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Energy free"
-    }, {
       "@language" : "fr",
       "@value" : "Sans apport énergétique"
+    }, {
+      "@language" : "en",
+      "@value" : "Energy free"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnergyReduced",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is energy-reduced, and any claim likely to have the same meaning for the consumer, may only be made where the energy value is reduced by at least 30%, with an indication of the characteristic(s) which make(s) the food reduced in its total energy value.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire a une valeur énergétique réduite, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si la valeur énergétique est réduite d'au moins 30 %, en indiquant la ou les caractéristiques entraînant la réduction de la valeur énergétique totale de la denrée alimentaire.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is energy-reduced, and any claim likely to have the same meaning for the consumer, may only be made where the energy value is reduced by at least 30%, with an indication of the characteristic(s) which make(s) the food reduced in its total energy value.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Energy reduced"
-    }, {
       "@language" : "fr",
       "@value" : "Valeur énergétique réduite"
+    }, {
+      "@language" : "en",
+      "@value" : "Energy reduced"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England",
@@ -1113,6 +1351,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -1120,26 +1360,26 @@
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#London"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "England"
-    }, {
       "@language" : "fr",
       "@value" : "Angleterre"
+    }, {
+      "@language" : "en",
+      "@value" : "England"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE",
@@ -1148,20 +1388,22 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Essex"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cambridgeshire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Hertfordshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bedfordshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cambridgeshire"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Norfolk"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Essex"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Suffolk"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bedfordshire"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1174,16 +1416,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Northumberland"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TyneWear"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#CountyDurham"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Northumberland"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1196,18 +1440,20 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cumbria"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cheshire"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Lancashire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Merseyside"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Manchester"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cheshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Lancashire"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cumbria"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Manchester"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1220,26 +1466,28 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Berkshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Buckinghamshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastSussex"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Hampshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IsleOfWight"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Kent"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IsleOfWight"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Berkshire"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Oxfordshire"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestSussex"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Buckinghamshire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Surrey"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestSussex"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastSussex"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1252,22 +1500,24 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Cornwall"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Devon"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Gloucestershire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Dorset"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Somerset"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Wiltshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Gloucestershire"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Devon"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bristol"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Somerset"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1280,6 +1530,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1293,24 +1545,32 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FSC"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FairTradeMaxHaavelar"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MSC"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HEV"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeur_FR"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FairTradeMaxHaavelar"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FSC"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RedLabel_FR"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RainforestAlliance"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeurFR"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Milk-fed"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HEV"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MilkFed"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RedLabelFR"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MilkFed"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BleuBlancCoeurFR"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1329,28 +1589,30 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Portugal"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ireland"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Italy"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Belgium"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Netherlands"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Germany"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Spain"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Portugal"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Italy"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ireland"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Switzerland"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Netherlands"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1366,6 +1628,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -1374,11 +1638,11 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EweMilk"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Brebis"
-    }, {
       "@language" : "en",
       "@value" : "Ewe"
+    }, {
+      "@language" : "fr",
+      "@value" : "Brebis"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EweBody",
@@ -1387,14 +1651,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ewe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Ewe's body"
-    }, {
       "@language" : "fr",
       "@value" : "Partie de brebis"
+    }, {
+      "@language" : "en",
+      "@value" : "Ewe's body"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EweMilk",
@@ -1403,6 +1669,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ewe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1419,24 +1687,26 @@
       "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-FOREST_STEWARDSHIP_COUNCIL_LABEL"
     } ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "FSC"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "FSC"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Forest Stewardship Council"
-    }, {
       "@language" : "fr",
       "@value" : "Forêt durable FSC"
+    }, {
+      "@language" : "en",
+      "@value" : "Forest Stewardship Council"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FairTradeMaxHaavelar",
@@ -1455,6 +1725,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1478,14 +1750,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Fat-free"
-    }, {
       "@language" : "fr",
       "@value" : "Sans matières grasses"
+    }, {
+      "@language" : "en",
+      "@value" : "Fat-free"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Flower",
@@ -1494,6 +1768,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1507,47 +1783,49 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "FR"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "FR"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#isDefinedBy" : [ {
       "@id" : "https://www.wikidata.org/wiki/Q142"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AuvergneRhoneAlpes"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BourgogneFrancheComte"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Brittany"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#GrandEst"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#CentreValLoire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Corsica"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#GrandEst"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HautsDeFrance"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IleDeFrance"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Normandy"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#BourgogneFrancheComte"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NouvelleAquitaine"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Occitania"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HautsDeFrance"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysDeLoire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ProvenceAlpesCotesAzur"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Normandy"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Brittany"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Occitania"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Corsica"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IleDeFrance"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AuvergneRhoneAlpes"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -1563,6 +1841,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1579,6 +1859,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1598,14 +1880,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Germany"
-    }, {
       "@language" : "fr",
       "@value" : "Allemagne"
+    }, {
+      "@language" : "en",
+      "@value" : "Germany"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Gloucestershire",
@@ -1614,6 +1898,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1627,14 +1913,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Gluten free"
-    }, {
       "@language" : "fr",
       "@value" : "Sans gluten"
+    }, {
+      "@language" : "en",
+      "@value" : "Gluten free"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Goat",
@@ -1643,6 +1931,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -1651,11 +1941,11 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#GoatMilk"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Chèvre"
-    }, {
       "@language" : "en",
       "@value" : "Goat"
+    }, {
+      "@language" : "fr",
+      "@value" : "Chèvre"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#GoatBody",
@@ -1664,14 +1954,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Goat"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Goat's body"
-    }, {
       "@language" : "fr",
       "@value" : "Partie de chèvre"
+    }, {
+      "@language" : "en",
+      "@value" : "Goat's body"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#GoatMilk",
@@ -1680,6 +1972,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Goat"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1699,29 +1993,33 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Grand Est"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Grand Est"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HEV",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
-      "@language" : "en",
-      "@value" : "HEV"
-    }, {
       "@language" : "fr",
       "@value" : "HVE"
+    }, {
+      "@language" : "en",
+      "@value" : "HEV"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1738,6 +2036,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1754,6 +2054,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1774,6 +2076,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Claim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1790,6 +2094,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -1811,6 +2117,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Hen"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1827,6 +2135,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Hen"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1843,6 +2153,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1856,6 +2168,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1866,47 +2180,51 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighFibre",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is high in fibre, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least 6 g of fibre per 100 g or at least 3 g of fibre per 100 kcal.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est riche en fibres, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 6 g de fibres par 100 g ou au moins 3 g de fibres par 100 kcal.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is high in fibre, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least 6 g of fibre per 100 g or at least 3 g of fibre per 100 kcal.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "High fibre"
-    }, {
       "@language" : "fr",
       "@value" : "Riche en fibres"
+    }, {
+      "@language" : "en",
+      "@value" : "High fibre"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighMonounsaturatedFat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is high in monounsaturated fat, and any claim likely to have the same meaning for the consumer, may only be made where at least 45% of the fatty acids present in the product derive from monounsaturated fat under the condition that monounsaturated fat provides more than 20% of energy of the product.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est riche en graisses monoinsaturées, ou toute allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins 45 % d’acides gras dérivés de graisses monoinsaturées et si l’énergie fournie par les graisses monoinsaturées représente plus de 20 % de l’apport énergétique du produit.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is high in monounsaturated fat, and any claim likely to have the same meaning for the consumer, may only be made where at least 45% of the fatty acids present in the product derive from monounsaturated fat under the condition that monounsaturated fat provides more than 20% of energy of the product.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "High monounsaturated fat"
-    }, {
       "@language" : "fr",
       "@value" : "Riche en graisses monoinsaturées"
+    }, {
+      "@language" : "en",
+      "@value" : "High monounsaturated fat"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighOmega3FattyAcids",
@@ -1922,6 +2240,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1945,29 +2265,33 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "High polyunsaturated fat"
-    }, {
       "@language" : "fr",
       "@value" : "Riche en graisses polyinsaturées"
+    }, {
+      "@language" : "en",
+      "@value" : "High polyunsaturated fat"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighProtein",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is high in protein, and any claim likely to have the same meaning for the consumer, may only be made where at least 20% of the energy value of the food is provided by protein.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est riche en protéines, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si 20 % au moins de la valeur énergétique de la denrée alimentaire sont produits par des protéines.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is high in protein, and any claim likely to have the same meaning for the consumer, may only be made where at least 20% of the energy value of the food is provided by protein.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -1991,29 +2315,33 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "High unsaturated fat"
-    }, {
       "@language" : "fr",
       "@value" : "Riche en graisses insaturées"
+    }, {
+      "@language" : "en",
+      "@value" : "High unsaturated fat"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighVitaminsMinerals",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is high in vitamins and/or minerals, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least twice the value of ‘source of [NAME OF VITAMIN/S] and/or [NAME OF MINERAL/S]’.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est riche en vitamines et/ou en minéraux, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins deux fois la teneur requise pour l'allégation «source de [NOM DES VITAMINES] et/ou [NOM DES MINÉRAUX]».\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is high in vitamins and/or minerals, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least twice the value of ‘source of [NAME OF VITAMIN/S] and/or [NAME OF MINERAL/S]’.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2030,6 +2358,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2049,6 +2379,9 @@
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IGP_EU"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
     } ],
@@ -2061,8 +2394,35 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IGP_EU",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "IGP"
+    }, {
+      "@language" : "fr",
+      "@value" : "IGP"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IGPEU"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Indication géographique de provenance"
+    }, {
+      "@language" : "fr",
+      "@value" : "Indication géographique de provenance"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IleDeFrance",
@@ -2081,6 +2441,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2094,24 +2456,26 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IncreasedNutrient",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim stating that the content in one or more nutrients, other than vitamins and minerals, has been increased, and any claim likely to have the same meaning for the consumer, may only be made where the product meets the conditions for the claim ‘source of’ and the increase in content is at least 30% compared to a similar product.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation affirmant que la teneur en un ou plusieurs nutriments, autres que des vitamines ou des minéraux, a été augmentée, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit remplit les conditions applicables à l'allégation «source de» et si l'augmentation de cette teneur est d'au moins 30 % par rapport à un produit similaire.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim stating that the content in one or more nutrients, other than vitamins and minerals, has been increased, and any claim likely to have the same meaning for the consumer, may only be made where the product meets the conditions for the claim ‘source of’ and the increase in content is at least 30% compared to a similar product.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Increased nutrient"
-    }, {
       "@language" : "fr",
       "@value" : "Enrichi en nutriment"
+    }, {
+      "@language" : "en",
+      "@value" : "Increased nutrient"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ireland",
@@ -2130,14 +2494,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Republic of Ireland"
-    }, {
       "@language" : "fr",
       "@value" : "République d'Irlande"
+    }, {
+      "@language" : "en",
+      "@value" : "Republic of Ireland"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IsleOfWight",
@@ -2146,6 +2512,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2162,14 +2530,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Italy"
-    }, {
       "@language" : "fr",
       "@value" : "Italie"
+    }, {
+      "@language" : "en",
+      "@value" : "Italy"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Kent",
@@ -2178,6 +2548,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2191,6 +2563,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2204,6 +2578,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2217,14 +2593,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Feuille"
-    }, {
       "@language" : "en",
       "@value" : "Leaf"
+    }, {
+      "@language" : "fr",
+      "@value" : "Feuille"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Leicestershire",
@@ -2233,6 +2611,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2253,6 +2633,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2276,24 +2658,28 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Allégé/Light"
-    }, {
       "@language" : "en",
       "@value" : "Low/Light"
+    }, {
+      "@language" : "fr",
+      "@value" : "Allégé/Light"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Lincolnshire",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2307,18 +2693,28 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PGS"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IGPEU"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IGP_EU"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNature_FR"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNatureFR"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOC_FR"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOCFR"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PGS"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOPEU"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IGPEU"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNatureFR"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AOP_EU"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -2334,6 +2730,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2347,6 +2745,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2357,24 +2757,26 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowEnergy",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is low in energy, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain more than 40 kcal (170 kJ)/100 g for solids or more than 20 kcal (80 kJ)/100 ml for liquids. For table-top sweeteners the limit of 4 kcal (17 kJ)/portion, with equivalent sweetening properties to 6 g of sucrose (approximately 1 teaspoon of sucrose), applies.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire a une faible valeur énergétique, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que pour un produit contenant au maximum 40 kcal (170 kJ)/100 g dans le cas des solides ou au maximum 20 kcal (80 kJ)/100 ml dans le cas des liquides. Dans le cas des édulcorants de table, la limite de 4 kcal (17 kJ)/portion, avec des propriétés édulcorantes équivalentes à 6 g de saccharose (approximativement 1 petite cuillérée de saccharose), s'applique.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is low in energy, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain more than 40 kcal (170 kJ)/100 g for solids or more than 20 kcal (80 kJ)/100 ml for liquids. For table-top sweeteners the limit of 4 kcal (17 kJ)/portion, with equivalent sweetening properties to 6 g of sucrose (approximately 1 teaspoon of sucrose), applies.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Low energy"
-    }, {
       "@language" : "fr",
       "@value" : "Faible valeur énergétique"
+    }, {
+      "@language" : "en",
+      "@value" : "Low energy"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowFat",
@@ -2390,29 +2792,33 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Low fat"
-    }, {
       "@language" : "fr",
       "@value" : "Faible teneur en matière grasse"
+    }, {
+      "@language" : "en",
+      "@value" : "Low fat"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSaturatedFat",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is low in saturated fat, and any claim likely to have the same meaning for the consumer, may only be made if the sum of saturated fatty acids and trans-fatty acids in the product does not exceed 1,5 g per 100 g for solids or 0,75 g/100 ml for liquids and in either case the sum of saturated fatty acids and trans-fatty acids must not provide more than 10% of energy.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire a une faible teneur en graisses saturées, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si la somme des acides gras saturés et des acides gras trans contenus dans le produit n'est pas supérieure à 1,5 g par 100 g de solide ou à 0,75 g par 100 ml de liquide, la somme des acides gras saturés et des acides gras trans ne pouvant pas produire, dans les deux cas, plus de 10 % de l'énergie.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is low in saturated fat, and any claim likely to have the same meaning for the consumer, may only be made if the sum of saturated fatty acids and trans-fatty acids in the product does not exceed 1,5 g per 100 g for solids or 0,75 g/100 ml for liquids and in either case the sum of saturated fatty acids and trans-fatty acids must not provide more than 10% of energy.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2426,16 +2832,18 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSodiumSalt",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is low in sodium/salt, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,12 g of sodium, or the equivalent value for salt, per 100 g or per 100 ml. For waters, other than natural mineral waters falling within the scope of Directive 80/777/EEC, this value should not exceed 2 mg of sodium per 100 ml.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est pauvre en sodium ou en sel, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,12 g de sodium ou de l'équivalent en sel par 100 g ou par 100 ml. En ce qui concerne les eaux, autres que les eaux minérales naturelles relevant du champ d'application de la directive 80/777/CEE, cette valeur ne devrait pas être supérieure à 2 mg de sodium par 100 ml.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is low in sodium/salt, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,12 g of sodium, or the equivalent value for salt, per 100 g or per 100 ml. For waters, other than natural mineral waters falling within the scope of Directive 80/777/EEC, this value should not exceed 2 mg of sodium per 100 ml.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2459,14 +2867,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Low sugars"
-    }, {
       "@language" : "fr",
       "@value" : "Faible teneur en sucres"
+    }, {
+      "@language" : "en",
+      "@value" : "Low sugars"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MSC",
@@ -2485,6 +2895,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2501,6 +2913,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2514,19 +2928,21 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ProductOfTheYear"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TasteOfTheYear"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ProductOfTheYear"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Marketing label"
-    }, {
       "@language" : "fr",
       "@value" : "Label marketing"
+    }, {
+      "@language" : "en",
+      "@value" : "Marketing label"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Merseyside",
@@ -2535,6 +2951,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2543,14 +2961,37 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Milk-fed",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MilkFed"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Milk-fed"
+    }, {
+      "@language" : "fr",
+      "@value" : "Nourri au lait"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MilkFed",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Milk-fed"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
@@ -2569,6 +3010,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2585,14 +3028,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Multi-territorial origin"
-    }, {
       "@language" : "fr",
       "@value" : "Origine territorial multiple"
+    }, {
+      "@language" : "en",
+      "@value" : "Multi-territorial origin"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MultiNatureOrigin",
@@ -2601,14 +3046,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Multiorigin"
-    }, {
       "@language" : "fr",
       "@value" : "Origine multiple"
+    }, {
+      "@language" : "en",
+      "@value" : "Multiorigin"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MultiOrigin",
@@ -2617,14 +3064,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Multiorigin"
-    }, {
       "@language" : "fr",
       "@value" : "Origine multiple"
+    }, {
+      "@language" : "en",
+      "@value" : "Multiorigin"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NEScotland",
@@ -2633,6 +3082,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2653,6 +3104,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2673,59 +3126,65 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Nature et progrès"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Nature et progrès"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "Natural \"living\" origin concerned"
-    }, {
       "@language" : "fr",
       "@value" : "Source \"vivante\" d'origine concernée"
+    }, {
+      "@language" : "en",
+      "@value" : "Natural \"living\" origin concerned"
     } ],
     "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
       "@language" : "en",
       "@value" : "We made the list for the prototype with open nomenclature to start with for plants and animals but might be better to connected directly from relevant source ontologies for variaties, races, etc. (http://open-nomenclature.org/fra/nomenclatures/varieties/tree)."
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownNatureOrigin"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MultiNatureOrigin"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantOrigin"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalOrigin"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Mineral"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Funghi"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Algae"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bacteria"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownNatureOrigin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MultiNatureOrigin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalOrigin"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Water"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantOrigin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Mineral"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bacteria"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Natural origin"
-    }, {
       "@language" : "fr",
       "@value" : "Source naturelle d'origine"
+    }, {
+      "@language" : "en",
+      "@value" : "Natural origin"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ]
   }, {
@@ -2738,6 +3197,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2757,6 +3218,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Oceania"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2770,39 +3233,43 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NoAddedSodiumSalt",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim stating that sodium/salt has not been added to a food and any claim likely to have the same meaning for the consumer may only be made where the product does not contain any added sodium/salt or any other ingredient containing added sodium/salt and the product contains no more than 0,12 g sodium, or the equivalent value for salt, per 100 g or 100 ml.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle il n’a pas été ajouté de sodium ou de sel à une denrée alimentaire, ou toute autre allégation susceptible d’avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas de sodium ou de sel ajouté ou tout autre ingrédient contenant du sodium ou du sel ajouté et si le produit ne contient pas plus de 0,12 g de sodium ou de l’équivalent en sel par 100 g ou par 100 ml.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim stating that sodium/salt has not been added to a food and any claim likely to have the same meaning for the consumer may only be made where the product does not contain any added sodium/salt or any other ingredient containing added sodium/salt and the product contains no more than 0,12 g sodium, or the equivalent value for salt, per 100 g or 100 ml.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "No added sodium/salt"
-    }, {
       "@language" : "fr",
       "@value" : "Sans sodium/sel ajouté"
+    }, {
+      "@language" : "en",
+      "@value" : "No added sodium/salt"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NoAddedSugars",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim stating that sugars have not been added to a food, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain any added mono- or disaccharides or any other food used for its sweetening properties. If sugars are naturally present in the food, the following indication should also appear on the label: 'CONTAINS NATURALLY OCCURRING SUGARS'.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle il n'a pas été ajouté de sucres à une denrée alimentaire, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas de monosaccharides ou disaccharides ajoutés ou toute autre denrée alimentaire utilisée pour ses propriétés édulcorantes. Si les sucres sont naturellement présents dans la denrée alimentaire, l'indication suivante devrait également figurer sur l'étiquette: «CONTIENT DES SUCRES NATURELLEMENT PRÉSENTS».\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim stating that sugars have not been added to a food, and any claim likely to have the same meaning for the consumer, may only be made where the product does not contain any added mono- or disaccharides or any other food used for its sweetening properties. If sugars are naturally present in the food, the following indication should also appear on the label: 'CONTAINS NATURALLY OCCURRING SUGARS'.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2819,6 +3286,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2835,6 +3304,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2854,6 +3325,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2867,11 +3340,13 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2885,6 +3360,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2901,14 +3378,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Northern Ireland"
-    }, {
       "@language" : "fr",
       "@value" : "Irlande du Nord"
+    }, {
+      "@language" : "en",
+      "@value" : "Northern Ireland"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Northumberland",
@@ -2917,6 +3396,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2930,6 +3411,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2950,6 +3433,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -2966,77 +3451,79 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Claim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowEnergy"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighFibre"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnergyReduced"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IncreasedNutrient"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnergyFree"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfProtein"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowFat"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighOmega3FattyAcids"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FatFree"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfFibre"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSaturatedFat"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighProtein"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSodiumSalt"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SaturatedFatFree"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighVitaminsMinerals"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Light"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#VeryLowSodiumSalt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSaturatedFat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ReducedNutrient"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowFat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ContainsNutrientOrSubstance"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSugars"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NoAddedSodiumSalt"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighPolyunsaturatedFat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfVitaminsMinerals"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighUnsaturatedFat"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Natural"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SodiumOrSaltFree"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LightLite"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SugarsFree"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NoAddedSugars"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowSodiumSalt"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighMonounsaturatedFat"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#VeryLowSodiumSalt"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnergyFree"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SodiumOrSaltFree"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NoAddedSodiumSalt"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfFibre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighFibre"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfProtein"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighProtein"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfVitaminsMinerals"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighVitaminsMinerals"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ContainsNutrientOrSubstance"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#IncreasedNutrient"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ReducedNutrient"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Light"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Natural"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#FatFree"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfOmega3FattyAcids"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighOmega3FattyAcids"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LowEnergy"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighMonounsaturatedFat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighPolyunsaturatedFat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighUnsaturatedFat"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LightLite"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnergyReduced"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Nutritional claim"
-    }, {
       "@language" : "fr",
       "@value" : "Allégation nutritionnelle"
+    }, {
+      "@language" : "en",
+      "@value" : "Nutritional claim"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Occitania",
@@ -3048,6 +3535,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3067,40 +3556,112 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Australia"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NewZealand"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Australia"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Oceania"
-    }, {
       "@language" : "fr",
       "@value" : "Océanie"
+    }, {
+      "@language" : "en",
+      "@value" : "Oceania"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-AB",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicAB"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Agriculture Biologique"
+    }, {
+      "@language" : "fr",
+      "@value" : "Agriculture Biologique"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-BioCoherence",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicBioCoherence"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "fr",
+      "@value" : "Bio Coherence"
+    }, {
+      "@language" : "en",
+      "@value" : "Bio Coherence"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-EU",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-EU_ORGANIC_FARMING"
+    } ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "fr",
+      "@value" : "Eurofeuille"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicEU"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "fr",
+      "@value" : "Agriculture Biologique EU"
+    }, {
+      "@language" : "en",
+      "@value" : "EU Organic Farming"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicAB",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-AB"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
@@ -3118,14 +3679,17 @@
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-BioCoherence"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Bio Coherence"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Bio Coherence"
     } ]
   }, {
@@ -3141,15 +3705,18 @@
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-EU"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "EU Organic Farming"
-    }, {
       "@language" : "fr",
       "@value" : "Agriculture Biologique EU"
+    }, {
+      "@language" : "en",
+      "@value" : "EU Organic Farming"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicLabel",
@@ -3158,16 +3725,24 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-EU"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureEtProgres"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-AB"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Organic-BioCoherence"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicAB"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicBioCoherence"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicEU"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OrganicBioCoherence"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -3180,24 +3755,26 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "Any other claim which states, suggests or implies that a food has particular properties."
-    }, {
       "@language" : "fr",
       "@value" : "Toute autre allégation qui déclare, suggère ou implique qu'un aliment a des propriétés particulières."
+    }, {
+      "@language" : "en",
+      "@value" : "Any other claim which states, suggests or implies that a food has particular properties."
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Claim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Vegan"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Vegetarian"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#GlutenFree"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Vegan"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -3213,6 +3790,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3236,14 +3815,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Protected Geographical Status"
-    }, {
       "@language" : "fr",
       "@value" : "Statut géographique protégé"
+    }, {
+      "@language" : "en",
+      "@value" : "Protected Geographical Status"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Package",
@@ -3252,6 +3833,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ContainerInformation"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3273,6 +3856,8 @@
       "@value" : "If I sell carrots, I can sell only the roots, the whole pants with the leaves, or only the leaves. Examples : root, leaves, seeds..."
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -3285,13 +3870,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Part of origin"
-    }, {
       "@language" : "fr",
       "@value" : "Partie d'origine"
+    }, {
+      "@language" : "en",
+      "@value" : "Part of origin"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ]
   }, {
@@ -3308,13 +3895,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Pays de la Loire"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Pays de la Loire"
     } ]
   }, {
@@ -3326,6 +3915,9 @@
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNature_FR"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
@@ -3339,8 +3931,32 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNature_FR",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "Farmers of Nature"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#LocalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PaysansDeNatureFR"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Paysans de Nature"
+    }, {
+      "@language" : "fr",
+      "@value" : "Paysans de Nature"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Pig",
@@ -3349,6 +3965,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -3368,14 +3986,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Pig"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Partie du cochon"
-    }, {
       "@language" : "en",
       "@value" : "Pig's body"
+    }, {
+      "@language" : "fr",
+      "@value" : "Partie du cochon"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantOrigin",
@@ -3384,6 +4004,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3400,33 +4022,35 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bulb"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Seed"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Flower"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Fruit"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Bulb"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WholePlant"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Leaf"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Root"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Seed"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Fruit"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Stem"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Tuber"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Root"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WholePlant"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Tuber"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Part or product of plant"
-    }, {
       "@language" : "fr",
       "@value" : "Partie ou produit d'une plante"
+    }, {
+      "@language" : "en",
+      "@value" : "Part or product of plant"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Portugal",
@@ -3438,13 +4062,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Portugal"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Portugal"
     } ]
   }, {
@@ -3457,6 +4083,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MarketingLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3483,6 +4111,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#France"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3499,17 +4129,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#QuailEgg"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Caille"
-    }, {
       "@language" : "en",
       "@value" : "Quail"
+    }, {
+      "@language" : "fr",
+      "@value" : "Caille"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#QuailEgg",
@@ -3518,6 +4150,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Quail"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3537,6 +4171,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3559,6 +4195,9 @@
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
     } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RedLabel_FR"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
     } ],
@@ -3571,8 +4210,35 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RedLabel_FR",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+      "@id" : "https://ref.gs1.org/voc/PackagingMarkedLabelAccreditationCode-LABEL_ROUGE"
+    } ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "Red Label"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#broader" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EthicalLabel"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RedLabelFR"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Label Rouge"
+    }, {
+      "@language" : "fr",
+      "@value" : "Label Rouge"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#ReducedNutrient",
@@ -3588,6 +4254,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3604,6 +4272,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3617,17 +4287,19 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RoosterBody"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Coq"
-    }, {
       "@language" : "en",
       "@value" : "Rooster"
+    }, {
+      "@language" : "fr",
+      "@value" : "Coq"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#RoosterBody",
@@ -3636,14 +4308,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Rooster"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Partie de coq"
-    }, {
       "@language" : "en",
       "@value" : "Rooster's body"
+    }, {
+      "@language" : "fr",
+      "@value" : "Partie de coq"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Root",
@@ -3652,14 +4326,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Racine"
-    }, {
       "@language" : "en",
       "@value" : "Root"
+    }, {
+      "@language" : "fr",
+      "@value" : "Racine"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Rutland",
@@ -3668,6 +4344,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3681,18 +4359,20 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Renfrewshire"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DumfriesAndGalloway"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Dunbartonshire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Ayrshire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Lanarkshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Renfrewshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Dunbartonshire"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -3712,6 +4392,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3731,16 +4413,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SWScotland"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NEScotland"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#HighlandsAndIslands"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NEScotland"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Aberdeenshire"
     } ],
@@ -3758,6 +4442,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EasternScotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3771,14 +4457,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Graine"
-    }, {
       "@language" : "en",
       "@value" : "Seed"
+    }, {
+      "@language" : "fr",
+      "@value" : "Graine"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Sheep",
@@ -3787,6 +4475,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#AnimalPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -3806,14 +4496,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Sheep"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Partie de mouton"
-    }, {
       "@language" : "en",
       "@value" : "Sheep's body"
+    }, {
+      "@language" : "fr",
+      "@value" : "Partie de mouton"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Shropshire",
@@ -3822,6 +4514,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3832,16 +4526,18 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SodiumOrSaltFree",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is sodium-free or salt-free, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,005 g of sodium, or the equivalent value for salt, per 100 g.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire ne contient pas de sodium ou de sel, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,005 g de sodium ou de l'équivalent en sel par 100 g.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is sodium-free or salt-free, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,005 g of sodium, or the equivalent value for salt, per 100 g.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3858,6 +4554,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3878,14 +4576,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Source of fibre"
-    }, {
       "@language" : "fr",
       "@value" : "Source de fibres"
+    }, {
+      "@language" : "en",
+      "@value" : "Source of fibre"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfOmega3FattyAcids",
@@ -3901,6 +4601,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3914,16 +4616,18 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfProtein",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is a source of protein, and any claim likely to have the same meaning for the consumer, may only be made where at least 12% of the energy value of the food is provided by protein.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est une source de protéines, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si 12 % au moins de la valeur énergétique de la denrée alimentaire sont produits par des protéines.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is a source of protein, and any claim likely to have the same meaning for the consumer, may only be made where at least 12% of the energy value of the food is provided by protein.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3937,16 +4641,18 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SourceOfVitaminsMinerals",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is a source of vitamins and/or minerals, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least a significant amount as defined in the Annex to Directive 90/496/EEC or an amount provided for by derogations granted according to Article 6 of Regulation (EC) No 1925/2006 of the European Parliament and of the Council of 20 December 2006 on the addition of vitamins and minerals and of certain other substances to foods[1].\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est une source de vitamines et/ou de minéraux, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit contient au moins la quantité significative définie à l'annexe de la directive 90/496/CEE ou une quantité prévue au titre de dérogations accordées conformément à l'article 6 du règlement (CE) no 1925/2006 du Parlement européen et du Conseil du 20 décembre 2006 concernant l'adjonction de vitamines, de minéraux et de certaines autres substances aux denrées alimentaires.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is a source of vitamins and/or minerals, and any claim likely to have the same meaning for the consumer, may only be made where the product contains at least a significant amount as defined in the Annex to Directive 90/496/EEC or an amount provided for by derogations granted according to Article 6 of Regulation (EC) No 1925/2006 of the European Parliament and of the Council of 20 December 2006 on the addition of vitamins and minerals and of certain other substances to foods[1].\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3966,14 +4672,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "South America"
-    }, {
       "@language" : "fr",
       "@value" : "Amérique du Sud"
+    }, {
+      "@language" : "en",
+      "@value" : "South America"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SouthYorks",
@@ -3982,6 +4690,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -3998,6 +4708,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4014,6 +4726,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4027,6 +4741,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4043,6 +4759,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4063,6 +4781,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4079,6 +4799,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4095,6 +4817,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4111,53 +4835,59 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MarketingLabel"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Taste of the year"
-    }, {
       "@language" : "fr",
       "@value" : "Reconnu Saveur de l’année"
+    }, {
+      "@language" : "en",
+      "@value" : "Taste of the year"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "Territorial origin of the concerned product"
-    }, {
       "@language" : "fr",
       "@value" : "Origine géographique du produit concerné"
+    }, {
+      "@language" : "en",
+      "@value" : "Territorial origin of the concerned product"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownGeoOrigin"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MultiGeoOrigin"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Africa"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Asia"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Oceania"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthAmerica"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#MultiGeoOrigin"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Oceania"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Africa"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SouthAmerica"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Asia"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownGeoOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Territorial origin"
-    }, {
       "@language" : "fr",
       "@value" : "Origine géographique"
+    }, {
+      "@language" : "en",
+      "@value" : "Territorial origin"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ]
   }, {
@@ -4167,14 +4897,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Tuber"
-    }, {
       "@language" : "fr",
       "@value" : "Tubercule"
+    }, {
+      "@language" : "en",
+      "@value" : "Tuber"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TyneWear",
@@ -4183,6 +4915,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandNE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4206,6 +4940,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Europe"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -4213,16 +4949,16 @@
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Wales"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthernIreland"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Scotland"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "United Kingdom"
-    }, {
       "@language" : "fr",
       "@value" : "Royaume Uni"
+    }, {
+      "@language" : "en",
+      "@value" : "United Kingdom"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownGeoOrigin",
@@ -4231,14 +4967,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#TerritorialOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Unknown territorial origin"
-    }, {
       "@language" : "fr",
       "@value" : "Origine territoriale inconnue"
+    }, {
+      "@language" : "en",
+      "@value" : "Unknown territorial origin"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownLabel",
@@ -4247,14 +4985,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Certification"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Unknown label"
-    }, {
       "@language" : "fr",
       "@value" : "Label inconnu"
+    }, {
+      "@language" : "en",
+      "@value" : "Unknown label"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnknownNatureOrigin",
@@ -4263,6 +5003,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4279,14 +5021,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "fr",
-      "@value" : "Partie d'origine inconnue"
-    }, {
       "@language" : "en",
       "@value" : "Unknown part origin"
+    }, {
+      "@language" : "fr",
+      "@value" : "Partie d'origine inconnue"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Vegan",
@@ -4295,13 +5039,15 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
+      "@language" : "fr",
       "@value" : "Vegan"
     }, {
-      "@language" : "fr",
+      "@language" : "en",
       "@value" : "Vegan"
     } ]
   }, {
@@ -4311,6 +5057,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#OtherClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4324,24 +5072,26 @@
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#VeryLowSodiumSalt",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://purl.org/dc/terms/description" : [ {
-      "@language" : "en",
-      "@value" : "\"A claim that a food is very low in sodium/salt, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,04 g of sodium, or the equivalent value for salt, per 100 g or per 100 ml. This claim shall not be used for natural mineral waters and other waters.\" (source: Annex of Regulation (EC) No 1924/2006)"
-    }, {
       "@language" : "fr",
       "@value" : "\"Une allégation selon laquelle une denrée alimentaire est très pauvre en sodium ou en sel, ou toute autre allégation susceptible d'avoir le même sens pour le consommateur, ne peut être faite que si le produit ne contient pas plus de 0,04 g de sodium ou de l'équivalent en sel par 100 g ou 100 ml. Il est interdit d'utiliser cette allégation pour les eaux minérales naturelles et les autres eaux.\" (source: Annex of Regulation (EC) No 1924/2006)"
+    }, {
+      "@language" : "en",
+      "@value" : "\"A claim that a food is very low in sodium/salt, and any claim likely to have the same meaning for the consumer, may only be made where the product contains no more than 0,04 g of sodium, or the equivalent value for salt, per 100 g or per 100 ml. This claim shall not be used for natural mineral waters and other waters.\" (source: Annex of Regulation (EC) No 1924/2006)"
     } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NutritionalClaim"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Very low sodium/salt"
-    }, {
       "@language" : "fr",
       "@value" : "Très pauvre en sodium/sel"
+    }, {
+      "@language" : "en",
+      "@value" : "Very low sodium/salt"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Wales",
@@ -4353,6 +5103,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#UnitedKingdom"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4369,6 +5121,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4382,14 +5136,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NatureOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
-      "@language" : "en",
-      "@value" : "Water"
-    }, {
       "@language" : "fr",
       "@value" : "Eau"
+    }, {
+      "@language" : "en",
+      "@value" : "Water"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands",
@@ -4398,20 +5154,22 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Herefordshire"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Worcestershire"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlandsConurbation"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Warwickshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Shropshire"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Staffordshire"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlandsConurbation"
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Shropshire"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Herefordshire"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Worcestershire"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -4424,6 +5182,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4437,6 +5197,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSE"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4450,6 +5212,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#YorkshireHumber"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4463,6 +5227,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#PlantPartOrigin"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4479,6 +5245,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EnglandSW"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4492,6 +5260,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestMidlands"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -4505,18 +5275,20 @@
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#England"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFC_ProductGlossary_Facet"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#DFCProductGlossaryFacet"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastYorks"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#Lincolnshire"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#SouthYorks"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#NorthYorks"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#WestYorks"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf#EastYorks"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -4526,5 +5298,5 @@
     "@id" : "https://w3id.org/dfc/taxonomies/facets.rdf",
     "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
   } ],
-  "@id" : "https://w3id.org/dfc/taxonomies/facets.rdf"
+  "@id" : "http://w3id.org/dfc/taxonomies/facets.rdf"
 } ]

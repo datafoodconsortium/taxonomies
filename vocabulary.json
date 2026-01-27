@@ -3,7 +3,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -16,19 +19,21 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -39,7 +44,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -57,6 +65,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -67,7 +77,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -79,12 +92,15 @@
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    } ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -92,8 +108,26 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "DFC_Vocabulary"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft",
@@ -104,6 +138,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -111,10 +147,13 @@
       "@value" : "Draft"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DropOff",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Dropoff",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -127,11 +166,13 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -159,14 +200,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"
     } ],
@@ -186,14 +229,16 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Fulfilled"
     } ],
@@ -205,15 +250,17 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -224,7 +271,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -237,7 +287,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -250,7 +303,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -280,16 +336,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -307,16 +365,18 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Held"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Cancelled"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Draft"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Complete"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -331,6 +391,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -358,6 +420,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -383,6 +447,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
@@ -397,10 +463,13 @@
       "@value" : "Payment status"
     } ]
   }, {
-    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PickUp",
+    "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Pickup",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -413,7 +482,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -426,7 +498,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -439,7 +514,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -459,18 +537,20 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Status"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
@@ -479,6 +559,8 @@
       "@value" : "States"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ]
   }, {
@@ -488,64 +570,71 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#States"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStatus"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderStates"
     }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStatus"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#OrderState"
     }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentState"
-    }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentState"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
       "@value" : "Status"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Pickup"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Dropoff"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
       "@language" : "en",
@@ -558,11 +647,13 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Unfulfilled",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
-    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStates"
+    }, {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#FulfilmentStatus"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -578,6 +669,8 @@
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PaymentStates"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
@@ -588,7 +681,10 @@
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use",
     "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
@@ -599,11 +695,25 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "accept"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#c_734fc709",
@@ -613,124 +723,294 @@
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "combine"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "consume"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Dropoff"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "dropoff"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "lower"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "modify"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#move",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "move"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Pickup"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "pickup"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "produce"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "raise"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "separate"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+    } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ],
     "http://www.w3.org/2004/02/skos/core#narrower" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Accept"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#move"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Combine"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#modify"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Consume"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#separate"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DropOff"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#pickup"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Lower"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#use"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Modify"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#consume"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Move"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#lower"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#PickUp"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#produce"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Produce"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#combine"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Raise"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#raise"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Separate"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#dropoff"
     }, {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#accept"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Transformation type"
     } ],
     "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
     } ]
   }, {
     "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#use",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://www.w3.org/2002/07/owl#deprecated" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
     "http://www.w3.org/2004/02/skos/core#broader" : [ {
-      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#TransformationType"
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#transformationType"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#Use"
     } ],
     "http://www.w3.org/2004/02/skos/core#inScheme" : [ {
+      "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFC_Vocabulary"
+    }, {
       "@id" : "http://w3id.org/dfc/taxonomies/vocabulary.rdf#DFCVocabulary"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "use"
     } ]
   }, {
     "@id" : "https://w3id.org/dfc/taxonomies/vocabulary.rdf",
