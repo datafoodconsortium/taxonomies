@@ -6,6 +6,7 @@ This repository contains the semantic taxonomies to be used with the [DFC ontolo
    - productTypes: the different kinds of product like vegetables, drink, bakery...
 
 These taxonomies are using the SKOS format and are available as RDF and JSON-LD.
+They can also be browsed [here](https://showvoc.dfc-standard.org/showvoc/#/datasets)
 
 To load these taxonomies into your application, you can use the DFC connector. If you want to load them from the network, you could use the files contained in the Github releases (assets).
 
