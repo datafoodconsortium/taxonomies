@@ -4,6 +4,7 @@ This repository contains the semantic taxonomies to be used with the [DFC ontolo
    - facets: the certifications, natural origins, nutrition and health claims and territorial origins.
    - measures: the dimensions and units.
    - productTypes: the different kinds of product like vegetables, drink, bakery...
+   - vocabulary: specific vocabulary utilises within the DFC Standard, for example: Order Statuses
 
 These taxonomies are using the SKOS format and are available as RDF and JSON-LD.
 
@@ -34,7 +35,7 @@ This is an example of the `Apples` product type in JSON-LD:
 
 ## Contributing
 
-To request a change in these taxonomies please open an issue.
+To request a change in these taxonomies please open an issue, or register on our [VOCbench instance](https://vocbench.dfc-standard.org/vocbench3/#/Home) and submit changes there.
 
 We will discuss together about how we can integrate your needs as best as possible.
 
@@ -42,4 +43,3 @@ Then, a member of the DFC ontology team will edit the taxonomies files to reflec
 
 Thank you!
 
-*Previous workflow: until the 23th of February 2023, we have tried to use VocBench (VB), a collaborative web application to manage taxonomies. But we had trouble using it because there is no versionning and the dataset is shared between all the users. We needed a mecanism of proposal that VB is not providing.*
